@@ -2,12 +2,12 @@
 
 ## Minimum Viable Product
 
-- [] Tasks
-- [] Lists
-- [] List summary (time, num tasks, num completed)
-- [] Search
-- [] Bonus: Autocomplete SmartAdd of task properties
-- [] Bonus: Subtasks
+- [ ] Tasks
+- [ ] Lists
+- [ ] List summary (time, num tasks, num completed)
+- [ ] Search
+- [ ] Bonus: Autocomplete SmartAdd of task properties
+- [ ] Bonus: Subtasks
 
 
 ## Design Docs
@@ -17,7 +17,7 @@
 * [DB schema][schema]
 * [Sample State][sample-state]
 
-wireframes]: docs/wireframes
+[wireframes]: docs/wireframes
 [components]: docs/component-hierarchy.md
 [sample-state]: docs/sample-state.md
 [api-endpoints]: docs/api-endpoints.md
