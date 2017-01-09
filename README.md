@@ -1,4 +1,4 @@
-# Remember The Milk Clone
+# git
 
 ## Minimum Viable Product
 
@@ -6,7 +6,7 @@
 - [ ] Lists
 - [ ] List summary (time, num tasks, num completed)
 - [ ] Search
-- [ ] Bonus: Autocomplete SmartAdd of task properties
+- [ ] Bonus: able to hide side bar
 - [ ] Bonus: Subtasks
 
 
