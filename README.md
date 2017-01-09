@@ -1,4 +1,11 @@
-# git
+# Remember the milk clone
+
+[Heroku link][heroku] **Note:** This should be a link to your production site
+
+[Trello link][trello]
+
+[heroku]: http://www.herokuapp.com
+[trello]: https://trello.com/b/AMwXO6BO/remember-the-milk-clone
 
 ## Minimum Viable Product
 
@@ -23,8 +30,25 @@
 [api-endpoints]: docs/api-endpoints.md
 [schema]: docs/schema.md
 
+
 ## Implementation Timeline
 
 ### Phase 1: Backend setup and Front End User Authentication (2 days)
 
+**Objective:** Functioning rails project with front-end Authentication
+
+### Phase 2: Tasks Model, API, and components (2 days)
+
+**Objective:** Tasks can be created, read, edited and destroyed through
+the API.
+
+### Phase 3: Lists (2 day)
+
+**Objective:** Notes belong to Notebooks that can be created, read, edited and destroyed through the API.
+
+
+
 ### Bonus Features (TBD)
+
+- [ ] Autocomplete SmartAdd of task properties
+- [ ] Subtasks
