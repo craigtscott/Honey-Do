@@ -6,16 +6,17 @@
 **HomeContainer**
  - Header
  - Sidebar
-  * lists
+
 
 **ListContainer**
- - TasksHeader
- - Tasks
+- ListIndex
+  -ListItems
+
 
 **TaskContainer**
- - TaskOverview
- - Notes
-  * NoteList
+- TasksHeader
+- TaskIndex
+ -TaskItems
 
 **SearchContainer**
  - Search
@@ -29,8 +30,6 @@
  | "/sign-up" | "AuthFormContainer" |
  | "/sign-in" | "AuthFormContainer" |
  | "/home" | "HomeContainer" |
- | "/home/list/:listId" | "TaskContainer" |
- | "/home/listbook/:listbookId/list/:taskId" | "TaskContainer" |
- | "/home/search-results" | "SearchResultsContainer"
- | "/search" | "Search" |
- 
+ | "/list/:listId" | "ListContainer" |
+ | "/list/:listId/task/| "TaskContainer" |
+ | "/search-results" | "SearchResultsContainer"

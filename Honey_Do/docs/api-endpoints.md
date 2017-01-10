@@ -21,7 +21,6 @@
 ### Tasks
 
 - `GET /api/Tasks`
-  - Tasks index/search
 - `POST /api/tasks`
 - `GET /api/tasks/:id`
 - `PATCH /api/tasks/:id`
@@ -33,5 +32,3 @@
 - `POST /api/lists`
 - `GET /api/lists/:id`
 - `DELETE /api/lists/:id`
-- `GET /api/lists/:id/notes`
-  - index of all tasks for a list

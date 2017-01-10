@@ -9,10 +9,14 @@
 
 ## Minimum Viable Product
 
+- [ ] Auth
+
 - [ ] Tasks
 - [ ] Lists
 - [ ] List summary (time, num tasks, num completed)
+- [ ] Heroku hosting
 - [ ] Search
+- [ ] Production readme
 - [ ] Bonus: able to hide side bar
 - [ ] Bonus: Subtasks
 
@@ -39,13 +43,20 @@
 
 ### Phase 2: Tasks Model, API, and components (2 days)
 
-**Objective:** Tasks can be created, read, edited and destroyed through
+**Objective:** Tasks belong to  Lists can be created, read, edited and destroyed through
 the API.
 
 ### Phase 3: Lists (2 day)
 
-**Objective:** Notes belong to Notebooks that can be created, read, edited and destroyed through the API.
+**Objective:** lists  can be created, read, edited and destroyed through the API.
 
+### Phase 4: List Summery (1 day)
+
+**Objective:**  List summary gives you information about the list.
+
+### Phase 5: Search (2 days)
+
+**Objective:** Search allows you to find tasks based on title.
 
 
 ### Bonus Features (TBD)
