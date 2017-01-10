@@ -1,4 +1,4 @@
-# Remember the milk clone
+# Honey Do
 
 [Heroku link][heroku] **Note:** This should be a link to your production site
 
