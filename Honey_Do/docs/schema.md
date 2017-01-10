@@ -3,10 +3,11 @@
 ## users
 column name     | data type | details
 ----------------|-----------|-----------------------
-first_name      | integer   | not null, primary key
-last_name       | string    | not null, indexed, unique
-password_digest | string    | not null
-session_token   | string    | not null, indexed, unique
+first_name      | string    | not null, primary key
+last_name       | string    | not null, indexed
+user_name       | string    | not null, indexed, unique
+password_digest | integer   | not null
+session_token   | integer   | not null, indexed, unique
 
 ## tasks
 column name | data type | details
