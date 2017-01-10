@@ -8,42 +8,66 @@
     signUp: {errors: []},
     logIn: {errors: []}
   },
-  list: {
+
+  lists: {
     1: {
       title: "Redux",
       num_tasks: 3,
       num_done: 2
     }
-  },
-  list: {
+
     2: {
       title: "Redux",
       num_tasks: 3,
       num_done: 2
     }
-  },
-  list: {
+
     3: {
       title: "Redux",
       num_tasks: 3,
       num_done: 2
     }
   },
-  task: {
+
+  listDetail:{
+    1: {
+      title: "Redux",
+      num_tasks: 3,
+      num_done: 2
+
+      1: {
+        title: "Sample State",
+        completed: true,
+        list_id: 1
+      }
+
+      2: {
+        title: "Sample State",
+        completed: true,
+        list_id: 1
+      }
+
+      3: {
+        title: "Sample State",
+        completed: false,
+        list_id: 1
+      }
+    }
+
+  }
+  tasks: {
     1: {
       title: "Sample State",
       completed: true,
       list_id: 1
     }
-  },
-  task: {
+
     2: {
       title: "Sample State",
       completed: true,
       list_id: 1
     }
-  },
-  task: {
+
     3: {
       title: "Sample State",
       completed: false,
@@ -51,8 +75,17 @@
     }
   },
   search: {
-    search_phrase: "milk",
-    results: [1, 2] 
+    search_phrase: "honey",
+    4: {
+      title: "Farmers market",
+      num_tasks: 3,
+      num_done: 2
+
+      1: {
+        title: "Get honey",
+        completed: true,
+        list_id: 4
+      }
   }
 }
 ```

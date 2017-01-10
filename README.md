@@ -10,7 +10,6 @@
 ## Minimum Viable Product
 
 - [ ] Auth
-
 - [ ] Tasks
 - [ ] Lists
 - [ ] List summary (time, num tasks, num completed)
