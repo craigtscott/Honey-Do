@@ -27,11 +27,11 @@
 * [DB schema][schema]
 * [Sample State][sample-state]
 
-[wireframes]: Honey_Do/docs/wireframes
-[components]: Honey_Do/docs/component-hierarchy.md
-[sample-state]: Honey_Do/docs/sample-state.md
-[api-endpoints]: Honey_Do/docs/api-endpoints.md
-[schema]: Honey_Do/docs/schema.md
+[wireframes]: Honey-Do/docs/wireframes
+[components]: Honey-Do/docs/component-hierarchy.md
+[sample-state]: Honey-Do/docs/sample-state.md
+[api-endpoints]: Honey-Do/docs/api-endpoints.md
+[schema]: Honey-Do/docs/schema.md
 
 
 ## Implementation Timeline
