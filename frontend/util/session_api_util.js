@@ -20,8 +20,3 @@ export const logout = () => {
       url: 'api/session'
   });
 };
-
-// TODO remove
-window.signup = signup;
-window.login = login;
-window.logout = logout;

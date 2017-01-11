@@ -1365,3 +1365,1838 @@ Completed 200 OK in 29ms (Views: 9.2ms | ActiveRecord: 5.0ms)
 Started DELETE "/api/session" for ::1 at 2017-01-11 09:54:10 -0800
 Processing by Api::SessionsController#destroy as JSON
 Completed 404 Not Found in 3ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-01-11 10:13:10 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 144ms (Views: 143.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-01-11 10:13:13 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 26ms (Views: 25.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 10:13:14 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 10:52:37 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 329ms (Views: 326.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.self-6f6a6293fe15f027f7b941129805b412590999bb966aaf4081de574b623d4cd5.js?body=1" for ::1 at 2017-01-11 10:52:37 -0800
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 10:52:38 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 10:53:18 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 318ms (Views: 318.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.self-902e74c1fd84cf36218c6b19453c640685401ca408f0afba069d0b69203a2d34.js?body=1" for ::1 at 2017-01-11 10:53:19 -0800
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 10:53:19 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 10:53:20 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 18ms (Views: 17.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 10:53:20 -0800
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 10:53:44 -0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+
+Started GET "/" for ::1 at 2017-01-11 10:54:43 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 476ms (Views: 475.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.self-3d5b5c7cb473740650484b67e043047bde7603d2a17eac6fb2778fc42d4a8c7b.js?body=1" for ::1 at 2017-01-11 10:54:44 -0800
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 10:54:44 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 10:54:46 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 20ms (Views: 19.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 10:54:46 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 10:54:59 -0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 276ms (Views: 275.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 10:55:00 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 10:55:48 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 264ms (Views: 263.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.self-5b86eef8c1338036e7a53317235e1a4e53e68259dc5fea811492a7125170c0ae.js?body=1" for ::1 at 2017-01-11 10:55:48 -0800
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 10:55:49 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 10:55:50 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 32ms (Views: 32.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 10:55:50 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 10:57:09 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 282ms (Views: 281.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.self-344ab4ea0df2fbd61a5fd12611094fd1e29fdc5492d9dfc506d280f32957dadc.js?body=1" for ::1 at 2017-01-11 10:57:09 -0800
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 10:57:10 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 10:58:10 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 242ms (Views: 241.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.self-f2ff68fd7bc9902c4dccaa190b5c095ce91aa286baac2b67ac3bff4ce71c4922.js?body=1" for ::1 at 2017-01-11 10:58:10 -0800
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 10:58:10 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 10:58:53 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 238ms (Views: 237.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.self-bd0ce433461575a6ccac162103d78e88782643fbc3e59814bb6beb0c1470291d.js?body=1" for ::1 at 2017-01-11 10:58:54 -0800
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 10:58:54 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 10:59:05 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 286ms (Views: 285.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.self-07b7fd26c78e1b895d681250daa32e2176b2be5dddbb7af08e88ab96b18d43b2.js?body=1" for ::1 at 2017-01-11 10:59:05 -0800
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 10:59:05 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 10:59:19 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 272ms (Views: 272.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.self-96a6561627be41ec625ebedccc497ced8b9832cfc6fdbb0455e33e0dd8de54f4.js?body=1" for ::1 at 2017-01-11 10:59:19 -0800
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 10:59:20 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 11:02:31 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 252ms (Views: 252.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.self-4cd25d03a4547d49252ce31a6ed45d2e4014e7aa74e67d03d552cdec45b5e1d1.js?body=1" for ::1 at 2017-01-11 11:02:31 -0800
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 11:02:32 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 11:03:12 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 251ms (Views: 250.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.self-55425ee1226d1afc9a44a74d86c513041ea48ad3c7e9b176844018262636943e.js?body=1" for ::1 at 2017-01-11 11:03:12 -0800
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 11:03:12 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 11:03:25 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 259ms (Views: 259.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.self-9a448f9b73d024b90687c3dafdb5b674818cf1b87aac824451e2099deea1e651.js?body=1" for ::1 at 2017-01-11 11:03:25 -0800
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 11:03:25 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 11:04:46 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 24ms (Views: 23.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 11:04:46 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 11:05:19 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 263ms (Views: 262.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.self-cea0d2c833c691d7c8823d2f1ea8e0ee66a96d2b1e30c4a303c19bd9b93bb398.js?body=1" for ::1 at 2017-01-11 11:05:19 -0800
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 11:05:19 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 11:19:53 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 434ms (Views: 432.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.self-edacd9cea4665e0fdf7d672ae78dcf6ba1585c800aa09a5a1dace1dc6229a9c4.js?body=1" for ::1 at 2017-01-11 11:19:53 -0800
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 11:19:54 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 11:20:27 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 55ms (Views: 55.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 11:20:27 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 11:20:28 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 350ms (Views: 349.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.self-d66c9984c6e4cf879aecd4ee3e85c79a8e19300b6d37e27eca3e00056924a6a4.js?body=1" for ::1 at 2017-01-11 11:20:29 -0800
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 11:20:29 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 11:21:40 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 21ms (Views: 20.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 11:21:40 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 11:22:24 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 20ms (Views: 19.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 11:22:24 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 11:22:25 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 36ms (Views: 35.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 11:22:25 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 11:23:20 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 363ms (Views: 363.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.self-fb154f523326ae35b932857ca8e9f111e2836ea00b913ac58eb8df8f1c7e9514.js?body=1" for ::1 at 2017-01-11 11:23:21 -0800
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 11:23:21 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 11:23:22 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 14ms (Views: 13.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 11:23:22 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 11:23:34 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 17ms (Views: 17.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 11:23:34 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 11:23:41 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 288ms (Views: 287.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.self-9c82b89ff9014a1094d0ad695ec2873d9b7883f728b8784986aed49b7742e109.js?body=1" for ::1 at 2017-01-11 11:23:41 -0800
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 11:23:41 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 11:24:07 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 25ms (Views: 24.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 11:24:08 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 11:24:09 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 300ms (Views: 300.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.self-4a12659319d5c24200ac291b10bfef6ea33de9d698839b46ed155576a6940d6e.js?body=1" for ::1 at 2017-01-11 11:24:09 -0800
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 11:24:09 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 11:36:03 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 71ms (Views: 69.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 11:36:03 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 11:36:05 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 24ms (Views: 23.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 11:36:05 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 11:37:38 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 366ms (Views: 365.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.self-dc8cdee0c3fe6897cfcb4c5cac8940062d03acf2e30e2a808452fc581875d163.js?body=1" for ::1 at 2017-01-11 11:37:39 -0800
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 11:37:39 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 11:38:03 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 355ms (Views: 354.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.self-23d17b0a382cbb1209409b8dbb2fb5523b8354d6958faa6ee1a74a33b61931b2.js?body=1" for ::1 at 2017-01-11 11:38:04 -0800
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 11:38:04 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 11:38:05 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 29ms (Views: 29.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 11:38:06 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 11:38:32 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 303ms (Views: 303.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.self-bdf70e16f04fce1d000ff386e15fc0bce634752c5614d5ee12046b7778003d50.js?body=1" for ::1 at 2017-01-11 11:38:32 -0800
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 11:38:33 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 11:38:54 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 364ms (Views: 363.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.self-e8bbd81c9ede695830b9b19d9712e9027df7fb91bbc1420db17e99c0472b5f4a.js?body=1" for ::1 at 2017-01-11 11:38:54 -0800
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 11:38:54 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 11:40:07 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 38ms (Views: 37.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 11:40:08 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 11:42:08 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 366ms (Views: 365.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.self-1fea8ed25ba5451c33987ced4b17824f455abe88f21184532299fbade025de92.js?body=1" for ::1 at 2017-01-11 11:42:08 -0800
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 11:42:09 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 11:42:24 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 395ms (Views: 394.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.self-00fe1cfd73e264e4f6e0d401ac79d9d3f9e115716a93cc0525f2fe383e9d2ce8.js?body=1" for ::1 at 2017-01-11 11:42:25 -0800
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 11:42:25 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 11:44:19 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 26ms (Views: 26.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 11:44:19 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 11:44:21 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 13ms (Views: 12.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 11:44:21 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 11:44:33 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 20ms (Views: 19.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 11:44:33 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 11:49:36 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 333ms (Views: 332.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.self-7dcd637a19f83d9d5e4a8ae9abf26d0844c40e48c0400627d9277bf7b3fc6a1e.js?body=1" for ::1 at 2017-01-11 11:49:36 -0800
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 11:49:37 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 11:49:38 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 18ms (Views: 18.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 11:49:38 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 11:51:45 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 25ms (Views: 24.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 11:51:45 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 11:55:57 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 295ms (Views: 295.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.self-89182a95f1dc74222dd73f29a9dbca97aecd1b321b33335b854bffecb1ff3b0c.js?body=1" for ::1 at 2017-01-11 11:55:58 -0800
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 11:55:58 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 11:57:46 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 384ms (Views: 383.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.self-c241381fa4a9d6de959c4dc1bab9b32863fd57ba0ff1ac5bc5d03ab2cb756d42.js?body=1" for ::1 at 2017-01-11 11:57:47 -0800
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 11:57:47 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 11:57:54 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 42ms (Views: 41.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 11:57:55 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 12:01:13 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 21ms (Views: 21.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 12:01:14 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 12:01:30 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 342ms (Views: 342.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.self-c2bc9dec55733ac279a3e33afc40322823b8a964b986d710dbf7794f2e7488de.js?body=1" for ::1 at 2017-01-11 12:01:31 -0800
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 12:01:31 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 12:01:55 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 43ms (Views: 42.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 12:01:55 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 12:02:04 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 34ms (Views: 34.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 12:02:04 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 12:03:42 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 315ms (Views: 314.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.self-10c338cd043b830fac8c7b1b5728335bda6aa774a887daf9f9e78a071435d0b9.js?body=1" for ::1 at 2017-01-11 12:03:42 -0800
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 12:03:42 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 12:04:34 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 371ms (Views: 370.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.self-3b8e887c29ce93c2a3e0663dca67cbd56debefd6ce7d2851c387c634f037d8ac.js?body=1" for ::1 at 2017-01-11 12:04:35 -0800
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 12:04:35 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 12:06:56 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 33ms (Views: 32.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 12:06:56 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 12:07:25 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 341ms (Views: 341.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.self-df54c2efa0fda90d860c06ca770199367d942076f703a4ea9c6621051d5348ee.js?body=1" for ::1 at 2017-01-11 12:07:26 -0800
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 12:07:26 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 12:11:44 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 26ms (Views: 25.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 12:11:45 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 12:13:04 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 281ms (Views: 281.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.self-916dd8d15689f18f3ab217c9546ce8fe18b3a5d6268192541b87f038ac5b227c.js?body=1" for ::1 at 2017-01-11 12:13:04 -0800
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 12:13:05 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 12:13:39 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 18ms (Views: 17.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 12:13:39 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 12:15:38 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 310ms (Views: 310.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.self-dd6b3f1b6e66f58539f0b1423f4918c664156ac9530111823dc9f934d1782bb7.js?body=1" for ::1 at 2017-01-11 12:15:38 -0800
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 12:15:39 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 13:48:01 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 74ms (Views: 72.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 13:48:02 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 13:48:55 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 327ms (Views: 327.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.self-4f534d2be86924b3b12cd7520f0b13bc67fd59b821c5a5a4ac2ef4475d538ff1.js?body=1" for ::1 at 2017-01-11 13:48:56 -0800
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 13:48:56 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 13:48:58 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 31ms (Views: 30.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 13:48:58 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 13:49:43 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 371ms (Views: 370.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.self-7c313f8363353670a4c8df6e530ac51c6fb2e0df324abb5623c9e59a68d3751a.js?body=1" for ::1 at 2017-01-11 13:49:44 -0800
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 13:49:44 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 13:50:11 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 38ms (Views: 37.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 13:50:11 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 13:50:13 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 453ms (Views: 452.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.self-762bc198d095830d5eeb18045cfb4073087c63b139bb465ccd7dcd5a775221dc.js?body=1" for ::1 at 2017-01-11 13:50:13 -0800
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 13:50:14 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 13:51:16 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 26ms (Views: 25.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 13:51:16 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 13:51:17 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 18ms (Views: 18.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 13:51:17 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 13:52:00 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 378ms (Views: 377.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.self-d041dc4bf45381343c8dc72eddb845a806790a5ed8513b6f1e248962f5e23c9a.js?body=1" for ::1 at 2017-01-11 13:52:00 -0800
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 13:52:00 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 13:52:44 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 310ms (Views: 309.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.self-a435cf478878aa3e97f655f7b52a7d8f1cc939a4388cf6b9528dcf3a28f3ba48.js?body=1" for ::1 at 2017-01-11 13:52:45 -0800
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 13:52:45 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 13:52:45 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 34ms (Views: 33.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 13:52:46 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 13:53:27 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 28ms (Views: 28.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 13:53:28 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 13:53:30 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 22ms (Views: 21.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 13:53:30 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 13:54:04 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 22ms (Views: 22.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 13:54:05 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 13:54:09 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 341ms (Views: 340.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.self-2a931eda7f2a09dad3f77ad5b9d5ee3645130d88bac0c08bb3af0f5d1682df87.js?body=1" for ::1 at 2017-01-11 13:54:09 -0800
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 13:54:10 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 13:54:11 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 31ms (Views: 30.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 13:54:12 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 13:57:07 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 426ms (Views: 423.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.self-75a1fe1ce8437d1fd0b981289ad9deb9da796550379749962537b7cf0bad8311.js?body=1" for ::1 at 2017-01-11 13:57:07 -0800
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 13:57:07 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 13:57:09 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 21ms (Views: 20.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 13:57:09 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 13:57:11 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 18ms (Views: 18.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 13:57:11 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 13:57:37 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 342ms (Views: 341.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.self-a20c7ad3834d05545055024ec8bd0cf551be9be030c7c2e1d6f62531d912f7c6.js?body=1" for ::1 at 2017-01-11 13:57:38 -0800
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 13:57:38 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 13:57:47 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 24ms (Views: 23.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 13:57:47 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 13:57:50 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 17ms (Views: 16.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 13:57:50 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 13:59:44 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 31ms (Views: 30.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 13:59:44 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 14:00:57 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 308ms (Views: 307.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.self-2b445decc57df40d1f936afcf570c2c35280b1c6792e92e937bc77640593a7f6.js?body=1" for ::1 at 2017-01-11 14:00:58 -0800
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 14:00:58 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 14:02:30 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 33ms (Views: 33.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 14:02:30 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 14:02:44 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 341ms (Views: 340.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.self-cc032190fa620e91bd3e67ec854b12e7a2973c7026765f296c41e9a1d2be4a19.js?body=1" for ::1 at 2017-01-11 14:02:45 -0800
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 14:02:45 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 14:02:47 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 28ms (Views: 27.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 14:02:47 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 14:04:03 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 362ms (Views: 361.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.self-c2b3273783061723b37a44cfeb13511beca57dd81be1fc8c0b205056f85d481f.js?body=1" for ::1 at 2017-01-11 14:04:04 -0800
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 14:04:04 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 14:04:08 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 20ms (Views: 19.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 14:04:08 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 14:04:09 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 20ms (Views: 20.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 14:04:09 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 14:06:19 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 31ms (Views: 31.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 14:06:20 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 14:06:50 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 48ms (Views: 47.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 14:06:51 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 14:07:20 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 26ms (Views: 25.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 14:07:20 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 14:08:13 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 338ms (Views: 338.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.self-4c224400d602bbed90272db4032006c205c21d667a829bdcea15fea9da94aef9.js?body=1" for ::1 at 2017-01-11 14:08:13 -0800
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 14:08:13 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 14:08:20 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 22ms (Views: 22.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 14:08:20 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 14:09:42 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 382ms (Views: 381.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.self-1c037e6622effba352e02b778b69a4cbb7e9f9ae9e9d069ecae6dd8df9b24669.js?body=1" for ::1 at 2017-01-11 14:09:43 -0800
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 14:09:43 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 14:10:18 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 357ms (Views: 357.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.self-2f6ad6abad20858443af51cb1c8aba2977b6314ddbc3c98a874d71860965620d.js?body=1" for ::1 at 2017-01-11 14:10:18 -0800
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 14:10:18 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 14:11:16 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 301ms (Views: 300.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.self-7576254ce940371c72b1a74f5275f4f56c01bb3b221fcfce4f20435cedd50ef8.js?body=1" for ::1 at 2017-01-11 14:11:17 -0800
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 14:11:17 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 14:11:17 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 63ms (Views: 63.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 14:11:18 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 14:11:31 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 16ms (Views: 15.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 14:11:31 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 14:12:03 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 17ms (Views: 16.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 14:12:03 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 14:12:06 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 20ms (Views: 19.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 14:12:07 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 14:12:07 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 21ms (Views: 21.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 14:12:08 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 14:15:14 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 42ms (Views: 41.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 14:15:14 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 14:16:04 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 393ms (Views: 392.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.self-2280253aba1e334a12e752cbf122169005d378553ccf41ca2935a99ce176ac99.js?body=1" for ::1 at 2017-01-11 14:16:05 -0800
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 14:16:05 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 14:16:07 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 22ms (Views: 21.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 14:16:08 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 14:17:27 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 313ms (Views: 313.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.self-6b640022dfc0baecca55186c6e1edecab0e35085bfcb38328e9fbb36f04a8acf.js?body=1" for ::1 at 2017-01-11 14:17:28 -0800
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 14:17:28 -0800
+  [1m[35mUser Load (5.4ms)[0m  SELECT  "users".* FROM "users"  ORDER BY "users"."id" DESC LIMIT 1
+  [1m[36mUser Load (0.7ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (2.3ms)[0m  [1mUPDATE "users" SET "user_name" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["user_name", "tank_top"], ["updated_at", "2017-01-11 22:18:53.622853"], ["id", 4]]
+  [1m[35m (0.8ms)[0m  COMMIT
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT "users".* FROM "users"[0m
+
+
+Started GET "/" for ::1 at 2017-01-11 14:19:48 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 404ms (Views: 404.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.self-1e55b83c0cdd43296a8aba663da19d65ee0f3651164476ef5489065705f19c59.js?body=1" for ::1 at 2017-01-11 14:19:49 -0800
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 14:19:49 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 14:24:29 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (8.2ms)
+Completed 200 OK in 369ms (Views: 367.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.self-8da69b011b81ae7b5c672ac51a79699a949f8917ded74014bd1deaef3185fbec.js?body=1" for ::1 at 2017-01-11 14:24:29 -0800
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 14:24:30 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 14:30:41 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 427ms (Views: 425.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.self-46de7413c0f503793a3fffac0c9b64e5a9fb9c6b851a50c4e822aa0ef4a0bb33.js?body=1" for ::1 at 2017-01-11 14:30:42 -0800
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 14:30:42 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 14:38:32 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 23ms (Views: 22.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 14:38:33 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 14:38:34 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 16ms (Views: 15.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 14:38:34 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 14:42:37 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 399ms (Views: 398.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.self-02d75175d046ebb6a6af9529d54cba28edfcadb5a8518694e9cbe98c4f28bf90.js?body=1" for ::1 at 2017-01-11 14:42:37 -0800
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 14:42:37 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 14:42:53 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 25ms (Views: 24.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 14:42:54 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 14:43:34 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 343ms (Views: 343.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.self-0273c8905635c6c47c561149984d230522322a6c5fe2d1d66c4565f28044d698.js?body=1" for ::1 at 2017-01-11 14:43:35 -0800
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 14:43:35 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 14:43:37 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 20ms (Views: 19.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 14:43:37 -0800
+
+
+Started POST "/api/session" for ::1 at 2017-01-11 14:43:55 -0800
+Processing by Api::SessionsController#create as JSON
+  Parameters: {"user"=>{"user_name"=>"cts85", "password"=>"[FILTERED]"}}
+  [1m[35mUser Load (1.6ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."user_name" = $1 LIMIT 1  [["user_name", "cts85"]]
+DEPRECATION WARNING: `#reset_session_token!` is deprecated and will be removed on Rails 5. Please use `#restore_session_token!` instead. (called from login at /Users/WDS/app_academys/Honey_Do/Honey_Do/app/controllers/application_controller.rb:20)
+  Rendered api/users/_user.json.jbuilder (0.4ms)
+  Rendered api/users/show.json.jbuilder (9.7ms)
+Completed 200 OK in 123ms (Views: 17.7ms | ActiveRecord: 7.2ms)
+
+
+Started GET "/" for ::1 at 2017-01-11 14:44:34 -0800
+Processing by StaticPagesController#root as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT 1[0m  [["session_token", "To49IedHjbXUJYWan3Szog"]]
+  Rendered api/users/_user.json.jbuilder (0.6ms)
+  Rendered static_pages/root.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 352ms (Views: 351.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/bundle.self-404dbbbb2ed15dd60e91e11cfe88decf3222da126901c9bf45ecb3aadc1c7028.js?body=1" for ::1 at 2017-01-11 14:44:34 -0800
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 14:44:34 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 14:44:35 -0800
+Processing by StaticPagesController#root as HTML
+  [1m[35mUser Load (0.5ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT 1  [["session_token", "To49IedHjbXUJYWan3Szog"]]
+  Rendered api/users/_user.json.jbuilder (0.2ms)
+  Rendered static_pages/root.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 28ms (Views: 27.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 14:44:35 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 14:44:35 -0800
+Processing by StaticPagesController#root as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT 1[0m  [["session_token", "To49IedHjbXUJYWan3Szog"]]
+  Rendered api/users/_user.json.jbuilder (0.3ms)
+  Rendered static_pages/root.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 74ms (Views: 73.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 14:44:36 -0800
+
+
+Started POST "/api/session" for ::1 at 2017-01-11 14:44:45 -0800
+Processing by Api::SessionsController#create as JSON
+  Parameters: {"user"=>{"user_name"=>"cts85", "password"=>"[FILTERED]"}}
+  [1m[35mUser Load (0.6ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."user_name" = $1 LIMIT 1  [["user_name", "cts85"]]
+DEPRECATION WARNING: `#reset_session_token!` is deprecated and will be removed on Rails 5. Please use `#restore_session_token!` instead. (called from login at /Users/WDS/app_academys/Honey_Do/Honey_Do/app/controllers/application_controller.rb:20)
+  Rendered api/users/_user.json.jbuilder (0.1ms)
+  Rendered api/users/show.json.jbuilder (0.7ms)
+Completed 200 OK in 75ms (Views: 4.1ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/" for ::1 at 2017-01-11 14:47:13 -0800
+Processing by StaticPagesController#root as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT 1[0m  [["session_token", "To49IedHjbXUJYWan3Szog"]]
+  Rendered api/users/_user.json.jbuilder (0.2ms)
+  Rendered static_pages/root.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 400ms (Views: 399.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/bundle.self-a52f8c5cda46814cdbef4cf99d9c8c5a0a056d5a43c6cb474cfe982ed696b762.js?body=1" for ::1 at 2017-01-11 14:47:13 -0800
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 14:47:13 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 14:47:15 -0800
+Processing by StaticPagesController#root as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT 1  [["session_token", "To49IedHjbXUJYWan3Szog"]]
+  Rendered api/users/_user.json.jbuilder (0.2ms)
+  Rendered static_pages/root.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 18ms (Views: 17.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 14:47:15 -0800
+
+
+Started POST "/api/session" for ::1 at 2017-01-11 14:47:23 -0800
+Processing by Api::SessionsController#create as JSON
+  Parameters: {"user"=>{"user_name"=>"cts85", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."user_name" = $1 LIMIT 1[0m  [["user_name", "cts85"]]
+DEPRECATION WARNING: `#reset_session_token!` is deprecated and will be removed on Rails 5. Please use `#restore_session_token!` instead. (called from login at /Users/WDS/app_academys/Honey_Do/Honey_Do/app/controllers/application_controller.rb:20)
+  Rendered api/users/_user.json.jbuilder (0.1ms)
+  Rendered api/users/show.json.jbuilder (0.8ms)
+Completed 200 OK in 75ms (Views: 7.7ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/api/session" for ::1 at 2017-01-11 14:47:27 -0800
+Processing by Api::SessionsController#create as JSON
+  Parameters: {"user"=>{"user_name"=>"cts85", "password"=>"[FILTERED]"}}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."user_name" = $1 LIMIT 1  [["user_name", "cts85"]]
+DEPRECATION WARNING: `#reset_session_token!` is deprecated and will be removed on Rails 5. Please use `#restore_session_token!` instead. (called from login at /Users/WDS/app_academys/Honey_Do/Honey_Do/app/controllers/application_controller.rb:20)
+  Rendered api/users/_user.json.jbuilder (0.1ms)
+  Rendered api/users/show.json.jbuilder (0.7ms)
+Completed 200 OK in 71ms (Views: 4.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2017-01-11 14:50:03 -0800
+Processing by StaticPagesController#root as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT 1[0m  [["session_token", "To49IedHjbXUJYWan3Szog"]]
+  Rendered api/users/_user.json.jbuilder (0.2ms)
+  Rendered static_pages/root.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 317ms (Views: 316.1ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/bundle.self-2097f3348f5ee2fdb4b226c06084b8670231300f07bf03c9c678dc2a151462d1.js?body=1" for ::1 at 2017-01-11 14:50:04 -0800
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 14:50:04 -0800
+
+
+Started POST "/api/session" for ::1 at 2017-01-11 14:50:13 -0800
+Processing by Api::SessionsController#create as JSON
+  Parameters: {"user"=>{"user_name"=>"cts85", "password"=>"[FILTERED]"}}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."user_name" = $1 LIMIT 1  [["user_name", "cts85"]]
+DEPRECATION WARNING: `#reset_session_token!` is deprecated and will be removed on Rails 5. Please use `#restore_session_token!` instead. (called from login at /Users/WDS/app_academys/Honey_Do/Honey_Do/app/controllers/application_controller.rb:20)
+  Rendered api/users/_user.json.jbuilder (0.1ms)
+  Rendered api/users/show.json.jbuilder (1.0ms)
+Completed 200 OK in 77ms (Views: 6.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2017-01-11 14:50:35 -0800
+Processing by StaticPagesController#root as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT 1[0m  [["session_token", "To49IedHjbXUJYWan3Szog"]]
+  Rendered api/users/_user.json.jbuilder (0.2ms)
+  Rendered static_pages/root.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 28ms (Views: 27.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 14:50:35 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 14:52:43 -0800
+Processing by StaticPagesController#root as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT 1  [["session_token", "To49IedHjbXUJYWan3Szog"]]
+  Rendered api/users/_user.json.jbuilder (0.1ms)
+  Rendered static_pages/root.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 345ms (Views: 344.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/bundle.self-298bd4e56111ec6fe2904aefe085759c60e86bea5159b7925154522aea2c598a.js?body=1" for ::1 at 2017-01-11 14:52:43 -0800
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 14:52:44 -0800
+
+
+Started POST "/api/session" for ::1 at 2017-01-11 14:52:55 -0800
+Processing by Api::SessionsController#create as JSON
+  Parameters: {"user"=>{"user_name"=>"cts85", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."user_name" = $1 LIMIT 1[0m  [["user_name", "cts85"]]
+DEPRECATION WARNING: `#reset_session_token!` is deprecated and will be removed on Rails 5. Please use `#restore_session_token!` instead. (called from login at /Users/WDS/app_academys/Honey_Do/Honey_Do/app/controllers/application_controller.rb:20)
+  Rendered api/users/_user.json.jbuilder (0.1ms)
+  Rendered api/users/show.json.jbuilder (0.8ms)
+Completed 200 OK in 70ms (Views: 5.5ms | ActiveRecord: 0.5ms)
+
+
+Started POST "/api/session" for ::1 at 2017-01-11 14:52:57 -0800
+Processing by Api::SessionsController#create as JSON
+  Parameters: {"user"=>{"user_name"=>"cts85", "password"=>"[FILTERED]"}}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."user_name" = $1 LIMIT 1  [["user_name", "cts85"]]
+DEPRECATION WARNING: `#reset_session_token!` is deprecated and will be removed on Rails 5. Please use `#restore_session_token!` instead. (called from login at /Users/WDS/app_academys/Honey_Do/Honey_Do/app/controllers/application_controller.rb:20)
+  Rendered api/users/_user.json.jbuilder (0.1ms)
+  Rendered api/users/show.json.jbuilder (0.7ms)
+Completed 200 OK in 69ms (Views: 4.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2017-01-11 14:53:03 -0800
+Processing by StaticPagesController#root as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT 1[0m  [["session_token", "To49IedHjbXUJYWan3Szog"]]
+  Rendered api/users/_user.json.jbuilder (0.2ms)
+  Rendered static_pages/root.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 16ms (Views: 15.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 14:53:04 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 14:53:10 -0800
+Processing by StaticPagesController#root as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT 1  [["session_token", "To49IedHjbXUJYWan3Szog"]]
+  Rendered api/users/_user.json.jbuilder (0.1ms)
+  Rendered static_pages/root.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 18ms (Views: 17.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 14:53:10 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 14:53:37 -0800
+Processing by StaticPagesController#root as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT 1[0m  [["session_token", "To49IedHjbXUJYWan3Szog"]]
+  Rendered api/users/_user.json.jbuilder (0.1ms)
+  Rendered static_pages/root.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 300ms (Views: 299.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/bundle.self-6f3528ebc5f14d568c77a14356a9ae0268b08541256f23d80d4fa3cc0ca3539f.js?body=1" for ::1 at 2017-01-11 14:53:37 -0800
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 14:53:38 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 14:53:39 -0800
+Processing by StaticPagesController#root as HTML
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT 1  [["session_token", "To49IedHjbXUJYWan3Szog"]]
+  Rendered api/users/_user.json.jbuilder (0.2ms)
+  Rendered static_pages/root.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 29ms (Views: 28.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 14:53:39 -0800
+
+
+Started POST "/api/session" for ::1 at 2017-01-11 14:54:04 -0800
+Processing by Api::SessionsController#create as JSON
+  Parameters: {"user"=>{"user_name"=>"cts85", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."user_name" = $1 LIMIT 1[0m  [["user_name", "cts85"]]
+DEPRECATION WARNING: `#reset_session_token!` is deprecated and will be removed on Rails 5. Please use `#restore_session_token!` instead. (called from login at /Users/WDS/app_academys/Honey_Do/Honey_Do/app/controllers/application_controller.rb:20)
+  Rendered api/users/_user.json.jbuilder (0.1ms)
+  Rendered api/users/show.json.jbuilder (0.8ms)
+Completed 200 OK in 75ms (Views: 5.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2017-01-11 14:54:12 -0800
+Processing by StaticPagesController#root as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT 1  [["session_token", "To49IedHjbXUJYWan3Szog"]]
+  Rendered api/users/_user.json.jbuilder (0.2ms)
+  Rendered static_pages/root.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 20ms (Views: 19.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 14:54:12 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 14:54:59 -0800
+Processing by StaticPagesController#root as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT 1[0m  [["session_token", "To49IedHjbXUJYWan3Szog"]]
+  Rendered api/users/_user.json.jbuilder (0.3ms)
+  Rendered static_pages/root.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 309ms (Views: 308.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/bundle.self-34f6f9dc7135d9c5ea1dbcae3c766ff5493c54acfa0839d507c42cb9d8fba61f.js?body=1" for ::1 at 2017-01-11 14:54:59 -0800
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 14:55:00 -0800
+
+
+Started POST "/api/session" for ::1 at 2017-01-11 14:55:11 -0800
+Processing by Api::SessionsController#create as JSON
+  Parameters: {"user"=>{"user_name"=>"cts85", "password"=>"[FILTERED]"}}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."user_name" = $1 LIMIT 1  [["user_name", "cts85"]]
+DEPRECATION WARNING: `#reset_session_token!` is deprecated and will be removed on Rails 5. Please use `#restore_session_token!` instead. (called from login at /Users/WDS/app_academys/Honey_Do/Honey_Do/app/controllers/application_controller.rb:20)
+  Rendered api/users/_user.json.jbuilder (0.1ms)
+  Rendered api/users/show.json.jbuilder (0.8ms)
+Completed 200 OK in 73ms (Views: 6.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2017-01-11 14:55:23 -0800
+Processing by StaticPagesController#root as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT 1[0m  [["session_token", "To49IedHjbXUJYWan3Szog"]]
+  Rendered api/users/_user.json.jbuilder (0.2ms)
+  Rendered static_pages/root.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 22ms (Views: 21.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 14:55:23 -0800
+
+
+Started DELETE "/api/session" for ::1 at 2017-01-11 14:57:00 -0800
+Processing by Api::SessionsController#destroy as JSON
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT 1  [["session_token", "To49IedHjbXUJYWan3Szog"]]
+DEPRECATION WARNING: `#reset_session_token!` is deprecated and will be removed on Rails 5. Please use `#restore_session_token!` instead. (called from logout at /Users/WDS/app_academys/Honey_Do/Honey_Do/app/controllers/application_controller.rb:26)
+  Rendered api/users/_user.json.jbuilder (0.1ms)
+  Rendered api/users/show.json.jbuilder (0.9ms)
+Completed 200 OK in 6ms (Views: 4.8ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/api/users" for ::1 at 2017-01-11 14:57:09 -0800
+Processing by Api::UsersController#create as JSON
+  Parameters: {"user"=>{"user_name"=>"cts85", "password"=>"[FILTERED]"}}
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+Completed 442  in 76ms (Views: 0.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for ::1 at 2017-01-11 15:05:20 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 299ms (Views: 298.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.self-451a960b4cb6f6c2d9c4ac81ee4eacf3f0515ba2d8c0ad3166ed6c3c9a6cab2c.js?body=1" for ::1 at 2017-01-11 15:05:20 -0800
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 15:05:20 -0800
+
+
+Started DELETE "/api/session" for ::1 at 2017-01-11 15:05:24 -0800
+Processing by Api::SessionsController#destroy as JSON
+Completed 404 Not Found in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started DELETE "/api/session" for ::1 at 2017-01-11 15:05:26 -0800
+Processing by Api::SessionsController#destroy as JSON
+Completed 404 Not Found in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started DELETE "/api/session" for ::1 at 2017-01-11 15:05:27 -0800
+Processing by Api::SessionsController#destroy as JSON
+Completed 404 Not Found in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started DELETE "/api/session" for ::1 at 2017-01-11 15:05:28 -0800
+Processing by Api::SessionsController#destroy as JSON
+Completed 404 Not Found in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started DELETE "/api/session" for ::1 at 2017-01-11 15:05:28 -0800
+Processing by Api::SessionsController#destroy as JSON
+Completed 404 Not Found in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-01-11 15:05:58 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 24ms (Views: 23.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 15:05:58 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 15:06:01 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 21ms (Views: 20.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 15:06:01 -0800
+
+
+Started DELETE "/api/session" for ::1 at 2017-01-11 15:06:03 -0800
+Processing by Api::SessionsController#destroy as JSON
+Completed 404 Not Found in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started DELETE "/api/session" for ::1 at 2017-01-11 15:06:05 -0800
+Processing by Api::SessionsController#destroy as JSON
+Completed 404 Not Found in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-01-11 15:06:18 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 304ms (Views: 303.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.self-2773c19038e9498a13cfe8f7503512730f98519fadc8d057b86888572d08777f.js?body=1" for ::1 at 2017-01-11 15:06:18 -0800
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 15:06:18 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 15:06:22 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 17ms (Views: 16.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 15:06:22 -0800
+
+
+Started DELETE "/api/session" for ::1 at 2017-01-11 15:06:24 -0800
+Processing by Api::SessionsController#destroy as JSON
+Completed 404 Not Found in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-01-11 15:07:02 -0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (12.3ms)
+Completed 200 OK in 481ms (Views: 480.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-01-11 15:07:02 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 22ms (Views: 22.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 15:07:03 -0800
+
+
+Started DELETE "/api/session" for ::1 at 2017-01-11 15:07:05 -0800
+Processing by Api::SessionsController#destroy as JSON
+Completed 404 Not Found in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started DELETE "/api/session" for ::1 at 2017-01-11 15:07:31 -0800
+Processing by Api::SessionsController#destroy as JSON
+Completed 404 Not Found in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-01-11 15:08:48 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 37ms (Views: 37.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 15:08:48 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 15:14:09 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 322ms (Views: 322.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.self-0e8f5124d5e806560bd3fbfbd091eb1a9c9eca9f2b27937aa95d1f7e627b9500.js?body=1" for ::1 at 2017-01-11 15:14:09 -0800
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 15:14:09 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 15:14:30 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 306ms (Views: 305.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.self-75df680f8078684c441b8a2cf87849b52f0b922cb786fe00145dcf1d3cffdb30.js?body=1" for ::1 at 2017-01-11 15:14:31 -0800
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 15:14:31 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 15:15:48 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 276ms (Views: 275.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.self-e9af17bffc49da90bff9366c7eae9d80ac06d5013dafc09eb99a5d0e1e945858.js?body=1" for ::1 at 2017-01-11 15:15:48 -0800
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 15:15:49 -0800
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 15:15:56 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 15:16:12 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 325ms (Views: 324.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.self-d276f2125c92d61419253d3f9a9738784589c57bb9aba961ab5235e435980da6.js?body=1" for ::1 at 2017-01-11 15:16:12 -0800
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 15:16:13 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 15:16:31 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 26ms (Views: 26.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 15:16:32 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 15:16:33 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 349ms (Views: 349.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.self-b19ab45488e3fa4d61c22fc9d2f7e90efab4092bd6f4c23db0f20a74c9c19f2b.js?body=1" for ::1 at 2017-01-11 15:16:33 -0800
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 15:16:33 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 15:17:44 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 362ms (Views: 361.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.self-74fcc85e553deab17ec62f1b7ef05da9b72931de814e9d8be23e3cbcf83e6eb7.js?body=1" for ::1 at 2017-01-11 15:17:45 -0800
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 15:17:45 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 15:29:10 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 390ms (Views: 390.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.self-0872a411c6e90174a1e10ab7806f6506eb0f55b7c327e0b2c1e8a4ba92d49da6.js?body=1" for ::1 at 2017-01-11 15:29:11 -0800
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 15:29:11 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 15:29:51 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 305ms (Views: 304.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.self-e8c1e8129fdf9b46909154af52bb04819d0f9842c1c3c4b2db8763f3d6b54f10.js?body=1" for ::1 at 2017-01-11 15:29:51 -0800
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 15:29:52 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 15:29:59 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 319ms (Views: 318.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.self-9fe45e8a9525836f4d73e6f78b2f4ef0a2cdec71798b353ed7a5a530b8d05a83.js?body=1" for ::1 at 2017-01-11 15:29:59 -0800
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 15:30:00 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 15:30:11 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 377ms (Views: 376.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.self-5ad4ce3810202efe6eade77da1648eca23027cd6e4dc0257770b304acb9905e8.js?body=1" for ::1 at 2017-01-11 15:30:12 -0800
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 15:30:12 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 15:30:38 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 18ms (Views: 17.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 15:30:38 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 15:30:39 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 359ms (Views: 359.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.self-a0d1c050ec20762796156327c1c2e609d98b286e92f1cef88276bb6234611856.js?body=1" for ::1 at 2017-01-11 15:30:39 -0800
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 15:30:40 -0800
+
+
+Started POST "/api/users" for ::1 at 2017-01-11 15:32:23 -0800
+Processing by Api::UsersController#create as JSON
+  Parameters: {"user"=>{"user_name"=>"scck", "password"=>"[FILTERED]", "first_name"=>"Scot", "last_name"=>"Mosher"}}
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (1.2ms)[0m  [1mINSERT INTO "users" ("first_name", "last_name", "user_name", "password_digest", "session_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["first_name", "Scot"], ["last_name", "Mosher"], ["user_name", "scck"], ["password_digest", "$2a$10$Z30ySsIs7NQNf96woV7opOpVkw38mtDtdC8Fmg3uQjp6nCP8Mi9le"], ["session_token", "dQ0Z5fepxlYqHGDySgYC7A"], ["created_at", "2017-01-11 23:32:23.470298"], ["updated_at", "2017-01-11 23:32:23.470298"]]
+  [1m[35m (0.8ms)[0m  COMMIT
+DEPRECATION WARNING: `#reset_session_token!` is deprecated and will be removed on Rails 5. Please use `#restore_session_token!` instead. (called from login at /Users/WDS/app_academys/Honey_Do/Honey_Do/app/controllers/application_controller.rb:20)
+  Rendered api/users/_user.json.jbuilder (0.3ms)
+  Rendered api/users/show.json.jbuilder (6.6ms)
+Completed 200 OK in 105ms (Views: 12.9ms | ActiveRecord: 7.9ms)
+  [1m[35mUser Load (1.9ms)[0m  SELECT "users".* FROM "users"
+
+
+Started DELETE "/api/session" for ::1 at 2017-01-11 15:33:12 -0800
+Processing by Api::SessionsController#destroy as JSON
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT 1[0m  [["session_token", "dQ0Z5fepxlYqHGDySgYC7A"]]
+DEPRECATION WARNING: `#reset_session_token!` is deprecated and will be removed on Rails 5. Please use `#restore_session_token!` instead. (called from logout at /Users/WDS/app_academys/Honey_Do/Honey_Do/app/controllers/application_controller.rb:26)
+  Rendered api/users/_user.json.jbuilder (0.1ms)
+  Rendered api/users/show.json.jbuilder (1.2ms)
+Completed 200 OK in 17ms (Views: 7.7ms | ActiveRecord: 0.5ms)
