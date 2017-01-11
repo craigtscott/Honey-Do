@@ -1192,3 +1192,12 @@ DEPRECATION WARNING: `#reset_session_token!` is deprecated and will be removed o
   Rendered api/users/_user.json.jbuilder (0.4ms)
   Rendered api/users/show.json.jbuilder (7.3ms)
 Completed 200 OK in 9275ms (Views: 15.8ms | ActiveRecord: 4.4ms)
+
+
+Started GET "/" for ::1 at 2017-01-11 09:17:15 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 70ms (Views: 68.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 09:17:16 -0800

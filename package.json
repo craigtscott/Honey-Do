@@ -32,14 +32,13 @@
   "bugs": {
     "url": "https://github.com/craigtscott/Remember-The-Milk-Clone/issues"
   },
-  "homepage": "https://github.com/craigtscott/Remember-The-Milk-Clone#readme"
+  "homepage": "https://github.com/craigtscott/Remember-The-Milk-Clone#readme",
+  "engines": {
+    "node": "v7.2.1",
+    "npm": "3.10.9"
+  },
+
+  "scripts": {
+    "postinstall": "./node_modules/.bin/webpack"
+  }
 }
-
-"engines": {
-  "node": "v7.2.1",
-  "npm": "3.10.9"
-},
-
-"scripts": {
-  "postinstall": "./node_modules/.bin/webpack"
-},
