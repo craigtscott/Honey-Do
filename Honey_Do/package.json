@@ -1,8 +1,8 @@
 "engines": {
   // Your versions of node and npm should go here
   // Check this by running the `node -v` and `npm -v` commands in the root of your project
-  "node": "4.1.1",
-  "npm": "2.1.x"
+  "node": "v7.2.1",
+  "npm": "3.10.9"
 },
 
 "scripts": {
