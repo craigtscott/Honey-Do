@@ -4,7 +4,6 @@ class Api::SessionsController < ApplicationController
       params[:user][:user_name],
       params[:user][:password]
     )
-    debugger
     if @user
       login(@user)
       render 'api/users/show'

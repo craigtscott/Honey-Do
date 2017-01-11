@@ -9,9 +9,9 @@ $.ajax({
 $.ajax({
     type: 'POST',
     url: 'api/users',
-    data: {user: {first_name: 'Katarina',
-                  last_name: 'Rossi',
-                  user_name: 'dischorde',
+    data: {user: {first_name: 'Jeff',
+                  last_name: 'Gronewold',
+                  user_name: 'tanktop',
                   password: 'password'}}
 })
 
