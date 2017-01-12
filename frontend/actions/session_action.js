@@ -1,11 +1,12 @@
 export const RECEIVE_CURRENT_USER = 'RECEIVE_CURRENT_USER';
 export const RECEIVE_ERRORS = 'RECEIVE_ERRORS';
 
+import hashHistory from 'react-router';
 import * as ApiUtil from '../util/session_api_util';
 
 export const login = user => dispatch => (
   ApiUtil.login(user).then(user => dispatch(receiveCurrentUser(user)),
-  err => dispatch(receiveErrors(err.responceJSON)))
+  err => dispatch(receiveErrors(err.responseJSON))).then(hashHistory.push("dash"))
 );
 
 export const logout = () => dispatch => (
@@ -14,15 +15,16 @@ export const logout = () => dispatch => (
 
 export const signup = user => dispatch => (
   ApiUtil.signup(user).then(user => dispatch(receiveCurrentUser(user)),
-  err => dispatch(receiveErrors(err.responceJSON)))
+  err => dispatch(receiveErrors(err.responseJSON)))
 );
 
-export const receiveCurrentUser = currentUser => ({
+const receiveCurrentUser = currentUser => ({
   type: RECEIVE_CURRENT_USER,
   currentUser
 });
 
-export const receiveErrors = errors => ({
+const receiveErrors = errors => ({
+
   type: RECEIVE_ERRORS,
   errors
 });

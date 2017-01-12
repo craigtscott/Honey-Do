@@ -14,6 +14,7 @@ class sessionForm extends React.Component {
     e.preventDefault();
     const user = Object.assign({}, this.state);
     this.props.processForm(user);
+    // this.props.router.push("/dash");
   }
 
   update(field) {
@@ -29,22 +30,24 @@ class sessionForm extends React.Component {
 	}
 
   renderErrors() {
-		return(
-			<ul>
-				{this.props.errors.map((error, i) => (
-					<li key={`error-${i}`}>
-						{error}
-					</li>
-				))}
-			</ul>
-		);
+    if (this.props.errors){
+      return(
+        <ul>
+          {this.props.errors.map((error, i) => (
+            <li key={`error-${i}`}>
+              {error}
+            </li>
+          ))}
+        </ul>
+      );
+    }
 	}
 
   navLink() {
 		if (this.props.formType === "login") {
-			return <Link to="/signup">sign up instead</Link>;
+			return <Link to="/signup">sign up</Link>;
 		} else {
-			return <Link to="/login">log in instead</Link>;
+			return <Link to="/login">log in</Link>;
 		}
 	}
 
@@ -96,11 +99,12 @@ class sessionForm extends React.Component {
             <input type="submit" className="login-button" value={submitText} />
           </form>
           <div className="redirect">
-            Please {this.props.formType} or
             {this.navLink()}
           </div>
           <div className="login-comb-div">
+            <Link to="/">
             <img className="login-comb" src="assets/comb.png" alt="Honey Comb" />
+            </Link>
           </div>
           {this.renderErrors()}
         </div>

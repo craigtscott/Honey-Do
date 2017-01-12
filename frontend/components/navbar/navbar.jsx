@@ -2,24 +2,39 @@
 import React from 'react';
 import { Link } from 'react-router';
 
-const sessionLinks = () => (
-  <div className="navbar">
-    <nav className="login-signup">
 
-        <img className="comb" src="assets/comb.png" alt="Honey Comb" />
 
+const navbar = ({ currentUser, logout }) => {
+
+  let navbarContent =   (
+    <div className="login-buttons">
+    <div className="login" >
+      <Link to="/login" activeClassName="current">Login</Link>
+    </div>
+    &nbsp;or&nbsp;
+    <div className="signin">
+      <Link to="/signup"  activeClassName="current">Sign up!</Link>
+    </div>
+  </div>);
+
+  if(currentUser){
+    navbarContent = (
       <div className="login-buttons">
-        <div className="login" >
-          <Link to="/login" activeClassName="current">Login</Link>
-        </div>
-        &nbsp;or&nbsp;
-        <div className="signin">
-          <Link to="/signup"  activeClassName="current">Sign up!</Link>
-        </div>
+      <div className="login" >
+        <Link to="/" activeClassName="current" onClick={logout}>Logout</Link>
       </div>
-    </nav>
-  </div>
-);
+    </div>
+    );
+  }
+  return(
+    <div className="navbar">
+      <nav className="login-signup">
+          <img className="comb" src="assets/comb.png" alt="Honey Comb" />
+          { navbarContent }
+      </nav>
+    </div>
+  );
+};
 
 const personalGreeting = (currentUser, logout) => (
 	<hgroup className="header-group">
@@ -28,9 +43,9 @@ const personalGreeting = (currentUser, logout) => (
 	</hgroup>
 );
 
-const navbar = ({ currentUser, logout }) => (
-  currentUser ? personalGreeting(currentUser, logout) : sessionLinks()
-);
+// const navbar = ({ currentUser, logout }) => (
+//   currentUser ? personalGreeting(currentUser, logout) : sessionLinks()
+// );
 
 export default navbar;
 

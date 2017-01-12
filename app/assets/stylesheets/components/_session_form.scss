@@ -1,6 +1,5 @@
 
 .login-page {
-  font: $basic;
   display: flex;
   justify-content: center;
   height: 100%;
@@ -21,11 +20,12 @@
   padding-right: 40px;
   margin-top: 150px;
   justify-content: space-around;
-  background-color: #fee4ad;
+  background-color: rgba(254, 228, 173, .8);
   opacity: 1;
 }
 
 .login-form-box {
+
   display: flex;
   flex-direction: column;
   width: 325px;
@@ -46,9 +46,10 @@
 .redirect {
   display: flex;
   justify-content: center;
+  font-size: 22px;
 }
 .login-comb-div {
-  display:flex;
+  display: flex;
   justify-content: center;
 }
 

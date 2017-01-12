@@ -1,4 +1,14 @@
+
+
 .login-signup {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 20px;
+  background-color: white;
+  height: 60px;
+}
+
+.header-group {
   display: flex;
   justify-content: space-between;
   padding-right: 20px;
