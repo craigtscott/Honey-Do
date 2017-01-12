@@ -9492,3 +9492,27 @@ Started GET "/assets/login_page2.jpg" for ::1 at 2017-01-12 08:40:15 -0800
 
 
 Started GET "/assets/bee3.jpg" for ::1 at 2017-01-12 08:40:20 -0800
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-12 08:46:07 -0800
+
+
+Started GET "/" for ::1 at 2017-01-12 08:47:08 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 250ms (Views: 244.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-903c7af3ec6748373dabfda44294ffda1aee1b041f80df48a31da627af42a357.css?body=1" for ::1 at 2017-01-12 08:47:09 -0800
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-12 08:47:09 -0800
+
+
+Started GET "/assets/comb.png" for ::1 at 2017-01-12 08:47:09 -0800
+
+
+Started GET "/assets/login_page2.jpg" for ::1 at 2017-01-12 08:47:09 -0800
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-12 08:47:40 -0800
