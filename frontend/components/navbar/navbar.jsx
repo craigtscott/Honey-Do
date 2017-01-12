@@ -5,11 +5,18 @@ import { Link } from 'react-router';
 const sessionLinks = () => (
   <div className="navbar">
     <nav className="login-signup">
-      <div className="login" >
-        <Link to="/login" activeClassName="current">Login</Link>
+
+        <img className="comb" src="assets/comb.png" alt="Honey Comb" />
+
+      <div className="login-buttons">
+        <div className="login" >
+          <Link to="/login" activeClassName="current">Login</Link>
+        </div>
+        &nbsp;or&nbsp;
+        <div className="signin">
+          <Link to="/signup"  activeClassName="current">Sign up!</Link>
+        </div>
       </div>
-      &nbsp;or&nbsp;
-      <Link to="/signup" className="signin" activeClassName="current">Sign up!</Link>
     </nav>
   </div>
 );
@@ -26,3 +33,6 @@ const navbar = ({ currentUser, logout }) => (
 );
 
 export default navbar;
+
+
+//////Honeycomb by Arthur Shlain from the Noun Project//////

@@ -1,10 +1,12 @@
 .splash {
-  background-image: url("bee.jpg");
-  height: 100vh;
+  height: 100%;
+  min-height: 100vh;
+  background-image: url("bee3.jpg")
+
 }
 
 .logo {
-  font-size: 84px;
+  font-size: 110px;
   padding-left: 48px;
   padding-top: 30px;
   color: $yellow;
@@ -12,7 +14,7 @@
 
 .logo2 {
   font-size: 60px;
-  padding-left: 160px;
-  padding-top: 175px;
+  padding-left: 307px;
+  padding-top: 407px;
   color: $yellow;
 }

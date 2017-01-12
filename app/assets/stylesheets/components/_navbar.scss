@@ -1,13 +1,31 @@
 .login-signup {
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
   padding-right: 20px;
   background-color: white;
   height: 60px;
 }
 
+.login-buttons {
+  display: flex;
+  font-size: 20px;
+  padding-right: 30px;
+}
+
 .login:hover {
-  background-color: red;
-  color: red;
-  border: 2px solid black;
+  background-color: grey;
+
+
+}
+
+.signin:hover {
+  background-color: grey;
+}
+
+.comb {
+  height: 54px;
+  width: 54px;
+  padding-left: 30px;
+  padding-top: 3px;
+
 }
