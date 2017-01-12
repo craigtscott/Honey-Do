@@ -6,7 +6,7 @@ import * as ApiUtil from '../util/session_api_util';
 
 export const login = user => dispatch => (
   ApiUtil.login(user).then(user => dispatch(receiveCurrentUser(user)),
-  err => dispatch(receiveErrors(err.responseJSON))).then(hashHistory.push("dash"))
+  err => dispatch(receiveErrors(err.responseJSON)))
 );
 
 export const logout = () => dispatch => (

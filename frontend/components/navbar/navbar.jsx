@@ -1,13 +1,20 @@
 
 import React from 'react';
-import { Link } from 'react-router';
+import { Link, withRouter } from 'react-router';
 
 
 
-const navbar = ({ currentUser, logout }) => {
+const navbar = ({ currentUser, logout, login }) => {
+
+
+  const user = {user_name: "demo", password: "password"};
 
   let navbarContent =   (
-    <div className="login-buttons">
+  <div className="login-buttons">
+    <div className="demo" >
+      <Link to="/dash" onClick={() => login(user)} activeClassName="current">Demo</Link>
+    </div>
+    &nbsp;
     <div className="login" >
       <Link to="/login" activeClassName="current">Login</Link>
     </div>
@@ -20,6 +27,7 @@ const navbar = ({ currentUser, logout }) => {
   if(currentUser){
     navbarContent = (
       <div className="login-buttons">
+        <h2 className="header-name">Hi, {currentUser.first_name}!</h2>
       <div className="login" >
         <Link to="/" activeClassName="current" onClick={logout}>Logout</Link>
       </div>

@@ -20,16 +20,42 @@
   display: flex;
   font-size: 20px;
   padding-right: 30px;
+  align-items: center;
+}
+
+.login {
+  display: flex;
+  justify-content: center;
+  border: 3px solid black;
+  width: 75px;
+}
+
+.signin {
+  display: flex;
+  justify-content: center;
+  border: 3px solid black;
+  width: 75px;
+}
+
+.demo {
+  display: flex;
+  justify-content: center;
+  border: 3px solid black;
+  width: 75px;
 }
 
 .login:hover {
-  background-color: grey;
+  background-color: $light-green;
 
 
 }
 
 .signin:hover {
-  background-color: grey;
+  background-color: $light-green;
+}
+
+.demo:hover {
+  background-color: $light-green;
 }
 
 .comb {

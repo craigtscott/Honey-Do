@@ -13,8 +13,7 @@ class sessionForm extends React.Component {
   handleSubmit(e) {
     e.preventDefault();
     const user = Object.assign({}, this.state);
-    this.props.processForm(user);
-    // this.props.router.push("/dash");
+    this.props.processForm(user).then(this.props.router.push("/dash"));
   }
 
   update(field) {
@@ -103,7 +102,9 @@ class sessionForm extends React.Component {
           </div>
           <div className="login-comb-div">
             <Link to="/">
-            <img className="login-comb" src="assets/comb.png" alt="Honey Comb" />
+              <div className="green-div">
+          
+              </div>
             </Link>
           </div>
           {this.renderErrors()}
