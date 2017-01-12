@@ -3200,3 +3200,3247 @@ DEPRECATION WARNING: `#reset_session_token!` is deprecated and will be removed o
   Rendered api/users/_user.json.jbuilder (0.1ms)
   Rendered api/users/show.json.jbuilder (1.2ms)
 Completed 200 OK in 17ms (Views: 7.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for ::1 at 2017-01-11 15:44:17 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (3.6ms)
+Completed 500 Internal Server Error in 62ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (File to import not found or unreadable: base/reset.scss.
+Load paths:
+  /Users/WDS/app_academys/Honey_Do/Honey_Do/app/assets/images
+  /Users/WDS/app_academys/Honey_Do/Honey_Do/app/assets/javascripts
+  /Users/WDS/app_academys/Honey_Do/Honey_Do/app/assets/stylesheets
+  /Users/WDS/app_academys/Honey_Do/Honey_Do/vendor/assets/javascripts
+  /Users/WDS/app_academys/Honey_Do/Honey_Do/vendor/assets/stylesheets
+  /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/jquery-rails-4.2.2/vendor/assets/javascripts
+  /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/coffee-rails-4.1.1/lib/assets/javascripts):
+    2: <html>
+    3: <head>
+    4:   <title>Hd</title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all' %>
+    6:   <%= javascript_include_tag 'application' %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/assets/stylesheets/application.scss:17
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__1010909522419245071_70272260660340'
+
+
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.6ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.5ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (70.2ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.9ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (62.9ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (133.9ms)
+
+
+Started GET "/" for ::1 at 2017-01-11 15:48:55 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.4ms)
+Completed 500 Internal Server Error in 39ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (File to import not found or unreadable: base/grid.scss.
+Load paths:
+  /Users/WDS/app_academys/Honey_Do/Honey_Do/app/assets/images
+  /Users/WDS/app_academys/Honey_Do/Honey_Do/app/assets/javascripts
+  /Users/WDS/app_academys/Honey_Do/Honey_Do/app/assets/stylesheets
+  /Users/WDS/app_academys/Honey_Do/Honey_Do/vendor/assets/javascripts
+  /Users/WDS/app_academys/Honey_Do/Honey_Do/vendor/assets/stylesheets
+  /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/jquery-rails-4.2.2/vendor/assets/javascripts
+  /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/coffee-rails-4.1.1/lib/assets/javascripts):
+    2: <html>
+    3: <head>
+    4:   <title>Hd</title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all' %>
+    6:   <%= javascript_include_tag 'application' %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/assets/stylesheets/application.scss:25
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__1010909522419245071_70272260660340'
+
+
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.5ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.4ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (67.8ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (53.6ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (124.6ms)
+
+
+Started GET "/" for ::1 at 2017-01-11 15:48:56 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.4ms)
+Completed 500 Internal Server Error in 16ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (File to import not found or unreadable: base/grid.scss.
+Load paths:
+  /Users/WDS/app_academys/Honey_Do/Honey_Do/app/assets/images
+  /Users/WDS/app_academys/Honey_Do/Honey_Do/app/assets/javascripts
+  /Users/WDS/app_academys/Honey_Do/Honey_Do/app/assets/stylesheets
+  /Users/WDS/app_academys/Honey_Do/Honey_Do/vendor/assets/javascripts
+  /Users/WDS/app_academys/Honey_Do/Honey_Do/vendor/assets/stylesheets
+  /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/jquery-rails-4.2.2/vendor/assets/javascripts
+  /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/coffee-rails-4.1.1/lib/assets/javascripts):
+    2: <html>
+    3: <head>
+    4:   <title>Hd</title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all' %>
+    6:   <%= javascript_include_tag 'application' %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/assets/stylesheets/application.scss:25
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__1010909522419245071_70272260660340'
+
+
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.5ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.3ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (68.1ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (52.1ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (114.9ms)
+
+
+Started GET "/" for ::1 at 2017-01-11 15:48:58 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.3ms)
+Completed 500 Internal Server Error in 16ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (File to import not found or unreadable: base/grid.scss.
+Load paths:
+  /Users/WDS/app_academys/Honey_Do/Honey_Do/app/assets/images
+  /Users/WDS/app_academys/Honey_Do/Honey_Do/app/assets/javascripts
+  /Users/WDS/app_academys/Honey_Do/Honey_Do/app/assets/stylesheets
+  /Users/WDS/app_academys/Honey_Do/Honey_Do/vendor/assets/javascripts
+  /Users/WDS/app_academys/Honey_Do/Honey_Do/vendor/assets/stylesheets
+  /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/jquery-rails-4.2.2/vendor/assets/javascripts
+  /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/coffee-rails-4.1.1/lib/assets/javascripts):
+    2: <html>
+    3: <head>
+    4:   <title>Hd</title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all' %>
+    6:   <%= javascript_include_tag 'application' %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/assets/stylesheets/application.scss:25
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__1010909522419245071_70272260660340'
+
+
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.2ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.7ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (66.8ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (53.6ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (117.4ms)
+
+
+Started GET "/" for ::1 at 2017-01-11 15:50:27 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.3ms)
+Completed 500 Internal Server Error in 19ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (File to import not found or unreadable: components/*.
+Load paths:
+  /Users/WDS/app_academys/Honey_Do/Honey_Do/app/assets/images
+  /Users/WDS/app_academys/Honey_Do/Honey_Do/app/assets/javascripts
+  /Users/WDS/app_academys/Honey_Do/Honey_Do/app/assets/stylesheets
+  /Users/WDS/app_academys/Honey_Do/Honey_Do/vendor/assets/javascripts
+  /Users/WDS/app_academys/Honey_Do/Honey_Do/vendor/assets/stylesheets
+  /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/jquery-rails-4.2.2/vendor/assets/javascripts
+  /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/coffee-rails-4.1.1/lib/assets/javascripts):
+    2: <html>
+    3: <head>
+    4:   <title>Hd</title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all' %>
+    6:   <%= javascript_include_tag 'application' %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/assets/stylesheets/application.scss:28
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__1010909522419245071_70272260660340'
+
+
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (9.1ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.5ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (69.7ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (56.8ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (125.2ms)
+
+
+Started GET "/" for ::1 at 2017-01-11 15:50:37 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.5ms)
+Completed 500 Internal Server Error in 21ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (File to import not found or unreadable: components/*.
+Load paths:
+  /Users/WDS/app_academys/Honey_Do/Honey_Do/app/assets/images
+  /Users/WDS/app_academys/Honey_Do/Honey_Do/app/assets/javascripts
+  /Users/WDS/app_academys/Honey_Do/Honey_Do/app/assets/stylesheets
+  /Users/WDS/app_academys/Honey_Do/Honey_Do/vendor/assets/javascripts
+  /Users/WDS/app_academys/Honey_Do/Honey_Do/vendor/assets/stylesheets
+  /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/jquery-rails-4.2.2/vendor/assets/javascripts
+  /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/coffee-rails-4.1.1/lib/assets/javascripts):
+    2: <html>
+    3: <head>
+    4:   <title>Hd</title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all' %>
+    6:   <%= javascript_include_tag 'application' %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/assets/stylesheets/application.scss:28
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__1010909522419245071_70272260660340'
+
+
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (11.0ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.9ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (81.1ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (57.9ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (135.6ms)
+
+
+Started GET "/" for ::1 at 2017-01-11 15:50:39 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.4ms)
+Completed 500 Internal Server Error in 18ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (File to import not found or unreadable: components/*.
+Load paths:
+  /Users/WDS/app_academys/Honey_Do/Honey_Do/app/assets/images
+  /Users/WDS/app_academys/Honey_Do/Honey_Do/app/assets/javascripts
+  /Users/WDS/app_academys/Honey_Do/Honey_Do/app/assets/stylesheets
+  /Users/WDS/app_academys/Honey_Do/Honey_Do/vendor/assets/javascripts
+  /Users/WDS/app_academys/Honey_Do/Honey_Do/vendor/assets/stylesheets
+  /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/jquery-rails-4.2.2/vendor/assets/javascripts
+  /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/coffee-rails-4.1.1/lib/assets/javascripts):
+    2: <html>
+    3: <head>
+    4:   <title>Hd</title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all' %>
+    6:   <%= javascript_include_tag 'application' %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/assets/stylesheets/application.scss:28
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__1010909522419245071_70272260660340'
+
+
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.2ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.0ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (69.4ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (1.3ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.8ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (64.5ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (143.0ms)
+
+
+Started GET "/" for ::1 at 2017-01-11 15:50:59 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 269ms (Views: 268.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/base/colors.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2017-01-11 15:50:59 -0800
+
+
+Started GET "/assets/base/fonts.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2017-01-11 15:50:59 -0800
+
+
+Started GET "/assets/base/grid.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2017-01-11 15:50:59 -0800
+
+
+Started GET "/assets/base/layout.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2017-01-11 15:50:59 -0800
+
+
+Started GET "/assets/base/reset.self-c73bbab8c4397955f8a31d703c91906f576ebbdd378a94aca7b1fec3c9e99e26.css?body=1" for ::1 at 2017-01-11 15:50:59 -0800
+
+
+Started GET "/assets/application.self-2a1e651ff7534424527d48d83ca734e7eb63af057d30965645595fed6f177b53.css?body=1" for ::1 at 2017-01-11 15:50:59 -0800
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 15:51:00 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 16:00:40 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (3.5ms)
+Completed 500 Internal Server Error in 80ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (Undefined variable: "$serif".):
+    2: <html>
+    3: <head>
+    4:   <title>Hd</title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all' %>
+    6:   <%= javascript_include_tag 'application' %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/assets/stylesheets/base/layout.scss:9
+  app/assets/stylesheets/application.scss:22
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__1010909522419245071_70272260660340'
+
+
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (16.9ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (6.4ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.6ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (89.7ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.7ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (66.9ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (134.6ms)
+
+
+Started GET "/" for ::1 at 2017-01-11 16:22:12 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (1.1ms)
+Completed 500 Internal Server Error in 30ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (Undefined variable: "$serif".):
+    2: <html>
+    3: <head>
+    4:   <title>Hd</title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all' %>
+    6:   <%= javascript_include_tag 'application' %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/assets/stylesheets/base/layout.scss:9
+  app/assets/stylesheets/application.scss:22
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__1010909522419245071_70272260660340'
+
+
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (9.7ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.7ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (68.6ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (52.2ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (121.7ms)
+
+
+Started GET "/" for ::1 at 2017-01-11 16:22:35 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.4ms)
+Completed 500 Internal Server Error in 52ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (Undefined variable: "$fancy".):
+    2: <html>
+    3: <head>
+    4:   <title>Hd</title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all' %>
+    6:   <%= javascript_include_tag 'application' %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/assets/stylesheets/base/layout.scss:9
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__1010909522419245071_70272260660340'
+
+
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.5ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.3ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (67.9ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.7ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (56.1ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (126.7ms)
+
+
+Started GET "/" for ::1 at 2017-01-11 16:23:18 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 48ms (Views: 47.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-3d1aa63c68277eff7e0c648d8d4e1eca135e0a7be47a6e175b346a37822cc158.css?body=1" for ::1 at 2017-01-11 16:23:18 -0800
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 16:23:18 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 16:26:32 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 20ms (Views: 19.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 16:26:32 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 16:26:35 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 12ms (Views: 11.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 16:26:36 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 16:26:37 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 38ms (Views: 37.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 16:26:37 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 16:28:33 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 21ms (Views: 21.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 16:28:33 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 16:29:31 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 25ms (Views: 25.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 16:29:31 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 16:29:32 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 13ms (Views: 12.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 16:29:32 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 16:30:52 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 23ms (Views: 22.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 16:30:52 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 16:30:54 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 14ms (Views: 13.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 16:30:54 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 16:31:09 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 14ms (Views: 13.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 16:31:09 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 16:31:11 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 17ms (Views: 17.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 16:31:12 -0800
+
+
+Started POST "/api/session" for ::1 at 2017-01-11 16:31:49 -0800
+Processing by Api::SessionsController#create as JSON
+  Parameters: {"user"=>{"user_name"=>"", "password"=>"[FILTERED]"}}
+  [1m[35mUser Load (0.6ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."user_name" = $1 LIMIT 1  [["user_name", ""]]
+Completed 401 Unauthorized in 3ms (Views: 0.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/" for ::1 at 2017-01-11 16:32:28 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 57ms (Views: 57.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-d6d3b6928da53387a3de5928e158ec31eec8da7e2dfaceea045b27360edbb3a3.css?body=1" for ::1 at 2017-01-11 16:32:28 -0800
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 16:32:28 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 16:33:06 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 49ms (Views: 48.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-ab25303fcd50b7274650b9246dd560d2eafb83dec13fb31bc8930d50d7332367.css?body=1" for ::1 at 2017-01-11 16:33:06 -0800
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 16:33:06 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 16:33:25 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 49ms (Views: 48.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-764f840c0f6cc09cc214c472fc8af6c6e4faa9b761e9f7868fe3fbfa885eff7e.css?body=1" for ::1 at 2017-01-11 16:33:25 -0800
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 16:33:25 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 16:33:41 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 46ms (Views: 45.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-40af86e24353510fe52bfb77e947037cf23bc1cf0d55c7a211e222c6e534c95d.css?body=1" for ::1 at 2017-01-11 16:33:41 -0800
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 16:33:42 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 16:33:43 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 16ms (Views: 15.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 16:33:44 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 16:33:52 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 45ms (Views: 45.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-2b14f98c40413a70e1655de8d0bcc5ec9bc3917e5aed3715041e2792327d2686.css?body=1" for ::1 at 2017-01-11 16:33:52 -0800
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 16:33:52 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 16:38:15 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (12.2ms)
+Completed 200 OK in 449ms (Views: 447.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-ea17241ce47a2d15d6a906121f45719882797c3a7a7e8b058be18f6b58424874.css?body=1" for ::1 at 2017-01-11 16:38:16 -0800
+
+
+Started GET "/assets/bundle.self-628aa779bdf81c58a8013b500db796578d4649fcf861f76b2e92719a5b345465.js?body=1" for ::1 at 2017-01-11 16:38:16 -0800
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 16:38:16 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 16:38:35 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.4ms)
+Completed 500 Internal Server Error in 32ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (Invalid CSS after "  background-color": expected ";", was ": white;"):
+    2: <html>
+    3: <head>
+    4:   <title>Hd</title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all' %>
+    6:   <%= javascript_include_tag 'application' %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/assets/stylesheets/components/_session_form.scss:11
+  app/assets/stylesheets/components:1
+  app/assets/stylesheets/application.scss:28
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__1010909522419245071_70272260660340'
+
+
+
+
+Started GET "/" for ::1 at 2017-01-11 16:38:46 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 59ms (Views: 59.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-cff5c0b6fc9b04fbcee4dac6f9c9d8ddd065d49f1eb92b672c7d97fd267b7977.css?body=1" for ::1 at 2017-01-11 16:38:47 -0800
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 16:38:47 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 16:42:17 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 65ms (Views: 65.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-814c0291f386551be4684c60f1ad8d0990f51274cf7b7b7710424e24330fdcbd.css?body=1" for ::1 at 2017-01-11 16:42:17 -0800
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 16:42:17 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 16:42:18 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 16ms (Views: 16.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 16:42:19 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 16:42:20 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 19ms (Views: 18.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 16:42:20 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 16:43:01 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 52ms (Views: 51.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-bf146e838ab00c3602d3042dc72c1796c49f1633b8bd606912b21c22a53f2e40.css?body=1" for ::1 at 2017-01-11 16:43:01 -0800
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 16:43:01 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 16:44:19 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 56ms (Views: 55.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-10a216a6662be2ce811a86079e4cfe1c26d30fe9354ee121b8484d5f05d90762.css?body=1" for ::1 at 2017-01-11 16:44:19 -0800
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 16:44:19 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 16:44:34 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 28ms (Views: 27.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 16:44:34 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 16:44:51 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 73ms (Views: 72.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-9ada6921f5af8468857fe057e4de8e5d4998e123734dc7e55657c2b0c03fa3c2.css?body=1" for ::1 at 2017-01-11 16:44:51 -0800
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 16:44:51 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 16:44:52 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 15ms (Views: 14.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 16:44:52 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 16:45:13 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 75ms (Views: 74.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-8515451494c2e6e5cbafe5f57dbf80d1665c04d1908068a8df1d973d646cdc32.css?body=1" for ::1 at 2017-01-11 16:45:13 -0800
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 16:45:14 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 16:45:14 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 15ms (Views: 14.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 16:45:15 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 16:45:55 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.7ms)
+Completed 500 Internal Server Error in 21ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (Invalid CSS after "	margin": expected ";", was ": 0 auto;"):
+    2: <html>
+    3: <head>
+    4:   <title>Hd</title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all' %>
+    6:   <%= javascript_include_tag 'application' %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/assets/stylesheets/base/layout.scss:9
+  app/assets/stylesheets/application.scss:22
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__1010909522419245071_70272260660340'
+
+
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (9.6ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.5ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (67.7ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (54.1ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (116.9ms)
+
+
+Started GET "/" for ::1 at 2017-01-11 16:46:04 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 50ms (Views: 49.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-c40fece98b11e80b7751982b2a44fd561a70dfa0d46093ca0db66e449cd7eb70.css?body=1" for ::1 at 2017-01-11 16:46:04 -0800
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 16:46:04 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 16:46:19 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 42ms (Views: 41.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-9516a058f0431485fa1c457d35dc7150d20beda4a49640ae20a0205323ff9c3e.css?body=1" for ::1 at 2017-01-11 16:46:20 -0800
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 16:46:20 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 16:48:17 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 97ms (Views: 97.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-b24cd0c4d7844cd89ed2fe3c1aa274f72b058f278dba88411cd9bb7090f61dc4.css?body=1" for ::1 at 2017-01-11 16:48:18 -0800
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 16:48:18 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 16:48:44 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 56ms (Views: 56.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-6f7316177c2e6de14120170ed1317c3995b937afd5c69f19e606e43ad6d7b772.css?body=1" for ::1 at 2017-01-11 16:48:44 -0800
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 16:48:44 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 16:48:54 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 48ms (Views: 47.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-a140f9658ec675ccbbf7e8c8cd896730e2905e6734375aa42985aeab5e14cea6.css?body=1" for ::1 at 2017-01-11 16:48:54 -0800
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 16:48:55 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 16:49:07 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 51ms (Views: 50.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-fa6c10ae698fb93252a14e3dd24176d77f185ac63e7209244154ef462ec5735f.css?body=1" for ::1 at 2017-01-11 16:49:07 -0800
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 16:49:08 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 16:49:08 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 24ms (Views: 23.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 16:49:08 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 16:49:14 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 17ms (Views: 17.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 16:49:14 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 16:49:17 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 47ms (Views: 46.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-f6594860db81c0d70607607cc4922faca02edb2b3e94f98341315cefd719b14a.css?body=1" for ::1 at 2017-01-11 16:49:17 -0800
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 16:49:17 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 16:49:18 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 15ms (Views: 15.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 16:49:18 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 16:49:25 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 53ms (Views: 52.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 16:49:25 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 16:52:59 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 70ms (Views: 69.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-41ced68c2c484a63bdf37d2f9fc10305fa591c1698fd0736ba314e52ddef9d9e.css?body=1" for ::1 at 2017-01-11 16:52:59 -0800
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 16:52:59 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 16:53:01 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 16ms (Views: 16.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 16:53:01 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 16:53:06 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 33ms (Views: 32.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 16:53:07 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 16:59:41 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 102ms (Views: 101.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-8e739b387bdad8ae233e1ae0e3797318761c5d31f2b04d2c387696925a609ec3.css?body=1" for ::1 at 2017-01-11 16:59:41 -0800
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 16:59:42 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 16:59:59 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 132ms (Views: 131.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-fba2f34011b1b8e7ed383c5189573d83bb0116470f721e7ab97da1a1fd1d2b8b.css?body=1" for ::1 at 2017-01-11 16:59:59 -0800
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 17:00:00 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 17:00:16 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 13ms (Views: 13.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 17:00:16 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 17:02:41 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.5ms)
+Completed 500 Internal Server Error in 27ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (Invalid CSS after "  align-content": expected ";", was ": center;"):
+    2: <html>
+    3: <head>
+    4:   <title>Hd</title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all' %>
+    6:   <%= javascript_include_tag 'application' %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/assets/stylesheets/components/_session_form.scss:13
+  app/assets/stylesheets/components:1
+  app/assets/stylesheets/application.scss:28
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__1010909522419245071_70272260660340'
+
+
+
+
+Started GET "/" for ::1 at 2017-01-11 17:02:54 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 63ms (Views: 63.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-ddca0aec924a54d73440e8e8bf186c0161000de41ab24a2563fac7bd12b2d31c.css?body=1" for ::1 at 2017-01-11 17:02:54 -0800
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 17:02:54 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 17:03:10 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 16ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 17:03:11 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 17:03:12 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 14ms (Views: 13.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 17:03:12 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 17:03:13 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 15ms (Views: 15.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 17:03:13 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 17:03:14 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 15ms (Views: 14.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 17:03:14 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 17:05:19 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 65ms (Views: 64.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-f7110a60a9e0d4f59b7e39bffac2dd6989195b30c7b86fe32be1835ddd722a68.css?body=1" for ::1 at 2017-01-11 17:05:19 -0800
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 17:05:19 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 17:05:26 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 19ms (Views: 19.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 17:05:26 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 17:05:38 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 54ms (Views: 53.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-13d81f709c967f80f7f5f4d50ec16ac0d9193995dc0726970149703d1ad3644e.css?body=1" for ::1 at 2017-01-11 17:05:38 -0800
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 17:05:38 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 17:06:28 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 59ms (Views: 58.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-c48127a27bea3bb22442b15d86608355bc8df49078b37e10a5ccbaf7c43d55a5.css?body=1" for ::1 at 2017-01-11 17:06:28 -0800
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 17:06:29 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 17:06:29 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 13ms (Views: 13.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 17:06:30 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 17:07:05 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 69ms (Views: 68.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-801355498eb1f372916e25f3a545b54cb6aa21d58ff0ef235f1f2a64a66275c8.css?body=1" for ::1 at 2017-01-11 17:07:06 -0800
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 17:07:06 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 17:07:19 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 47ms (Views: 47.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-cf2d490c64bf487ce840d94d3243941f69194ef66d13a7a7028bdbed799ba287.css?body=1" for ::1 at 2017-01-11 17:07:19 -0800
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 17:07:20 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 17:07:21 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 13ms (Views: 12.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 17:07:21 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 17:08:10 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 56ms (Views: 56.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-4e9de946f2322206ea6c441893fa66296ac29fb17ea454b139b2b7ddafedbef9.css?body=1" for ::1 at 2017-01-11 17:08:10 -0800
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 17:08:10 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 17:08:11 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 13ms (Views: 12.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 17:08:11 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 17:08:11 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 17ms (Views: 16.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 17:08:12 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 17:10:17 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 59ms (Views: 59.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-4b1c63260e0f0a1b28184bdd049d5c935ebecfcab84c8da407bb3ecaf7d1686b.css?body=1" for ::1 at 2017-01-11 17:10:17 -0800
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 17:10:17 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 17:11:21 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 57ms (Views: 57.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-c8a5f208219ba53d402e64a8232dbf54b765239ab7cc6abd697fdf8663729868.css?body=1" for ::1 at 2017-01-11 17:11:21 -0800
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 17:11:22 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 17:12:02 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 61ms (Views: 60.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-1ebf2d489f670c5d279404800351aff1683e8a632e347506aef42a63c843bc18.css?body=1" for ::1 at 2017-01-11 17:12:02 -0800
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 17:12:03 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 17:12:56 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 59ms (Views: 58.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-6a2be4e0c52fd77dcfe3c980ff21fcb32279bfddd054051d0ee05b80e335b9a3.css?body=1" for ::1 at 2017-01-11 17:12:56 -0800
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 17:12:56 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 17:13:18 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 67ms (Views: 66.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-12869f757a41c5c45ad80b9eab5aab40074cb825d1810170d2b3de032971d142.css?body=1" for ::1 at 2017-01-11 17:13:18 -0800
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 17:13:19 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 17:13:20 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 21ms (Views: 20.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 17:13:20 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 17:13:40 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 57ms (Views: 56.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-764138810b598d15caf6be6ef6e05148377dd5c5d02635adaa9a6f3ad2ca4d11.css?body=1" for ::1 at 2017-01-11 17:13:41 -0800
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 17:13:41 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 17:14:05 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 49ms (Views: 49.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-21bfc21ffbeb57785093668d86a2e0835f07b01aa3d53c3d84d22fc0e3cd835c.css?body=1" for ::1 at 2017-01-11 17:14:05 -0800
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 17:14:06 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 17:14:07 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 26ms (Views: 26.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 17:14:07 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 17:14:09 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 21ms (Views: 20.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 17:14:09 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 17:14:23 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 61ms (Views: 61.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-fa706a7733792ed4414492f4b62b85015a3daa7bd4f85b63e20b8e62cc6a4e93.css?body=1" for ::1 at 2017-01-11 17:14:23 -0800
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 17:14:23 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 17:18:35 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 336ms (Views: 335.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-a847aa480e597b3acb64af9cb60572b9c999af052e406ecd725b193a0f742cd4.css?body=1" for ::1 at 2017-01-11 17:18:36 -0800
+
+
+Started GET "/assets/bundle.self-b0c0b1e4f7d25375d2a0e41867d1b291f79acd5cd7eb00db3ff7dd024739ec58.js?body=1" for ::1 at 2017-01-11 17:18:36 -0800
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 17:18:36 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 17:18:55 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 59ms (Views: 58.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-88ad99d7eaeab306bcd70f3df441d959aeaf252a709bb47ee770f93ba268c986.css?body=1" for ::1 at 2017-01-11 17:18:55 -0800
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 17:18:55 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 17:19:53 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 96ms (Views: 96.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-35a1f9500d8779b299cdfa4041ed0d73dc21c195ca7916be1e0ee18079a43d66.css?body=1" for ::1 at 2017-01-11 17:19:53 -0800
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 17:19:53 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 17:20:06 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 88ms (Views: 88.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-08ab6b8f9e92f2999eba77934c687e4a451419cac5426dc94739387054aeac32.css?body=1" for ::1 at 2017-01-11 17:20:06 -0800
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 17:20:07 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 17:20:25 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 93ms (Views: 92.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-142f16128b6ea52fb67fe5f0e7d110baf1016d3536ef8d0241f8d2e8b11324d4.css?body=1" for ::1 at 2017-01-11 17:20:25 -0800
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 17:20:26 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 17:20:33 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 90ms (Views: 89.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-0d6ace933c91f68d61d6ba34f5d4586382194749e715dcdcf028b9efeec791e5.css?body=1" for ::1 at 2017-01-11 17:20:33 -0800
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 17:20:34 -0800
+
+
+Started POST "/api/session" for ::1 at 2017-01-11 17:20:39 -0800
+Processing by Api::SessionsController#create as JSON
+  Parameters: {"user"=>{"user_name"=>"", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.7ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."user_name" = $1 LIMIT 1[0m  [["user_name", ""]]
+Completed 401 Unauthorized in 4ms (Views: 0.3ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 17:23:11 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 17:24:31 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 21ms (Views: 21.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 17:24:31 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 17:24:51 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 78ms (Views: 77.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-ce566590f42334a2e13c7de6e176135cfbf6676ab343b83a59e387a24d474282.css?body=1" for ::1 at 2017-01-11 17:24:51 -0800
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 17:24:51 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 17:25:39 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 70ms (Views: 70.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-877bb7918a1ecfb79f20ac00b5b6408d11b8549a7085313b0aa6e96f40eab5c9.css?body=1" for ::1 at 2017-01-11 17:25:39 -0800
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 17:25:40 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 17:25:51 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 75ms (Views: 74.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-4a77195f3b3d042a24a26a05948a8c28e649122c2201a58fd4e4b040e43e5d74.css?body=1" for ::1 at 2017-01-11 17:25:51 -0800
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 17:25:51 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 17:26:00 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 64ms (Views: 64.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-7ef3401abcbb4251a2fe78782b4125871e08ae15e32d5b18da7aad557d25f097.css?body=1" for ::1 at 2017-01-11 17:26:00 -0800
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 17:26:00 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 17:26:17 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 61ms (Views: 60.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-756c074f3ac46a7b759b740fc974535f16c11c71e0637b0fab144768a5b6ddcb.css?body=1" for ::1 at 2017-01-11 17:26:17 -0800
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 17:26:18 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 17:26:19 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 20ms (Views: 20.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 17:26:19 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 17:26:46 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 61ms (Views: 60.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 17:26:46 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 17:27:18 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 61ms (Views: 60.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e3f89689292ba07e6d515848e8d02d29fa40cb8f1a76bc6d9e4fe70700e27f4c.css?body=1" for ::1 at 2017-01-11 17:27:18 -0800
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 17:27:18 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 17:27:41 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 68ms (Views: 67.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-d356bd0f20759b9477a1ba615c307c71dadf4ace117c778f309e790470a52848.css?body=1" for ::1 at 2017-01-11 17:27:41 -0800
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 17:27:41 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 17:27:43 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 14ms (Views: 13.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 17:27:43 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 17:28:41 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 18ms (Views: 17.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 17:28:42 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 17:29:07 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 71ms (Views: 71.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-b14db88e73e4d9a8d8dc524dc34e1f51bddeedf6eb59054b5edd582e6d6be93b.css?body=1" for ::1 at 2017-01-11 17:29:07 -0800
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 17:29:07 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 17:29:57 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 80ms (Views: 80.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-c86eb9e97905af68c86cdd7d42cafed06aa1020c1f5fe52a76e8196b8dc740a4.css?body=1" for ::1 at 2017-01-11 17:29:57 -0800
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 17:29:57 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 17:29:58 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 33ms (Views: 32.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 17:29:58 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 17:30:10 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 60ms (Views: 59.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-d9164c873082ad2e8b30069b47f519623845d7480def6169295d375b6deb6b7e.css?body=1" for ::1 at 2017-01-11 17:30:10 -0800
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 17:30:10 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 17:30:21 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 68ms (Views: 67.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-c6c4b44b8f091211b0441f8d7357fce11173b3ef3b60125282e6528d97236772.css?body=1" for ::1 at 2017-01-11 17:30:21 -0800
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 17:30:22 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 17:30:29 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 20ms (Views: 19.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 17:30:30 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 17:30:48 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 67ms (Views: 67.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-9f069fa5c5abb7ed33cb5d978e723f19862d6c309730cf025206b2c4ba12d507.css?body=1" for ::1 at 2017-01-11 17:30:48 -0800
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 17:30:48 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 17:31:22 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 71ms (Views: 70.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e9a0af24519bda61220bfe4f888d2e8a677501f995a72758573419b6f57f6cda.css?body=1" for ::1 at 2017-01-11 17:31:22 -0800
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 17:31:23 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 17:31:24 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 16ms (Views: 16.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 17:31:24 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 17:31:35 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 77ms (Views: 76.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-abb8c019e6790a241a509d5fe348424c60274f0679e4b548166261c2de9105f4.css?body=1" for ::1 at 2017-01-11 17:31:35 -0800
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 17:31:35 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 17:35:47 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.4ms)
+Completed 500 Internal Server Error in 25ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (Invalid CSS after "$basic: ": expected expression (e.g. 1px, bold), was ": 'Work Sans', ..."):
+    2: <html>
+    3: <head>
+    4:   <title>Hd</title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all' %>
+    6:   <%= javascript_include_tag 'application' %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/assets/stylesheets/base/fonts.scss:2
+  app/assets/stylesheets/application.scss:21
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__1010909522419245071_70272260660340'
+
+
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.3ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.9ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (66.7ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (53.7ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (118.6ms)
+
+
+Started GET "/" for ::1 at 2017-01-11 17:36:04 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.4ms)
+Completed 500 Internal Server Error in 49ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (Invalid CSS after "$basic: ": expected expression (e.g. 1px, bold), was ": 'Work Sans', ..."):
+    2: <html>
+    3: <head>
+    4:   <title>Hd</title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all' %>
+    6:   <%= javascript_include_tag 'application' %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/assets/stylesheets/base/fonts.scss:2
+  app/assets/stylesheets/application.scss:22
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__1010909522419245071_70272260660340'
+
+
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.2ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.3ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (66.1ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (53.6ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (119.4ms)
+
+
+Started GET "/" for ::1 at 2017-01-11 17:36:06 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.4ms)
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (Invalid CSS after "$basic: ": expected expression (e.g. 1px, bold), was ": 'Work Sans', ..."):
+    2: <html>
+    3: <head>
+    4:   <title>Hd</title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all' %>
+    6:   <%= javascript_include_tag 'application' %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/assets/stylesheets/base/fonts.scss:2
+  app/assets/stylesheets/application.scss:22
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__1010909522419245071_70272260660340'
+
+
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.8ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.2ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (64.9ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (57.4ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (123.8ms)
+
+
+Started GET "/" for ::1 at 2017-01-11 17:36:29 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.5ms)
+Completed 500 Internal Server Error in 16ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (Invalid CSS after "$basic: ": expected expression (e.g. 1px, bold), was ": 'Work Sans', ..."):
+    2: <html>
+    3: <head>
+    4:   <title>Hd</title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all' %>
+    6:   <%= javascript_include_tag 'application' %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/assets/stylesheets/base/fonts.scss:2
+  app/assets/stylesheets/application.scss:22
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__1010909522419245071_70272260660340'
+
+
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.6ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.3ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (68.0ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.7ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (55.7ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (121.7ms)
+
+
+Started GET "/" for ::1 at 2017-01-11 17:36:46 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 63ms (Views: 62.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-52ab59229539c9bad8341d18a2078bd4686e07686ec96564b3b606f637fa7544.css?body=1" for ::1 at 2017-01-11 17:36:46 -0800
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 17:36:46 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 17:37:34 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 61ms (Views: 60.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-3b7f60612fa6c0340f5f8ee6adb85c2a47ee3ef9dcc5f25ad5bc308c62c4c703.css?body=1" for ::1 at 2017-01-11 17:37:34 -0800
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 17:37:34 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 17:37:35 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 14ms (Views: 14.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 17:37:35 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 17:38:07 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.5ms)
+Completed 500 Internal Server Error in 36ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (Invalid CSS after "  font-family: ": expected expression (e.g. 1px, bold), was ": $basic;"):
+    2: <html>
+    3: <head>
+    4:   <title>Hd</title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all' %>
+    6:   <%= javascript_include_tag 'application' %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/assets/stylesheets/components/_session_form.scss:28
+  app/assets/stylesheets/components:1
+  app/assets/stylesheets/application.scss:29
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__1010909522419245071_70272260660340'
+
+
+
+
+Started GET "/" for ::1 at 2017-01-11 17:38:25 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 54ms (Views: 53.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-7d58812e3204197d3fd6ff7f2516208cd6f624a9d15b26a4953a44b483a81c51.css?body=1" for ::1 at 2017-01-11 17:38:25 -0800
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 17:38:25 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 17:38:53 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 55ms (Views: 54.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e9face0b6d3a138b02bfce65d42711b924f556f0840b0a8bad1354d9e0de57e3.css?body=1" for ::1 at 2017-01-11 17:38:53 -0800
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 17:38:53 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 17:39:15 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 58ms (Views: 57.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-955c7526eca7672901b053566203ee325827172e42050c9bdddf3d92fdf138a4.css?body=1" for ::1 at 2017-01-11 17:39:15 -0800
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 17:39:15 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 17:39:49 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 70ms (Views: 69.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-a71f77df339a286e338835f4b43e3a4c0df6c8449ee97514fe4e56635706578e.css?body=1" for ::1 at 2017-01-11 17:39:49 -0800
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 17:39:49 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 17:42:07 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 59ms (Views: 59.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-14002643c63d8b1d5a42c2ad3945a14c701280b90971ab74383c18a3d7f53bcb.css?body=1" for ::1 at 2017-01-11 17:42:07 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 17:44:07 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 71ms (Views: 70.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-5ad134b168b1cbe0012eff4be2cd6029ad6c9ecaa991e062f7ca66d67d8339d1.css?body=1" for ::1 at 2017-01-11 17:44:07 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 17:44:29 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 58ms (Views: 58.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-7d77bbaf75dbfde65374ccb75d119421894fb7f084b359d82ee4a16cc9f30ea6.css?body=1" for ::1 at 2017-01-11 17:44:29 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 17:44:55 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 64ms (Views: 64.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-4e84f0161132c9d453bbd19c834580cd5f45a62368009270a05f4dcdefdb76ec.css?body=1" for ::1 at 2017-01-11 17:44:55 -0800
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 17:45:26 -0800
+
+
+Started POST "/api/session" for ::1 at 2017-01-11 17:45:35 -0800
+Processing by Api::SessionsController#create as JSON
+  Parameters: {"user"=>{"user_name"=>"", "password"=>"[FILTERED]"}}
+  [1m[35mUser Load (0.7ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."user_name" = $1 LIMIT 1  [["user_name", ""]]
+Completed 401 Unauthorized in 2ms (Views: 0.1ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for ::1 at 2017-01-11 17:46:36 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 18ms (Views: 18.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 17:46:37 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 17:47:23 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 69ms (Views: 68.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-909bce0b1d134787e657db819e96314c1662ba25d03b8295fe8880d487c19f7e.css?body=1" for ::1 at 2017-01-11 17:47:23 -0800
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 17:47:23 -0800
+
+
+Started GET "/assets/application.self-909bce0b1d134787e657db819e96314c1662ba25d03b8295fe8880d487c19f7e.css?body=1" for ::1 at 2017-01-11 21:03:37 -0800
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 21:03:37 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 21:05:58 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 444ms (Views: 442.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-cf8621c806087e792966d1f4f9f28b4bf7ac41858a3d3ecbc5f5f315b1f76528.css?body=1" for ::1 at 2017-01-11 21:05:59 -0800
+
+
+Started GET "/assets/bundle.self-3ec2c9c0ce7490136044c5431702b07b1423b648105e5cd358706be0b5874958.js?body=1" for ::1 at 2017-01-11 21:05:59 -0800
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 21:05:59 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 21:06:34 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 59ms (Views: 59.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-7dce8519b3154dac93cad4db3020060a660e6f91e44cc9b46fe1c63f26ce1cd6.css?body=1" for ::1 at 2017-01-11 21:06:34 -0800
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 21:06:34 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 21:07:35 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.5ms)
+Completed 500 Internal Server Error in 34ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (Invalid CSS after "...mage: image(bee": expected ")", was ".jpg);"):
+    2: <html>
+    3: <head>
+    4:   <title>Hd</title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all' %>
+    6:   <%= javascript_include_tag 'application' %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/assets/stylesheets/components/_splash.scss:2
+  app/assets/stylesheets/components:2
+  app/assets/stylesheets/application.scss:29
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__1010909522419245071_70272260660340'
+
+
+
+
+Started GET "/" for ::1 at 2017-01-11 21:12:24 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 154ms (Views: 152.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-df89155d36b64a9642bac53b0f8b121dfddbf2e712c5a061aecae65cd72b1337.css?body=1" for ::1 at 2017-01-11 21:12:24 -0800
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 21:12:25 -0800
+
+
+Started GET "/assets/bee.jpg" for ::1 at 2017-01-11 21:12:25 -0800
+
+ActionController::RoutingError (No route matches [GET] "/assets/bee.jpg"):
+  actionpack (4.2.7.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.7.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.7.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.7.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.7.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.7.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.7.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.7.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.7.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.5) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.5) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.7.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.7.1) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.5) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.7.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.7.1) lib/rails/application.rb:165:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  rack (1.6.5) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.5) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.4ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.4ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (33.0ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.5ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (133.2ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (60.4ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.0ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (134.0ms)
+
+
+Started GET "/" for ::1 at 2017-01-11 21:12:27 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 18ms (Views: 18.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 21:12:27 -0800
+
+
+Started GET "/assets/bee.jpg" for ::1 at 2017-01-11 21:12:27 -0800
+
+ActionController::RoutingError (No route matches [GET] "/assets/bee.jpg"):
+  actionpack (4.2.7.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.7.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.7.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.7.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.7.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.7.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.7.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.7.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.7.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.5) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.5) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.7.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.7.1) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.5) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.7.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.7.1) lib/rails/application.rb:165:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  rack (1.6.5) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.5) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.0ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (3.1ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.9ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (109.5ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (52.5ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.9ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (127.9ms)
+
+
+Started GET "/" for ::1 at 2017-01-11 21:12:54 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 73ms (Views: 72.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-342b518be0730452ae25abb588d402700032fe0fa7f5128938164a2bd2b63060.css?body=1" for ::1 at 2017-01-11 21:12:54 -0800
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 21:12:54 -0800
+
+
+Started GET "/images/bee.jpg" for ::1 at 2017-01-11 21:12:54 -0800
+
+ActionController::RoutingError (No route matches [GET] "/images/bee.jpg"):
+  actionpack (4.2.7.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.7.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.7.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.7.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.7.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.7.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.7.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.7.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.7.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.5) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.5) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.7.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.7.1) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.5) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.7.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.7.1) lib/rails/application.rb:165:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  rack (1.6.5) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.5) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.0ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.3ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (88.1ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.7ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.7ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (66.3ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (180.1ms)
+
+
+Started GET "/" for ::1 at 2017-01-11 21:12:55 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 17ms (Views: 16.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 21:12:55 -0800
+
+
+Started GET "/images/bee.jpg" for ::1 at 2017-01-11 21:12:55 -0800
+
+ActionController::RoutingError (No route matches [GET] "/images/bee.jpg"):
+  actionpack (4.2.7.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.7.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.7.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.7.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.7.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.7.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.7.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.7.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.7.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.5) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.5) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.7.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.7.1) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.5) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.7.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.7.1) lib/rails/application.rb:165:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  rack (1.6.5) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.5) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.9ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.4ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (13.7ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (123.9ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (54.5ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/WDS/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (118.6ms)
+
+
+Started GET "/" for ::1 at 2017-01-11 21:15:40 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 241ms (Views: 240.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-58e70ec1f69618d5d21637f13560a9fd709ff2ab3c7511bba0b2c786a9b46fcf.css?body=1" for ::1 at 2017-01-11 21:15:41 -0800
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 21:15:41 -0800
+
+
+Started GET "/assets/bee.jpg" for ::1 at 2017-01-11 21:15:41 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 21:24:25 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 246ms (Views: 244.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-c4845a607782e917e9639b3cc282ab7f110097dc7a6bdd414a055ef138a6aeca.css?body=1" for ::1 at 2017-01-11 21:24:25 -0800
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 21:24:26 -0800
+
+
+Started GET "/assets/bee.jpg" for ::1 at 2017-01-11 21:24:26 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 21:24:27 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 18ms (Views: 17.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 21:24:28 -0800
+
+
+Started GET "/assets/bee.jpg" for ::1 at 2017-01-11 21:24:28 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 21:24:43 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 67ms (Views: 66.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-a02014f37f499af38d7c9d5240ef0b7ac3730d03aab28bdae757ef4212601b97.css?body=1" for ::1 at 2017-01-11 21:24:43 -0800
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 21:24:43 -0800
+
+
+Started GET "/assets/bee.jpg" for ::1 at 2017-01-11 21:24:43 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 21:24:44 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 16ms (Views: 16.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 21:24:44 -0800
+
+
+Started GET "/assets/bee.jpg" for ::1 at 2017-01-11 21:24:44 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 21:25:21 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 22ms (Views: 21.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 21:25:21 -0800
+
+
+Started GET "/assets/bee.jpg" for ::1 at 2017-01-11 21:25:21 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 21:26:07 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 19ms (Views: 19.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 21:26:07 -0800
+
+
+Started GET "/assets/bee.jpg" for ::1 at 2017-01-11 21:26:07 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 21:26:08 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 18ms (Views: 18.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 21:26:08 -0800
+
+
+Started GET "/assets/bee.jpg" for ::1 at 2017-01-11 21:26:08 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 21:27:55 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 93ms (Views: 92.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-93838af3e4d370ad8118e1aabf82d8b1a79afcb102557faf7de16d3967795264.css?body=1" for ::1 at 2017-01-11 21:27:55 -0800
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 21:27:55 -0800
+
+
+Started GET "/assets/bee.jpg" for ::1 at 2017-01-11 21:27:55 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 21:28:05 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 61ms (Views: 60.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-75483c4b921f25ee61e28552237f0da6d2097f9c9ab01fb969831c9a131fcc8c.css?body=1" for ::1 at 2017-01-11 21:28:05 -0800
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 21:28:05 -0800
+
+
+Started GET "/assets/bee.jpg" for ::1 at 2017-01-11 21:28:05 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 21:28:54 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 25ms (Views: 24.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 21:28:55 -0800
+
+
+Started GET "/assets/bee.jpg" for ::1 at 2017-01-11 21:28:55 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 21:28:56 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 338ms (Views: 337.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.self-85eac5fd48151845776f8d29f515d2e4a1d6cf1d8186702d4ddc05f1bee6c792.js?body=1" for ::1 at 2017-01-11 21:28:56 -0800
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 21:28:57 -0800
+
+
+Started GET "/assets/bee.jpg" for ::1 at 2017-01-11 21:28:57 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 21:30:56 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 465ms (Views: 465.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-9905c09f77cfdd1b57fa98e765b18cfdb0a1e0f7eedeace7a49d46bd25a95636.css?body=1" for ::1 at 2017-01-11 21:30:57 -0800
+
+
+Started GET "/assets/bundle.self-6dab7deb6e66e5c1ac5c2e8e9306011609b560f03afade2719078afae0ba4f78.js?body=1" for ::1 at 2017-01-11 21:30:57 -0800
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 21:30:57 -0800
+
+
+Started GET "/assets/bee.jpg" for ::1 at 2017-01-11 21:30:57 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 21:32:59 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 85ms (Views: 84.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-dbcbca006acda7b15bfa2a8a3f0c09e96a72302dc753dee6c433458941c9196a.css?body=1" for ::1 at 2017-01-11 21:32:59 -0800
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 21:33:00 -0800
+
+
+Started GET "/assets/bee.jpg" for ::1 at 2017-01-11 21:33:00 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 21:33:21 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 74ms (Views: 74.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-0f35fcf1d46720ab53dd2b5c207d0e71cdd3a4ffb49f0cd25763a122a9cce843.css?body=1" for ::1 at 2017-01-11 21:33:21 -0800
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 21:33:22 -0800
+
+
+Started GET "/assets/bee.jpg" for ::1 at 2017-01-11 21:33:22 -0800
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 21:33:44 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 21:34:59 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 90ms (Views: 89.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-75de0fea6816e2f7ae4762a8709391dbb4ac0709305d7d90d71ded2cba1d0661.css?body=1" for ::1 at 2017-01-11 21:34:59 -0800
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 21:34:59 -0800
+
+
+Started GET "/assets/bee.jpg" for ::1 at 2017-01-11 21:34:59 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 21:36:03 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 79ms (Views: 79.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-a0d8e8f799cbf71b85e5cf16fd6e3a667cfcfa444f564fa653c7b4dc8664352d.css?body=1" for ::1 at 2017-01-11 21:36:03 -0800
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 21:36:04 -0800
+
+
+Started GET "/assets/bee.jpg" for ::1 at 2017-01-11 21:36:04 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 21:36:26 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 86ms (Views: 85.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-3ed38ba9d37e7e372edbbe68fc0c9f6cdd115c5b43f376c1ed9e083dca9b421c.css?body=1" for ::1 at 2017-01-11 21:36:27 -0800
+
+
+Started GET "/assets/bee.jpg" for ::1 at 2017-01-11 21:36:27 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 21:38:25 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 293ms (Views: 292.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.self-68b6cdb90760266e5249c1de49991a97399f7ef69f5419e22645c114679ba2ed.js?body=1" for ::1 at 2017-01-11 21:38:25 -0800
+
+
+Started GET "/assets/bee.jpg" for ::1 at 2017-01-11 21:38:25 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 21:38:45 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 65ms (Views: 64.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-51b8b9af27c964aa72b1a6ad7ba43232cf652ba340eb9aa027d0381d83805bcd.css?body=1" for ::1 at 2017-01-11 21:38:45 -0800
+
+
+Started GET "/assets/bee.jpg" for ::1 at 2017-01-11 21:38:45 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 21:40:06 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 173ms (Views: 172.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-90aba15681ecd85355ea0d0e4a98aed6b2d7d4df9f5e88166be1638f09c4190d.css?body=1" for ::1 at 2017-01-11 21:40:06 -0800
+
+
+Started GET "/assets/bee.jpg" for ::1 at 2017-01-11 21:40:06 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 21:41:13 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 293ms (Views: 293.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.self-a4078c3003eb956f89f8b35ba56f9f50d4060db4548ec3743cb5a37917cca910.js?body=1" for ::1 at 2017-01-11 21:41:14 -0800
+
+
+Started GET "/assets/bee.jpg" for ::1 at 2017-01-11 21:41:14 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 21:41:44 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 18ms (Views: 17.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bee.jpg" for ::1 at 2017-01-11 21:41:45 -0800
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 21:41:50 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 21:43:18 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 110ms (Views: 109.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-6d9ed7ee0c8c336991462cb6b712ba58b42eab90dc141b9a061203db8b745cea.css?body=1" for ::1 at 2017-01-11 21:43:18 -0800
+
+
+Started GET "/assets/bee.jpg" for ::1 at 2017-01-11 21:43:19 -0800
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 21:43:19 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 21:43:23 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 283ms (Views: 282.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.self-abb3adb0c7ebbdc8540fb177de64a9c981d23fc25ed2a3e670cfb62e11a682e9.js?body=1" for ::1 at 2017-01-11 21:43:24 -0800
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 21:43:24 -0800
+
+
+Started GET "/assets/bee.jpg" for ::1 at 2017-01-11 21:43:24 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 21:44:08 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 63ms (Views: 63.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-6657b96dc462e9c4528cb99696d815a9fa1df97f1f7643636f1aefffb68d05c5.css?body=1" for ::1 at 2017-01-11 21:44:08 -0800
+
+
+Started GET "/assets/bee.jpg" for ::1 at 2017-01-11 21:44:08 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 21:44:09 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 14ms (Views: 14.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bee.jpg" for ::1 at 2017-01-11 21:44:09 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 21:46:30 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 72ms (Views: 71.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-a27e64a55b36a641769efc7c155ab7e283af6775473cbb74b58e482002c8eb81.css?body=1" for ::1 at 2017-01-11 21:46:30 -0800
+
+
+Started GET "/assets/bee.jpg" for ::1 at 2017-01-11 21:46:30 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 21:46:31 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 15ms (Views: 15.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bee.jpg" for ::1 at 2017-01-11 21:46:31 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 21:46:32 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 15ms (Views: 14.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bee.jpg" for ::1 at 2017-01-11 21:46:32 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 21:46:53 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 70ms (Views: 69.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-8ef5d0e8edd1ddfb913450e7f279893a8f50cc4bf83f62737c3b689d4d436d25.css?body=1" for ::1 at 2017-01-11 21:46:53 -0800
+
+
+Started GET "/assets/bee.jpg" for ::1 at 2017-01-11 21:46:53 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 21:47:11 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 79ms (Views: 79.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-c82186ff6eaee835358f13bd09300da3dd09b01c223796bee0d537eacb369acf.css?body=1" for ::1 at 2017-01-11 21:47:11 -0800
+
+
+Started GET "/assets/bee.jpg" for ::1 at 2017-01-11 21:47:11 -0800
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 21:48:09 -0800
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 21:50:16 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 21:52:20 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 144ms (Views: 141.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-d88c4115fa357f9ad98ffe9726613cc2e0f60a410e109559e1a6728bd4bfb864.css?body=1" for ::1 at 2017-01-11 21:52:20 -0800
+
+
+Started GET "/assets/bee.jpg" for ::1 at 2017-01-11 21:52:20 -0800
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 21:52:20 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 21:52:21 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 18ms (Views: 18.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 21:52:21 -0800
+
+
+Started GET "/assets/bee.jpg" for ::1 at 2017-01-11 21:52:22 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 21:52:24 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 25ms (Views: 24.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 21:52:24 -0800
+
+
+Started GET "/assets/bee.jpg" for ::1 at 2017-01-11 21:52:25 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 21:53:04 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 36ms (Views: 35.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 21:53:04 -0800
+
+
+Started GET "/assets/bee.jpg" for ::1 at 2017-01-11 21:53:04 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 21:53:06 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 18ms (Views: 18.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 21:53:06 -0800
+
+
+Started GET "/assets/bee.jpg" for ::1 at 2017-01-11 21:53:06 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 21:53:08 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 23ms (Views: 22.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 21:53:08 -0800
+
+
+Started GET "/assets/bee.jpg" for ::1 at 2017-01-11 21:53:08 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 21:53:32 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 84ms (Views: 84.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-a108f387af76478d41163321fc565b9e85f5b90f712592ed0a4dfd0547019123.css?body=1" for ::1 at 2017-01-11 21:53:32 -0800
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 21:53:32 -0800
+
+
+Started GET "/assets/bee.jpg" for ::1 at 2017-01-11 21:53:32 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 21:53:33 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 16ms (Views: 15.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 21:53:33 -0800
+
+
+Started GET "/assets/bee.jpg" for ::1 at 2017-01-11 21:53:33 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 21:53:34 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 19ms (Views: 18.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 21:53:34 -0800
+
+
+Started GET "/assets/bee.jpg" for ::1 at 2017-01-11 21:53:34 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 21:53:35 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 24ms (Views: 23.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 21:53:35 -0800
+
+
+Started GET "/assets/bee.jpg" for ::1 at 2017-01-11 21:53:35 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 21:55:46 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 33ms (Views: 32.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 21:55:46 -0800
+
+
+Started GET "/assets/bee.jpg" for ::1 at 2017-01-11 21:55:46 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 21:55:47 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 20ms (Views: 20.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 21:55:47 -0800
+
+
+Started GET "/assets/bee.jpg" for ::1 at 2017-01-11 21:55:47 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 21:55:48 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 17ms (Views: 17.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 21:55:48 -0800
+
+
+Started GET "/assets/bee.jpg" for ::1 at 2017-01-11 21:55:48 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 21:56:04 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 66ms (Views: 65.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-b919dfb2545969b1655091090471f57a7578577f19a6ff2023e062e27a0fa9db.css?body=1" for ::1 at 2017-01-11 21:56:04 -0800
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 21:56:04 -0800
+
+
+Started GET "/assets/bee.jpg" for ::1 at 2017-01-11 21:56:04 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 21:56:06 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 17ms (Views: 17.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 21:56:06 -0800
+
+
+Started GET "/assets/bee.jpg" for ::1 at 2017-01-11 21:56:06 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 21:56:07 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 18ms (Views: 17.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 21:56:07 -0800
+
+
+Started GET "/assets/bee.jpg" for ::1 at 2017-01-11 21:56:07 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 21:56:25 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 106ms (Views: 105.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-a3ccc6a6d4c82cf47ab6cb6c64b78894ffa3337fe5592bf2477d157664d06eef.css?body=1" for ::1 at 2017-01-11 21:56:25 -0800
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 21:56:25 -0800
+
+
+Started GET "/assets/bee.jpg" for ::1 at 2017-01-11 21:56:25 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 21:56:25 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 43ms (Views: 42.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 21:56:26 -0800
+
+
+Started GET "/assets/bee.jpg" for ::1 at 2017-01-11 21:56:26 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 21:56:26 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 29ms (Views: 28.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bee.jpg" for ::1 at 2017-01-11 21:56:26 -0800
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 21:56:26 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 21:56:27 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 140ms (Views: 139.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 21:56:27 -0800
+
+
+Started GET "/assets/bee.jpg" for ::1 at 2017-01-11 21:56:27 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 21:57:41 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 25ms (Views: 24.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bee.jpg" for ::1 at 2017-01-11 21:57:41 -0800
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 21:57:41 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 21:57:42 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 340ms (Views: 340.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.self-3c4dbe46027d5817454e3341aefb3e2f1d768d880d793176b7ec962c2efd3ebd.js?body=1" for ::1 at 2017-01-11 21:57:42 -0800
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 21:57:42 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 21:57:44 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 14ms (Views: 14.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 21:57:45 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 21:57:47 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 23ms (Views: 22.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 21:57:47 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 21:58:01 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 17ms (Views: 17.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 21:58:01 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 21:58:10 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 14ms (Views: 13.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 21:58:11 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 21:58:12 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 16ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 21:58:12 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 21:58:29 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 13ms (Views: 12.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 21:58:29 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 21:58:31 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 323ms (Views: 323.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.self-f6295ec6a9e836751f4437e9e94d7650fd923dc18b098ee45e19c67e1efc9ab9.js?body=1" for ::1 at 2017-01-11 21:58:31 -0800
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 21:58:31 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 21:59:16 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 101ms (Views: 100.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 21:59:16 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 21:59:17 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 22ms (Views: 22.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 21:59:17 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 21:59:23 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 18ms (Views: 18.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-01-11 22:00:27 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 303ms (Views: 303.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.self-7976b71427bde51a6b82095172b787b525b2cd394c1ff4008fb11611574d8678.js?body=1" for ::1 at 2017-01-11 22:00:27 -0800
+
+
+Started GET "/assets/bee.jpg" for ::1 at 2017-01-11 22:00:28 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 22:00:41 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 23ms (Views: 22.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bee.jpg" for ::1 at 2017-01-11 22:00:41 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 22:00:44 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 16ms (Views: 16.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bee.jpg" for ::1 at 2017-01-11 22:00:44 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 22:01:06 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 312ms (Views: 311.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.self-f432ab95bd0d6f0585fb973935ee1f3dab7d34a928ea7a6b992de0a927b68d28.js?body=1" for ::1 at 2017-01-11 22:01:06 -0800
+
+
+Started GET "/assets/bee.jpg" for ::1 at 2017-01-11 22:01:07 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 22:01:38 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 93ms (Views: 93.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bee.jpg" for ::1 at 2017-01-11 22:01:39 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 22:03:06 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 319ms (Views: 319.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.self-65fb9179f59cafbd03b66e3a132b81692dbbe55592724515af880b06c51db2f9.js?body=1" for ::1 at 2017-01-11 22:03:06 -0800
+
+
+Started GET "/assets/bee.jpg" for ::1 at 2017-01-11 22:03:06 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 22:03:07 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 19ms (Views: 18.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bee.jpg" for ::1 at 2017-01-11 22:03:07 -0800
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 22:03:13 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 22:04:40 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 22ms (Views: 22.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 22:04:40 -0800
+
+
+Started GET "/assets/bee.jpg" for ::1 at 2017-01-11 22:04:40 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 22:05:36 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 461ms (Views: 461.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.self-8c74115b9430399ce4c925b39ffc8a72770e4686d8ee6cd57bb80a33fd8aa393.js?body=1" for ::1 at 2017-01-11 22:05:36 -0800
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 22:05:37 -0800
+
+
+Started GET "/assets/bee.jpg" for ::1 at 2017-01-11 22:05:37 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 22:05:38 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 12ms (Views: 11.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2017-01-11 22:05:38 -0800
+
+
+Started GET "/assets/bee.jpg" for ::1 at 2017-01-11 22:05:38 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 22:05:49 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 14ms (Views: 14.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bee.jpg" for ::1 at 2017-01-11 22:05:49 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 22:05:50 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 16ms (Views: 15.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bee.jpg" for ::1 at 2017-01-11 22:05:50 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 22:05:51 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 14ms (Views: 13.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bee.jpg" for ::1 at 2017-01-11 22:05:51 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 22:05:51 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 14ms (Views: 13.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bee.jpg" for ::1 at 2017-01-11 22:05:51 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 22:06:50 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 394ms (Views: 393.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.self-d75b318b6638706df209234beffbabfb90d70106705f9bc8c87df001026cbc64.js?body=1" for ::1 at 2017-01-11 22:06:50 -0800
+
+
+Started GET "/assets/bee.jpg" for ::1 at 2017-01-11 22:06:50 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 22:06:51 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 16ms (Views: 15.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bee.jpg" for ::1 at 2017-01-11 22:06:51 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 22:07:20 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 19ms (Views: 18.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bee.jpg" for ::1 at 2017-01-11 22:07:20 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 22:07:21 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 327ms (Views: 326.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.self-b64cf2520d8ab5a7aa28fdbd2e1a41f4c142f690e7b34ba193a9fd9e22efcabb.js?body=1" for ::1 at 2017-01-11 22:07:22 -0800
+
+
+Started GET "/assets/bee.jpg" for ::1 at 2017-01-11 22:07:22 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 22:07:24 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 18ms (Views: 17.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bee.jpg" for ::1 at 2017-01-11 22:07:24 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 22:07:34 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 24ms (Views: 23.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bee.jpg" for ::1 at 2017-01-11 22:07:34 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 22:07:35 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 16ms (Views: 16.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bee.jpg" for ::1 at 2017-01-11 22:07:35 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 22:07:35 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 13ms (Views: 13.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bee.jpg" for ::1 at 2017-01-11 22:07:36 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 22:07:36 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 14ms (Views: 13.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bee.jpg" for ::1 at 2017-01-11 22:07:36 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 22:08:41 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 338ms (Views: 337.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-748c226bcf8ad8bab344f063921042afffe49a5f14756a52d654bc10205b57af.css?body=1" for ::1 at 2017-01-11 22:08:41 -0800
+
+
+Started GET "/assets/bundle.self-f917dd5e5665d7e17f9d6ff721a95f77cbbf1341a319f71ee281e875034b4613.js?body=1" for ::1 at 2017-01-11 22:08:41 -0800
+
+
+Started GET "/assets/bee.jpg" for ::1 at 2017-01-11 22:08:41 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 22:09:02 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 17ms (Views: 16.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bee.jpg" for ::1 at 2017-01-11 22:09:03 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 22:09:03 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 14ms (Views: 14.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bee.jpg" for ::1 at 2017-01-11 22:09:04 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 22:09:05 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 15ms (Views: 14.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bee.jpg" for ::1 at 2017-01-11 22:09:05 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 22:09:05 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 15ms (Views: 15.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bee.jpg" for ::1 at 2017-01-11 22:09:06 -0800
+
+
+Started GET "/" for ::1 at 2017-01-11 22:09:26 -0800
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 70ms (Views: 69.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-859a2e8f04cc6e96be5db08360b957aa0b8050382b479a10d3acfe60bfa368af.css?body=1" for ::1 at 2017-01-11 22:09:26 -0800
+
+
+Started GET "/assets/bee.jpg" for ::1 at 2017-01-11 22:09:26 -0800

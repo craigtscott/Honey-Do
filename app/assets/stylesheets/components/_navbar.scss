@@ -1,0 +1,13 @@
+.login-signup {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 20px;
+  background-color: white;
+  height: 60px;
+}
+
+.login:hover {
+  background-color: red;
+  color: red;
+  border: 2px solid black;
+}

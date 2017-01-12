@@ -1,10 +1,15 @@
 import React from 'react';
-import GreetingContainer from './greeting/greeting_container';
+import GreetingContainer from './navbar/navbar_container';
 
 const app = ({ children }) => (
-  <div>
-    <h1>Honey Do 1.0</h1>
+  <div className="splash">
     <GreetingContainer />
+    <div className="logo">
+      <h1>Honey Do</h1>
+    </div>
+    <div className="logo2">
+      <h1>A ToDo<br/>list for the busy bee</h1>
+    </div>
     { children }
   </div>
 );

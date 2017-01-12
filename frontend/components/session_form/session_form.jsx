@@ -60,26 +60,28 @@ class sessionForm extends React.Component {
     }
 
     return(
-      <div className="login-form-container">
-        <form onSubmit={this.handleSubmit} className="login-form-box">
-          { fName }
-          <br/>
-          { lName }
-          <br/>
-          <input type="text"
-                  value={this.state.user_name}
-                  onChange={this.update("user_name")}
-                  className="login-input"
-                  placeholder="Username" />
-          <br/>
-          <input type="password"
-                  value={this.state.password}
-                  onChange={this.update("password")}
-                  className="login-input"
-                  placeholder="Password"/>
-          <br/>
-          <input type="submit" value={submitText} />
-        </form>
+      <div className="login-page">
+        <div className="login-form-container">
+          <form onSubmit={this.handleSubmit} className="login-form-box">
+            { fName }
+            <br/>
+            { lName }
+            <br/>
+            <input type="text"
+                    value={this.state.user_name}
+                    onChange={this.update("user_name")}
+                    className="login-input"
+                    placeholder="Username" />
+            <br/>
+            <input type="password"
+                    value={this.state.password}
+                    onChange={this.update("password")}
+                    className="login-input"
+                    placeholder="Password"/>
+            <br/>
+            <input type="submit" className="login-button" value={submitText} />
+          </form>
+        </div>
       </div>
     );
   }

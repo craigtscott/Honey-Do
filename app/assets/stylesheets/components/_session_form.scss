@@ -1,0 +1,48 @@
+
+.login-page {
+  font: $basic;
+  display: flex;
+  height: 100vh;
+  min-height: 100vh;
+  justify-content: flex-end;
+
+}
+.login-form-container {
+  display: flex;
+  flex-direction: column;
+  padding-left: 40px;
+  justify-content: space-around;
+  width: 50%;
+  background-color: white;
+}
+
+.login-form-box {
+  display: flex;
+  flex-direction: column;
+
+  width: 325px;
+
+}
+
+.login-input {
+  font-family: $basic;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 3px solid black;
+  font-size: 24px;
+}
+
+.login-button {
+  font-family: $basic;
+  display: flex;
+  background-color: $dark-green;
+  height: 34px;
+  color: $yellow;
+  border: 3px solid black;
+  justify-content: center;
+  font-size: 24px;
+}
+
+.login-button:hover {
+  background-color: $light-green;
+}
