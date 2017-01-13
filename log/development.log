@@ -34554,3 +34554,20 @@ DEPRECATION WARNING: `#reset_session_token!` is deprecated and will be removed o
   Rendered api/users/_user.json.jbuilder (0.2ms)
   Rendered api/users/show.json.jbuilder (3.0ms)
 Completed 200 OK in 14ms (Views: 11.4ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/api/session" for ::1 at 2017-01-12 16:45:03 -0800
+Processing by Api::SessionsController#create as JSON
+  Parameters: {"user"=>{"user_name"=>"demo", "password"=>"[FILTERED]"}}
+  [1m[35mUser Load (2.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."user_name" = $1 LIMIT 1  [["user_name", "demo"]]
+DEPRECATION WARNING: `#reset_session_token!` is deprecated and will be removed on Rails 5. Please use `#restore_session_token!` instead. (called from login at /Users/WDS/app_academys/Honey_Do/Honey_Do/app/controllers/application_controller.rb:20)
+  Rendered api/users/_user.json.jbuilder (0.8ms)
+  Rendered api/users/show.json.jbuilder (4.6ms)
+Completed 200 OK in 96ms (Views: 13.7ms | ActiveRecord: 2.4ms)
+  [1m[35mUser Load (19.0ms)[0m  SELECT "users".* FROM "users"
+  [1m[36mList Exists (3.7ms)[0m  [1mSELECT  1 AS one FROM "lists" LIMIT 1[0m
+  [1m[35mTask Exists (1.3ms)[0m  SELECT  1 AS one FROM "tasks" LIMIT 1
+  [1m[36mUser Exists (0.5ms)[0m  [1mSELECT  1 AS one FROM "users" LIMIT 1[0m
+  [1m[35m (0.4ms)[0m  SELECT COUNT(*) FROM "users"
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "users"[0m
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" LIMIT 5 OFFSET 0
