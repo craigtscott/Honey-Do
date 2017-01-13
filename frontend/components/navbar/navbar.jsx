@@ -37,7 +37,7 @@ const navbar = ({ currentUser, logout, login }) => {
   return(
     <div className="navbar">
       <nav className="login-signup">
-          <img className="comb" src="assets/comb.png" alt="Honey Comb" />
+          <img className="comb" src="http://res.cloudinary.com/data4015/image/upload/v1484267695/comb_nw70fl.png" alt="Honey Comb" />
           { navbarContent }
       </nav>
     </div>
