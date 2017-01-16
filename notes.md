@@ -19,3 +19,11 @@ $.ajax({
   type: 'DELETE',
   url: 'api/session'
 })
+
+
+
+
+$.ajax({
+  type: 'Get',
+  url:'api/lists/1'
+  })

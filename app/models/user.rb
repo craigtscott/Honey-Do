@@ -9,7 +9,10 @@ class User < ActiveRecord::Base
 
   attr_reader :password
 
-  has_many :lists
+  has_many :lists,
+  primary_key: :id,
+  foreign_key: :author_id,
+  class_name: :List
 
 
   def self.find_by_credentials(user_name, password)
@@ -21,7 +24,6 @@ class User < ActiveRecord::Base
   def password=(password)
     self.password_digest = BCrypt::Password.create(password)
     @password = password
-    p self.password_digest
   end
 
   def valid_password?(password)

@@ -1,12 +1,14 @@
 import React from 'react';
-import GreetingContainer from './navbar/navbar_container';
+import NavbarContainer from './navbar/navbar_container';
 import splash from './splash/splash';
-const app = ({ children }) => (
+const App = ({ children }) => {
+return (
   <div>
-    <GreetingContainer />
+    <NavbarContainer />
     {children}
   </div>
 
 );
+};
 
-export default app;
+export default App;

@@ -1,9 +1,9 @@
 import { connect } from 'react-redux';
 import dash from './dash';
 
-const mapStateToProps = ({ session }) => ({
-
-});
+const mapStateToProps = ({session}) => {
+  return {loggedIn: Boolean(session.currentUser)};
+};
 
 const mapDispatchToProps = dispatch => ({
 

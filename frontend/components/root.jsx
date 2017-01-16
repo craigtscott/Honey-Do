@@ -4,6 +4,7 @@ import { Router, Route, IndexRoute , hashHistory } from 'react-router';
 import app from './app';
 import sessionFormContainer from './session_form/session_form_container';
 import dashContainer from './dash/dash_container';
+import listIndexContainer from './list/list_index_container';
 import splash from './splash/splash';
 
 const _redirectIfLoggedIn = (nextState, replace) => {
@@ -14,15 +15,21 @@ const _redirectIfLoggedIn = (nextState, replace) => {
     }
   };
 
+const _ensureLoggedIn = (nextState, replace) => {
+   const currentUser = store.getState().session.currentUser;
+   if (!currentUser) {
+     replace('/login');
+   }
+ };
+
 const root = ({ store }) => (
   <Provider store={ store }>
     <Router history={ hashHistory }>
       <Route path='/' component={app}>
-        <IndexRoute component={splash} />
-
+        <IndexRoute component={splash} onEnter={_redirectIfLoggedIn}/>
         <Route path="/login" component={sessionFormContainer}  onEnter={_redirectIfLoggedIn}/>
         <Route path="/signup" component={sessionFormContainer}  onEnter={_redirectIfLoggedIn}/>
-        <Route path="/dash" component={dashContainer}  />
+        <Route path="/dash" component={dashContainer} onEnter={_ensureLoggedIn}/>
       </Route>
     </Router>
   </Provider>

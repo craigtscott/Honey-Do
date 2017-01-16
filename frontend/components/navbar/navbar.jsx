@@ -1,61 +1,82 @@
 
 import React from 'react';
-import { Link, withRouter } from 'react-router';
+import { Link, withRouter, hashHistory } from 'react-router';
+
+
+class Navbar extends React.Component {
+  constructor(props){
+    super(props);
+    this.state = {author_id: 0, title: ""};
+    this.handleSubmit = this.handleSubmit.bind(this);
+    this.currentUser = this.props.currentUser;
+    this.logout = this.props.logout;
+    this.login = this.props.login;
+  }
 
 
 
-const navbar = ({ currentUser, logout, login }) => {
+  handleSubmit(e) {
+    e.preventDefault();
+    const user = {user_name: "demo", password: "password"};
+    this.login(user).then(() => hashHistory.push("dash"));
+  }
 
 
-  const user = {user_name: "demo", password: "password"};
 
+
+
+  render(){
+    debugger;
   let navbarContent =   (
   <div className="login-buttons">
     <div className="demo" >
-      <Link to="/dash" onClick={() => login(user)} activeClassName="current">Demo</Link>
+      <button onClick={this.handleSubmit} className="current">Demo</button>
     </div>
     &nbsp;
     <div className="login" >
-      <Link to="/login" activeClassName="current">Login</Link>
+      <Link to="/login" className="current">Login</Link>
     </div>
     &nbsp;or&nbsp;
     <div className="signin">
-      <Link to="/signup"  activeClassName="current">Sign up!</Link>
+      <Link to="/signup"  className="current">Sign up!</Link>
     </div>
   </div>);
 
-  if(currentUser){
+  if(this.props.currentUser){
     navbarContent = (
       <div className="login-buttons">
-        <h2 className="header-name">Hi, {currentUser.first_name}!</h2>
+        <h2 className="header-name">Hi, {this.props.currentUser.first_name}!</h2>
       <div className="login" >
-        <Link to="/" activeClassName="current" onClick={logout}>Logout</Link>
+        <button className="current" onClick={this.logout}>Logout</button>
       </div>
     </div>
     );
   }
-  return(
-    <div className="navbar">
-      <nav className="login-signup">
-          <img className="comb" src="http://res.cloudinary.com/data4015/image/upload/v1484267695/comb_nw70fl.png" alt="Honey Comb" />
-          { navbarContent }
-      </nav>
-    </div>
-  );
-};
+    return(
+      <div className="navbar">
+        <nav className="login-signup">
+            <img className="comb" src="http://res.cloudinary.com/data4015/image/upload/v1484267695/comb_nw70fl.png" alt="Honey Comb" />
+            { navbarContent }
+        </nav>
+      </div>
+    );
+  }
+}
 
-const personalGreeting = (currentUser, logout) => (
-	<hgroup className="header-group">
-    <h2 className="header-name">Hi, {currentUser.first_name}!</h2>
-    <button className="header-button" onClick={logout}>Log Out</button>
-	</hgroup>
-);
-
+// const personalGreeting = (currentUser, logout) => {
+//   return (
+// 	<hgroup className="header-group">
+//     <h2 className="header-name">Hi, {currentUser.first_name}!</h2>
+//     <button className="header-button" onClick={logout}>Log Out</button>
+// 	</hgroup>
+//   );
+// };
+//
 // const navbar = ({ currentUser, logout }) => (
 //   currentUser ? personalGreeting(currentUser, logout) : sessionLinks()
 // );
 
-export default navbar;
+export default Navbar;
 
 
 //////Honeycomb by Arthur Shlain from the Noun Project//////

@@ -1,8 +1,8 @@
 
 import React from 'react';
-import { Link, withRouter  } from 'react-router';
+import { Link, withRouter, hashHistory } from 'react-router';
 
-class sessionForm extends React.Component {
+class SessionForm extends React.Component {
   constructor(props){
     super(props);
     this.state = { user_name: "", password: "" };
@@ -10,10 +10,14 @@ class sessionForm extends React.Component {
 
   }
 
+  componentDidUpdate() {
+  this.redirectIfLoggedIn();
+}
+
   handleSubmit(e) {
     e.preventDefault();
     const user = Object.assign({}, this.state);
-    this.props.processForm(user).then(this.props.router.push("/dash"));
+    this.props.processForm(user).then(() => hashHistory.push("dash"));
   }
 
   update(field) {
@@ -24,7 +28,7 @@ class sessionForm extends React.Component {
 
   redirectIfLoggedIn() {
 		if (this.props.loggedIn) {
-			this.props.router.push("/");
+			// this.props.router.push("/dash");
 		}
 	}
 
@@ -103,7 +107,7 @@ class sessionForm extends React.Component {
           <div className="login-comb-div">
             <Link to="/">
               <div className="green-div">
-          
+
               </div>
             </Link>
           </div>
@@ -113,4 +117,4 @@ class sessionForm extends React.Component {
     );
   }
 }
-export default withRouter(sessionForm);
+export default withRouter(SessionForm);

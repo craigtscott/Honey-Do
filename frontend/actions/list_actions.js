@@ -1,0 +1,57 @@
+export const RECEIVE_ALL_LISTS = 'RECEIVE_ALL_LISTS';
+export const RECEIVE_LIST = 'RECEIVE_LIST';
+export const REMOVE_LIST = 'REMOVE_LIST';
+export const RECEIVE_ERRORS = 'RECEIVE_ERRORS';
+
+import hashHistory from 'react-router';
+import * as APIUtil from '../util/list_api_util';
+
+
+export const fetchAllLists = () => dispatch => {
+  return (
+  APIUtil.fetchAllLists().then(list => dispatch(receiveAllLists(list)),
+  err => dispatch(receiveErrors(err.responseJSON))));
+};
+
+export const fetchList = id => dispatch => (
+  APIUtil.fetchList(id).then(list => dispatch(receiveList(list)),
+  err => dispatch(receiveErrors(err.responseJSON)))
+);
+
+export const createList = list => dispatch => (
+  APIUtil.createList(list).then(list => dispatch(receiveList(list)),
+err => dispatch(receiveErrors(err.responseJSON)))
+);
+
+export const updateList = list => dispatch => (
+  APIUtil.updateList(list).then(list => dispatch(receiveList(list)),
+  err => dispatch(receiveErrors(err.responseJSON)))
+);
+
+export const deleteList = id => dispatch => (
+  APIUtil.deleteList(id).then(list = dispatch(removeList(list)),
+  err => dispatch(receiveErrors(err.responseJSON)))
+);
+
+export const removeList = list => ({
+  type: REMOVE_LIST,
+  list
+});
+
+export const receiveList = list => ({
+  type: RECEIVE_LIST,
+  list
+});
+
+export const receiveAllLists = lists => {
+  return ({
+  type: RECEIVE_ALL_LISTS,
+  lists
+  });
+};
+
+export const receiveErrors = errors => ({
+
+  type: RECEIVE_ERRORS,
+  errors
+});

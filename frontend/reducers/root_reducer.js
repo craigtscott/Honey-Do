@@ -1,9 +1,12 @@
 import {combineReducers} from 'redux';
 import sessionReducer from './session_reducer';
+import listsReducer from './lists_reducer';
 
-const rootReducer = combineReducers({
-  session: sessionReducer
+
+const RootReducer = combineReducers({
+  session: sessionReducer,
+  lists: listsReducer
 });
 
 
-export default rootReducer;
+export default RootReducer;
