@@ -1,30 +1,63 @@
+@media all and (min-width: 1381px) {
+  .login-page {
+    display: flex;
+    justify-content: center;
+    // height: 100%;
+    height: 100vh;
+    background: url("https://res.cloudinary.com/data4015/image/upload/v1484267697/login_page2_bvxr5h.jpg") no-repeat center;
+     -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+     background-size: cover;
+     flex-direction: column;
+     align-items: center;
 
-.login-page {
-  display: flex;
-  justify-content: center;
-  // height: 100%;
-  height: 100vh;
-  background: url("http://res.cloudinary.com/data4015/image/upload/v1484267697/login_page2_bvxr5h.jpg") no-repeat center;
-   -webkit-background-size: cover;
-   -moz-background-size: cover;
-   -o-background-size: cover;
-   background-size: cover;
-   flex-direction: column;
-   align-items: center;
-
+  }
 }
-.login-form-container {
 
-  display: flex;
-  flex-direction: column;
-  height: 440px;
-  padding: 45px;
+@media all and (max-width: 1380px) {
+  .login-page {
+    display: flex;
+    justify-content: center;
+    // height: 100%;
+    height: 92vh;
+    background: url("https://res.cloudinary.com/data4015/image/upload/v1484267697/login_page2_bvxr5h.jpg") no-repeat center;
+     -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+     background-size: cover;
+     flex-direction: column;
+     align-items: center;
 
-  margin-top: 150px;
-  justify-content: space-around;
-  background-color: $cream;
-  border-radius: 15px;
-  opacity: 1;
+  }
+}
+
+@media all and (min-width: 1381px) {
+  .login-form-container {
+    display: flex;
+    flex-direction: column;
+    height: 440px;
+    padding: 45px;
+    margin-top: 30px;
+    justify-content: space-around;
+    background-color: $cream;
+    border-radius: 15px;
+    opacity: 1;
+  }
+}
+
+@media all and (max-width: 1380px) {
+  .login-form-container {
+    display: flex;
+    flex-direction: column;
+    height: 440px;
+    padding: 45px;
+    margin-top: 20px;
+    justify-content: space-around;
+    background-color: $cream;
+    border-radius: 15px;
+    opacity: 1;
+  }
 }
 
 .login-form-box {
@@ -66,7 +99,7 @@
 }
 
 .green-div{
-  background: url("http://res.cloudinary.com/data4015/image/upload/v1484267695/comb_nw70fl.png");
+  background: url("https://res.cloudinary.com/data4015/image/upload/v1484267695/comb_nw70fl.png");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -76,7 +109,7 @@
 }
 
 .green-div:hover {
-  background-image: url("http://res.cloudinary.com/data4015/image/upload/v1484267695/combs_green_nxqrvi.png");
+  background-image: url("https://res.cloudinary.com/data4015/image/upload/v1484267695/combs_green_nxqrvi.png");
 }
 // .login-comb-green {
 //   z-index: -1;
@@ -103,4 +136,11 @@
 
 .login-button:hover {
   background-color: $light-green;
+}
+
+
+.errorMessage {
+  font-family: $basic;
+  background-color: red;
+  font-size: 20px;
 }

@@ -3,16 +3,7 @@ import ReactDOM from 'react-dom';
 import Root from './components/root';
 import { login, signup, logout } from './util/session_api_util';
 import configureStore from './store/store';
-// import {  fetchList,
-//           fetchAllLists,
-//           createList,
-//           updateList,
-//           deleteList } from './util/list_api_util';
-// import { requestlist,
-//           requestlists,
-//           createlist,
-//           updatelist,
-//           destroylist } from './actions/list_actiogns';
+import Modal from 'react-modal';
 
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -23,12 +14,7 @@ document.addEventListener('DOMContentLoaded', () => {
   } else {
     store = configureStore();
   }
-
-  // window.fetchList = fetchList;
-  // window.fetchAllLists = fetchAllLists;
-  // window.createList = createList;
-  // window.updateList = updateList;
-  // window.deleteList = deleteList;
+  Modal.setAppElement(document.body);
 
   window.store = store;
   const root = document.getElementById('root');

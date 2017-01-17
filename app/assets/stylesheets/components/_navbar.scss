@@ -4,8 +4,9 @@
   display: flex;
   justify-content: space-between;
   padding-right: 20px;
-  background-color: white;
+  background-color: $dark-green;
   height: 60px;
+
 }
 
 .header-group {
@@ -21,6 +22,8 @@
   font-size: 20px;
   padding-right: 30px;
   align-items: center;
+  justify-content: space-between;
+  width: 275px;
 }
 
 .login {
@@ -63,5 +66,4 @@
   width: 54px;
   padding-left: 30px;
   padding-top: 3px;
-
 }

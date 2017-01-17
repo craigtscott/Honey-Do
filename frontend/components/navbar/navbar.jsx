@@ -26,7 +26,6 @@ class Navbar extends React.Component {
 
 
   render(){
-    debugger;
   let navbarContent =   (
   <div className="login-buttons">
     <div className="demo" >
@@ -45,10 +44,12 @@ class Navbar extends React.Component {
   if(this.props.currentUser){
     navbarContent = (
       <div className="login-buttons">
-        <h2 className="header-name">Hi, {this.props.currentUser.first_name}!</h2>
-      <div className="login" >
-        <button className="current" onClick={this.logout}>Logout</button>
-      </div>
+        <div className="greeting">
+          <h2 className="header-name">Hi, {this.props.currentUser.first_name}!</h2>
+        </div>
+        <div className="login" >
+          <button className="current" onClick={this.logout}>Logout</button>
+        </div>
     </div>
     );
   }
@@ -63,18 +64,6 @@ class Navbar extends React.Component {
   }
 }
 
-// const personalGreeting = (currentUser, logout) => {
-//   return (
-// 	<hgroup className="header-group">
-//     <h2 className="header-name">Hi, {currentUser.first_name}!</h2>
-//     <button className="header-button" onClick={logout}>Log Out</button>
-// 	</hgroup>
-//   );
-// };
-//
-// const navbar = ({ currentUser, logout }) => (
-//   currentUser ? personalGreeting(currentUser, logout) : sessionLinks()
-// );
 
 export default Navbar;
 

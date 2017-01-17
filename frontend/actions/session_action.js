@@ -5,7 +5,6 @@ import {hashHistory, withRouter }from 'react-router';
 import * as ApiUtil from '../util/session_api_util';
 
 export const login = user => dispatch => {
-  debugger;
   return(
   ApiUtil.login(user).then(user => dispatch(receiveCurrentUser(user)),
   err => dispatch(receiveErrors(err.responseJSON)))
@@ -25,14 +24,13 @@ export const signup = user => dispatch => {
   );
 };
 const receiveCurrentUser = currentUser => {
-debugger;
   return {
     type: RECEIVE_CURRENT_USER,
     currentUser
   };
 };
 
-const receiveErrors = errors => ({
+export const receiveErrors = errors => ({
 
   type: RECEIVE_ERRORS,
   errors

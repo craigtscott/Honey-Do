@@ -6,12 +6,15 @@ import sessionFormContainer from './session_form/session_form_container';
 import dashContainer from './dash/dash_container';
 import listIndexContainer from './list/list_index_container';
 import splash from './splash/splash';
+import {receiveErrors} from '../actions/session_action';
 
 const _redirectIfLoggedIn = (nextState, replace) => {
     const currentUser = store.getState().session.currentUser;
     if (currentUser) {
 
       replace('/dash');
+    } else{
+      store.dispatch(receiveErrors([]));
     }
   };
 

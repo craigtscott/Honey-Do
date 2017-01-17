@@ -14,6 +14,8 @@ class SessionForm extends React.Component {
   this.redirectIfLoggedIn();
 }
 
+
+
   handleSubmit(e) {
     e.preventDefault();
     const user = Object.assign({}, this.state);
@@ -35,7 +37,7 @@ class SessionForm extends React.Component {
   renderErrors() {
     if (this.props.errors){
       return(
-        <ul>
+        <ul className="errorMessage">
           {this.props.errors.map((error, i) => (
             <li key={`error-${i}`}>
               {error}
@@ -63,7 +65,6 @@ class SessionForm extends React.Component {
 
     if(this.props.formType === "login"){
       submitText = "Login";
-
     } else {
       submitText = "Signup";
 
@@ -111,8 +112,8 @@ class SessionForm extends React.Component {
               </div>
             </Link>
           </div>
-          {this.renderErrors()}
         </div>
+        {this.renderErrors()}
       </div>
     );
   }

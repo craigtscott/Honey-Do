@@ -18,18 +18,21 @@ export const fetchList = id => dispatch => (
   err => dispatch(receiveErrors(err.responseJSON)))
 );
 
-export const createList = list => dispatch => (
-  APIUtil.createList(list).then(list => dispatch(receiveList(list)),
-err => dispatch(receiveErrors(err.responseJSON)))
-);
-
-export const updateList = list => dispatch => (
-  APIUtil.updateList(list).then(list => dispatch(receiveList(list)),
+export const createList = list => dispatch => {
+  return (
+    APIUtil.createList(list).then(list => dispatch(receiveList(list)),
   err => dispatch(receiveErrors(err.responseJSON)))
-);
+  );
+};
 
+export const updateList = list => dispatch => {
+  return (
+    APIUtil.updateList(list).then(list => dispatch(receiveList(list)),
+    err => dispatch(receiveErrors(err.responseJSON)))
+  );
+};
 export const deleteList = id => dispatch => (
-  APIUtil.deleteList(id).then(list = dispatch(removeList(list)),
+  APIUtil.deleteList(id).then(list => dispatch(removeList(list)),
   err => dispatch(receiveErrors(err.responseJSON)))
 );
 

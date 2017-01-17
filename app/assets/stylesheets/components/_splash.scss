@@ -1,13 +1,31 @@
-.splash {
-  height: 100%;
-  min-height: 100vh;
-  background-image: url("http://res.cloudinary.com/data4015/image/upload/v1484267695/bee3_bozlgz.jpg")
-  // background-image: url("http://res.cloudinary.com/data4015/image/upload/c_crop,h_860,w_1905,x_0,y_99/v1484334838/honey-do_fntp5x.jpg");
 
+@media all and (max-width: 1380px) {
+  .splash {
+    height: 100%;
+    min-height: 100vh;
+    // background-image: url("http://res.cloudinary.com/data4015/image/upload/v1484267695/bee3_bozlgz.jpg");
+    background-image: url("https://res.cloudinary.com/data4015/image/upload/c_crop,h_860,w_1905,x_0,y_99/v1484334838/honey-do_fntp5x.jpg");
+    background-size: 1370px 715px;
+    background-repeat: no-repeat;
+    background-position: top;
+  }
 }
 
+@media all and (min-width: 1381px) {
+  .splash {
+    height: 100%;
+    min-height: 100vh;
+    // background-image: url("http://res.cloudinary.com/data4015/image/upload/v1484267695/bee3_bozlgz.jpg");
+    background-image: url("http://res.cloudinary.com/data4015/image/upload/c_crop,h_860,w_1905,x_0,y_99/v1484334838/honey-do_fntp5x.jpg");
+    background-repeat: no-repeat;
+    background-position: top;
+  }
+}
+
+
+
 .logo {
-  // display: none;
+  display: none;
   font-size: 110px;
   // font-size: 0px;
   padding-left: 48px;
@@ -16,7 +34,7 @@
 }
 
 .logo2 {
-  // display: none;
+  display: none;
   font-size: 60px;
   // font-size: 0px;
   padding-left: 307px;
