@@ -35,3 +35,17 @@ $.ajax({
                />
      </label>
    </form>
+
+
+   <form onSubmit={this.handleNewTask}>
+     <input type="text"
+             value="New task"
+             onChange={this.update("title")}
+     />
+   <input type="submit" value="Add task" />
+
+   </form>
+
+   const doneStatus = {[task.id]: task.done};
+   const newState = merge(this.state.done, doneStatus);
+   this.setState({done: newState});

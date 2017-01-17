@@ -9,7 +9,6 @@ class Tasks extends React.Component {
       list_id: 0,
       title: "",
       id: 0,
-      done: {}
     };
     this.handleNewTask = this.handleNewTask.bind(this);
     this.handleDelete = this.handleDelete.bind(this);
@@ -72,9 +71,7 @@ class Tasks extends React.Component {
 
     const tasks = Object.keys(this.props.tasks).map(taskId => this.props.tasks[taskId]);
     const taskItem = tasks.map( (task, idx) => {
-      const doneStatus = {[task.id]: task.done};
-      const newState = merge(this.state.done, doneStatus);
-      this.setState({done: newState});
+
       return(
         <li key={task.id} className="taskItem">
           <input type="checkbox" onChange={(e) => this.toggleDone(e)}/>
