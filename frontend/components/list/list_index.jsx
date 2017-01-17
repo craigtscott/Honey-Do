@@ -29,7 +29,7 @@ const customStyles = {
     padding                    : '20px'
 
   }
-}
+};
 
 class List extends React.Component {
   constructor(props){
@@ -39,20 +39,24 @@ class List extends React.Component {
       formType: "",
       author_id: this.props.session.currentUser.id,
       title: "",
-      id: 0
+      id: 0,
     };
 
 
 
     this.handleDelete = this.handleDelete.bind(this);
     this.handleSubmit = this.handleSubmit.bind(this);
+    this.getTasks = this.getTasks.bind(this);
     this.openModal = this.openModal.bind(this);
     this.closeModal = this.closeModal.bind(this);
     this.openModal = this.openModal.bind(this);
 
     this.deleteList = this.props.deleteList;
+    this.fetchAllTasks = this.props.fetchAllTasks;
     this.addList = this.props.addList;
     this._handleClick= this.props._handleClick;
+
+    this.firstList = this.firstList.bind(this);
   }
 
   handleDelete(id) {
@@ -66,6 +70,7 @@ class List extends React.Component {
   handleSubmit(e) {
 
     e.preventDefault();
+    debugger;
     const list = Object.assign({}, this.state);
     delete list.modalOpen;
     if (this.state.formType === "Add"){
@@ -80,8 +85,18 @@ class List extends React.Component {
     this.setState({title: ""});
   }
 
-  addList(e) {
-    e.preventDefault();
+  getTasks(id) {
+    return ((e) => {
+      e.preventDefault();
+      this.fetchAllTasks(id);
+      this.props.router.push(`/dash/${id}`);
+    });
+  }
+
+  firstList(id) {
+    return ((e) =>{
+      this.getTasks(id);
+    });
   }
 
   componentDidMount() {
@@ -132,13 +147,14 @@ class List extends React.Component {
       submitText = "Edit";
     }
 
-
       const lists = Object.keys(this.props.lists).map(listId => this.props.lists[listId]);
       const indexItems = lists.map( (list, idx) => {
-
+        if (idx === 0){
+          this.firstList(list.id);
+        }
         return (
-          <li key={list.id} className="listItem">
-            <div className="listItemTitle">
+          <li key={list.id} className="listItem" onClick={this.getTasks(list.id)}>
+            <div className="listItemTitle" >
               {list.title}
             </div>
             <div className="listButtons">
@@ -190,4 +206,4 @@ class List extends React.Component {
 
 }
 
-export default List;
+export default withRouter(List);

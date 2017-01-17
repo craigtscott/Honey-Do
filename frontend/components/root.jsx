@@ -5,6 +5,7 @@ import app from './app';
 import sessionFormContainer from './session_form/session_form_container';
 import dashContainer from './dash/dash_container';
 import listIndexContainer from './list/list_index_container';
+import TaskContainer from './task/task_container';
 import splash from './splash/splash';
 import {receiveErrors} from '../actions/session_action';
 
@@ -32,7 +33,9 @@ const root = ({ store }) => (
         <IndexRoute component={splash} onEnter={_redirectIfLoggedIn}/>
         <Route path="/login" component={sessionFormContainer}  onEnter={_redirectIfLoggedIn}/>
         <Route path="/signup" component={sessionFormContainer}  onEnter={_redirectIfLoggedIn}/>
-        <Route path="/dash" component={dashContainer} onEnter={_ensureLoggedIn}/>
+        <Route path="/dash" component={dashContainer} onEnter={_ensureLoggedIn}>
+          <Route path="/dash/:listId" component={TaskContainer}/>
+        </Route>
       </Route>
     </Router>
   </Provider>

@@ -1,10 +1,7 @@
 $.ajax({
-    type: 'POST',
-    url: 'api/session',
-    data: {user: {first_name: 'Craig',
-                  last_name: 'Scott',
-                  user_name: 'cts85',
-                  password: 'password'}}
+    type: 'GET',
+    url: '/api/tasks',
+    data: {task: {list_id: 32}}
 })
 $.ajax({
     type: 'POST',
