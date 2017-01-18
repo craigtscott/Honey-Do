@@ -71,7 +71,6 @@ class List extends React.Component {
 
     e.preventDefault();
     const list = Object.assign({}, this.state);
-    debugger
     delete list.modalOpen;
     if (this.state.formType === "Add"){
       delete list.id;
@@ -154,7 +153,7 @@ class List extends React.Component {
           this.firstList(list.id);
         }
         return (
-          <li key={list.id} className="listItem" onClick={this.getTasks(list.id)}>
+          <li key={idx} className="listItem" onClick={this.getTasks(list.id)}>
             <div className="listItemTitle" >
               {list.title}
             </div>

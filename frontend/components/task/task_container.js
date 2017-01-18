@@ -8,7 +8,8 @@ import {fetchAllTasks,
 const mapStateToProps = (state, ownProps) => {
   return ({
     tasks: state.tasks,
-    listId: ownProps.params.listId
+    listId: ownProps.params.listId,
+    listName: state.lists[ownProps.params.listId]
 
   });
 };
