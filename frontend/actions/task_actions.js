@@ -19,7 +19,6 @@ export const fetchTask = id => dispatch => (
 );
 
 export const createTask = task => dispatch => {
-  debugger;
   return (
     APIUtil.createTask(task).then(task => dispatch(receiveTask(task)),
   err => dispatch(receiveErrors(err.responseJSON)))

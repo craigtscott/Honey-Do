@@ -1,3 +1,7 @@
+<button onClick={this.openEditModal(list)} className="listEdit">=
+
+
+
 $.ajax({
     type: 'GET',
     url: '/api/tasks',

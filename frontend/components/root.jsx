@@ -8,6 +8,7 @@ import listIndexContainer from './list/list_index_container';
 import TaskContainer from './task/task_container';
 import splash from './splash/splash';
 import {receiveErrors} from '../actions/session_action';
+import {fetchAllTasks} from '../actions/task_actions';
 
 const _redirectIfLoggedIn = (nextState, replace) => {
     const currentUser = store.getState().session.currentUser;
@@ -18,6 +19,10 @@ const _redirectIfLoggedIn = (nextState, replace) => {
       store.dispatch(receiveErrors([]));
     }
   };
+  const _showTasks = (nextState) => {
+    store.dispatch(fetchAllTasks(nextState.params.listId));
+  };
+
 
 const _ensureLoggedIn = (nextState, replace) => {
    const currentUser = store.getState().session.currentUser;
@@ -34,7 +39,7 @@ const root = ({ store }) => (
         <Route path="/login" component={sessionFormContainer}  onEnter={_redirectIfLoggedIn}/>
         <Route path="/signup" component={sessionFormContainer}  onEnter={_redirectIfLoggedIn}/>
         <Route path="/dash" component={dashContainer} onEnter={_ensureLoggedIn}>
-          <Route path="/dash/:listId" component={TaskContainer}/>
+          <Route path="/dash/:listId" component={TaskContainer} onEnter={_showTasks}/>
         </Route>
       </Route>
     </Router>

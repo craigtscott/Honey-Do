@@ -28,7 +28,7 @@ class Api::TasksController < ApplicationController
 
   def update
     @task = Task.find(params[:id])
-    if @task.update
+    if @task.update_attributes(task_params)
       render :show
     else
       render json: @task.errors.full_messages,
@@ -45,6 +45,6 @@ class Api::TasksController < ApplicationController
   private
 
   def task_params
-    params.require(:task).permit(:title, :list_id, :id)
+    params.require(:task).permit(:title, :list_id, :id, :done)
   end
 end

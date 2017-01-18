@@ -6,29 +6,21 @@ class Tasks extends React.Component {
   constructor(props){
     super(props);
     this.state = {
-      list_id: 0,
-      title: "",
-      id: 0,
+      title: ""
     };
+
     this.handleNewTask = this.handleNewTask.bind(this);
     this.handleDelete = this.handleDelete.bind(this);
-    this.setList = this.setList.bind(this);
     this.toggleDone = this.toggleDone.bind(this);
 
     this.deleteTask = this.props.deleteTask;
   }
 
-  setList(id) {
-    this.setState({list_id: id});
-  }
-
 
   handleNewTask(e) {
-    debugger;
     e.preventDefault();
-    const task = Object.assign({}, this.state);
+    const task = Object.assign({}, this.state, {list_id: this.props.listId});
     this.setState({title: ""});
-    delete task.id;
     this.props.createTask(task);
   }
 
@@ -45,25 +37,27 @@ class Tasks extends React.Component {
     });
   }
 
-  toggleDone(e) {
-    debugger;
-      if (this.state.done === false){
-      this.setState({done: true});
-    } else {
-      this.setState({done: false});
-    }
+  toggleDone(id) {
+    return ((e) => {
+      const task = this.props.tasks[id];
+      task.done = !task.done;
+      this.props.updateTask(task);
+    });
   }
+
   render(){
-    debugger;
+    let longEnough = this.state.title === "" ? "disabled" : "";
+
     const addTask =  (
-      <div key="addTask">
-        <form onSubmit={this.handleNewTask}>
+      <div>
+        <form onSubmit={this.handleNewTask} className="taskForm">
           <input type="text"
+            className="taskInput"
             value={this.state.title}
             placeholder="New task"
             onChange={this.update("title")}
             />
-          <input type="submit" value="Add task" />
+          <input type="submit" value="Add task" disabled={`${longEnough}`} className="taskSubmit"/>
 
         </form>
       </div>
@@ -73,19 +67,25 @@ class Tasks extends React.Component {
     const taskItem = tasks.map( (task, idx) => {
 
       return(
-        <li key={task.id} className="taskItem">
-          <input type="checkbox" onChange={(e) => this.toggleDone(e)}/>
-          {task.title}
-          <button onClick={this.handleDelete(task.id)} className="listDelete">X</button>
+        <li key={idx} className="taskItem">
+          <div className="taskLeft">
+            <input type="checkbox" checked={task.done} onChange={this.toggleDone(task.id)}/>
+            <div className="taskTitle">
+              {task.title}
+            </div>
+          </div>
+          <div className="taskDelete">
+          <i className="fa fa-trash" onClick={this.handleDelete(task.id)} aria-hidden="true"></i>
+        </div>
         </li>
       );
     });
 
 
     return(
-    <div>
-      <ul>
-        { addTask }
+    <div className="taskDiv">
+      { addTask }
+      <ul className="taskList">
         { taskItem }
       </ul>
     </div>

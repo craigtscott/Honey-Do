@@ -70,8 +70,8 @@ class List extends React.Component {
   handleSubmit(e) {
 
     e.preventDefault();
-    debugger;
     const list = Object.assign({}, this.state);
+    debugger
     delete list.modalOpen;
     if (this.state.formType === "Add"){
       delete list.id;
@@ -83,6 +83,7 @@ class List extends React.Component {
     }
     this.closeModal();
     this.setState({title: ""});
+    this.props.router.push(`/dash/${id}`)
   }
 
   getTasks(id) {
@@ -158,9 +159,8 @@ class List extends React.Component {
               {list.title}
             </div>
             <div className="listButtons">
-              <button onClick={this.openEditModal(list)} className="listEdit">=</button>
-
-              <button onClick={this.handleDelete(list.id)} className="listDelete">X</button>
+                <i className="fa fa-pencil-square-o" aria-hidden="true" onClick={this.openEditModal(list)} />
+                <i className="fa fa-minus-square-o" onClick={this.handleDelete(list.id)} aria-hidden="true" />
             </div>
           </li>
         );
@@ -172,7 +172,8 @@ class List extends React.Component {
       <ul>
         <div className="listHeader">
           <h3 className="listsTitle">Lists</h3>
-          <button className="addList" onClick={this.openModal}>+</button>
+          <i className="fa fa-plus-square-o" onClick={this.openModal} aria-hidden="true"></i>
+
         </div>
         <div className="listItemDiv">
           { indexItems }

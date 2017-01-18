@@ -6,7 +6,6 @@ import {fetchAllTasks,
         updateTask} from '../../actions/task_actions';
 
 const mapStateToProps = (state, ownProps) => {
-debugger;
   return ({
     tasks: state.tasks,
     listId: ownProps.params.listId

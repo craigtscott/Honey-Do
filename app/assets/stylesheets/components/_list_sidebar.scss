@@ -2,11 +2,11 @@
   font: $basic;
 
   height: 100vh;
-  width: 145px;
+  width: 195px;
   padding-left: 10px;
-  padding-right: 10px;
+  padding-right: 20px;
   font-family: $basic;
-
+  font-size: 18px;
   padding-top: 30px;
   background-color: $light-green;
 }
@@ -20,24 +20,18 @@
 }
 
 
-.addList {
-  display: flex;
-  border: 2px solid black;
-  width: 20px;
-  height: 20px;
+.fa-plus-square-o {
   display: flex;
   justify-content: center;
-  border-radius: 15px;
-  margin-bottom: 6px;
-
 }
 
-.addList:hover {
+.fa-plus-square-o:hover {
   background-color: yellow;
 }
 
 .listItem {
   display: flex;;
+  padding-top: 10px;
   justify-content: space-between;
   align-items: center;
   width: 100%;
@@ -51,39 +45,28 @@
 .listButtons {
   display: flex;
   justify-content: space-between;
-  width: 50px;
+  width: 40px;
 }
 
-.listEdit {
-  display: flex;
-  border: 2px solid black;
-  width: 20px;
-  height: 20px;
+.fa-pencil-square-o {
+
   display: flex;
   justify-content: center;
-  border-radius: 15px;
-  margin-bottom: 6px;
-  text-decoration: underline;
 }
 
-.listEdit:hover{
+.fa-pencil-square-o:hover{
   background-color: $light-green;
 }
 
 
 
-.listDelete {
-  display: flex;
-  border: 2px solid black;
-  width: 20px;
-  height: 20px;
+.fa-minus-square-o {
   display: flex;
   justify-content: center;
-  border-radius: 15px;
-  margin-bottom: 6px;
+
 }
 
-.listDelete:hover{
+.fa-minus-square-o:hover{
   background-color: red;
 }
 

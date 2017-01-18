@@ -29,6 +29,7 @@ export const updateTask = (task) => {
   });
 };
 
+
 export const deleteTask = (id) => {
   return $.ajax({
     type: 'DELETE',
