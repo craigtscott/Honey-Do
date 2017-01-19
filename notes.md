@@ -1,6 +1,18 @@
 <button onClick={this.openEditModal(list)} className="listEdit">=
+let showDetail;
 
-
+if (this.state.detailId){
+  return(
+    showDetail = "flex"
+  );
+} else {
+  return(
+    showDetail = "none"
+  );
+}
+// <button onClick={this.closeDetail} className="closeButton">Close</button>
+</form>
+style="display: `${showDetail}`;"
 
 $.ajax({
     type: 'GET',

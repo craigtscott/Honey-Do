@@ -41,9 +41,13 @@ class Tasks extends React.Component {
 
   handleEdit(e) {
       e.preventDefault();
-      const task = {id: this.state.id, title: this.state.editTitle, list_id: this.props.listId, done: this.state.doneZ};
+      const task = {id: this.state.id,
+                    title: this.state.editTitle,
+                    list_id: this.props.listId,
+                    done: this.state.doneZ};
 
       this.updateTask(task);
+      this.closeDetail(e);
     }
 
 
@@ -142,9 +146,8 @@ class Tasks extends React.Component {
             value={this.state.editTitle}
             onChange={this.update("editTitle")}
           />
-        <input type="submit" value="Save task" className="editSave"/>
+        <input type="submit" value="Edit task" className="editSave"/>
         </form>
-        <button onClick={this.closeDetail} className="closeButton">Close</button>
       </div>
     );
 

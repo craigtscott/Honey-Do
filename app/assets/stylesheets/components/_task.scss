@@ -128,18 +128,19 @@
 
 .editInput {
   font-family: $basic;
-  font-size: 20px;
-  height: 40px;
-  width: 57%;
-  margin-left: 4%;
-  padding-top: 3px;
-  padding-left: 3px;
-  border: 3px solid $cream-not;
+  border: 3px solid black;
   border-radius: 7px;
+  background-color: white;
+  height: 40px;
+  font-size: 24px;
+  position: relative;
+  margin-left: 4%;
+  padding-left: 14px;
+  width: 57%;
 }
 
 
-.editInput:focus{
+.editInput:focus {
   font-family: $basic;
   font-size: 20px;
   height: 40px;
@@ -167,6 +168,7 @@
   justify-content: center;
   font-size: 24px;
   width: 25%;
+  margin-left: 3%;
 
 
 }
