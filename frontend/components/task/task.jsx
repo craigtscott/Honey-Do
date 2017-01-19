@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link, withRouter  } from 'react-router';
 import merge from 'lodash/merge';
+import Dropdown from 'react-dropdown';
 
 class Tasks extends React.Component {
   constructor(props){
@@ -9,7 +10,8 @@ class Tasks extends React.Component {
       title: "",
       editTitle: "",
       detailShow: "none",
-      id: null
+      id: null,
+      listId: null
     };
 
     this.handleNewTask = this.handleNewTask.bind(this);
@@ -18,12 +20,16 @@ class Tasks extends React.Component {
     this.toggleDone = this.toggleDone.bind(this);
     this.openDetail = this.openDetail.bind(this);
     this.closeDetail = this.closeDetail.bind(this);
+    this._onSelect = this._onSelect.bind(this);
 
 
     this.deleteTask = this.props.deleteTask;
     this.updateTask = this.props.updateTask;
   }
 
+  _onSelect(option) {
+    this.setState({listId: option.value});
+  }
 
   handleNewTask(e) {
     e.preventDefault();
@@ -43,11 +49,12 @@ class Tasks extends React.Component {
       e.preventDefault();
       const task = {id: this.state.id,
                     title: this.state.editTitle,
-                    list_id: this.props.listId,
+                    list_id: this.state.listId,
                     done: this.state.doneZ};
 
       this.updateTask(task);
       this.closeDetail(e);
+      this.props.router.push(`/dash/${this.state.listId}`);
     }
 
 
@@ -58,11 +65,14 @@ class Tasks extends React.Component {
       this.setState({detailShow: "show"});
       this.setState({id: `${task.id}`});
       this.setState({doneZ: `${task.done}`});
+      this.setState({listId: this.props.listId});
     });
   };
 
   closeDetail(e){
+    if(e){
       e.preventDefault();
+    }
       this.setState({editTitle: ""});
       this.setState({detailShow: "none"});
   };
@@ -82,15 +92,21 @@ class Tasks extends React.Component {
     });
   }
 
+  componentWillUpdate() {
+    if (this.state.detailShow !== "none" && this.props.params.listId !== this.state.listId){
+      this.closeDetail();
+    }
+  }
 
 
   render(){
-
 
     let listId = this.props.params.listId;
     let listTitle = "";
     if (this.props.listName){
       listTitle = this.props.listName.title;
+    } else {
+      listTitle = "Search";
     }
 
     let longEnough = (this.state.title === "" && this.state.detailShow !== "taskDetails" )? "disabled" : "";
@@ -122,12 +138,11 @@ class Tasks extends React.Component {
     const taskItem = tasks.map( (task, idx) => {
       count += 1;
       if (task.done === true){ amtDone += 1;};
-
       return(
         <li key={idx} className="taskItem" >
           <input type="checkbox" checked={task.done} onChange={this.toggleDone(task.id)}/>
-          <div className="taskLeft" onClick={this.openDetail(task)}>
-            <div className="taskTitle">
+          <div className="taskLeft" >
+            <div className="taskTitle" onClick={this.openDetail(task)} >
               {task.title}
             </div>
             <div className="taskDelete">
@@ -138,6 +153,11 @@ class Tasks extends React.Component {
       );
     });
 
+    let value;
+    if (this.props.lists[this.props.listId]) {
+      value = this.props.lists[this.props.listId].title;
+    }
+    const options = Object.keys(this.props.lists).map(listId => ({value: listId, label: this.props.lists[listId].title}));
     const taskDetail = (
       <div>
         <form onSubmit={this.handleEdit} className="editForm">
@@ -148,6 +168,7 @@ class Tasks extends React.Component {
           />
         <input type="submit" value="Edit task" className="editSave"/>
         </form>
+        <Dropdown options={options} onChange={this._onSelect} value={value} placeholder="Select an option" />
       </div>
     );
 

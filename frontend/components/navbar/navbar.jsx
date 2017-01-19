@@ -32,6 +32,7 @@ class Navbar extends React.Component {
     e.preventDefault();
     const query = this.state.query;
     this.props.searchTasks(query).then(() => hashHistory.push("dash/search"));
+    this.setState({query: ""});
   }
 
   update(field) {
@@ -45,6 +46,7 @@ class Navbar extends React.Component {
 
 
   render(){
+    let searchBar;
   let navbarContent =   (
   <div className="login-buttons">
     <div className="demo" >
@@ -71,19 +73,20 @@ class Navbar extends React.Component {
         </div>
     </div>
     );
+
+    searchBar = (
+      <form onSubmit={this.handleSearch} className="searchForm">
+        <input type="text"
+          className="searchBar"
+          value={this.state.query}
+          onChange={this.update("query")}
+          placeholder="Search..."/>
+        <input type="submit" value="search" className="searchButton"/>
+
+      </form>
+    );
   }
 
-  const searchBar = (
-    <form onSubmit={this.handleSearch} className="searchForm">
-      <input type="text"
-              className="searchBar"
-              value={this.state.query}
-              onChange={this.update("query")}
-              placeholder="Search..."/>
-            <input type="submit" value="search" className="searchButton"/>
-
-    </form>
-  );
     return(
       <div className="navbar">
         <nav className="login-signup">

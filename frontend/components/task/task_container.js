@@ -9,7 +9,8 @@ const mapStateToProps = (state, ownProps) => {
   return ({
     tasks: state.tasks,
     listId: ownProps.params.listId,
-    listName: state.lists[ownProps.params.listId]
+    listName: state.lists[ownProps.params.listId],
+    lists: state.lists
 
   });
 };
