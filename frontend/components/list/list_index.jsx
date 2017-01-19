@@ -46,6 +46,7 @@ class List extends React.Component {
 
     this.handleDelete = this.handleDelete.bind(this);
     this.handleSubmit = this.handleSubmit.bind(this);
+    this.handleGetTasks = this.handleGetTasks.bind(this);
     this.getTasks = this.getTasks.bind(this);
     this.openModal = this.openModal.bind(this);
     this.closeModal = this.closeModal.bind(this);
@@ -75,32 +76,48 @@ class List extends React.Component {
     if (this.state.formType === "Add"){
       delete list.id;
       delete list.formType;
-      this.props.createList(list);
+      this.props.createList(list).then(res => {
+        this.getTasks(res.list.id);
+      });
     } else {
       delete list.formType;
       this.props.updateList(list);
     }
     this.closeModal();
     this.setState({title: ""});
-    this.props.router.push(`/dash/${id}`)
   }
 
-  getTasks(id) {
+  handleGetTasks(id) {
     return ((e) => {
       e.preventDefault();
-      this.fetchAllTasks(id);
-      this.props.router.push(`/dash/${id}`);
-    });
-  }
-
-  firstList(id) {
-    return ((e) =>{
       this.getTasks(id);
     });
   }
 
+  getTasks(id) {
+    this.fetchAllTasks(id);
+    this.props.router.push(`/dash/${id}`);
+  }
+
+  firstList(id) {
+    return ((e) =>{
+      this.handleGetTasks(id);
+    });
+  }
+
   componentDidMount() {
-    this.props.fetchAllLists();
+    this.props.fetchAllLists().then(() => {
+      if(this.props.lists) {
+        let min;
+        Object.keys(this.props.lists).forEach(id => {
+          if(!min || id > min) {
+            min = id;
+          }
+        });
+        console.log(min);
+        this.getTasks(min);
+      }
+    });
   }
 
   openModal() {
@@ -153,7 +170,7 @@ class List extends React.Component {
           this.firstList(list.id);
         }
         return (
-          <li key={idx} className="listItem" onClick={this.getTasks(list.id)}>
+          <li key={idx} className="listItem" onClick={this.handleGetTasks(list.id)}>
             <div className="listItemTitle" >
               {list.title}
             </div>

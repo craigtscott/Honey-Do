@@ -4,7 +4,10 @@ import {fetchAllLists, deleteList, createList, updateList} from '../../actions/l
 import {fetchAllTasks} from '../../actions/task_actions';
 
 const mapStateToProps = state => {
-  return (state);
+  return {
+    lists: state.lists,
+    session: state.session
+  };
 };
 
 const mapDispatchToProps = dispatch => ({
