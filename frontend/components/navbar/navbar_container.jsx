@@ -1,5 +1,6 @@
 import { connect } from 'react-redux';
 import { logout, login } from '../../actions/session_action';
+import { searchTasks } from '../../actions/task_actions';
 import Navbar from './navbar';
 
 const mapStateToProps = ({ session }) => {
@@ -9,7 +10,8 @@ const mapStateToProps = ({ session }) => {
 const mapDispatchToProps = user => dispatch => {
   return {
     logout: () => dispatch(logout()),
-    login: user => dispatch(login(user))
+    login: user => dispatch(login(user)),
+    searchTasks: query => dispatch(searchTasks(query))
   };
 
 };

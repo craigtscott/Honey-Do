@@ -10,6 +10,18 @@ class Api::TasksController < ApplicationController
     end
   end
 
+  def search
+    if params[:query].present?
+      query = params[:query].downcase
+      @tasks = current_user.tasks.where("lower(tasks.title) LIKE ?", "%#{query}%" )
+    else
+      @tasks = Task.none
+    end
+
+    render :index
+
+  end
+
   def create
     @task = Task.new(task_params)
     if @task.save

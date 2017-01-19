@@ -6,9 +6,16 @@ import { Link, withRouter, hashHistory } from 'react-router';
 class Navbar extends React.Component {
   constructor(props){
     super(props);
+    this.state = {
+      query: ""
+    };
+
     this.state = {author_id: 0, title: ""};
     this.handleSubmit = this.handleSubmit.bind(this);
+    this.handleSearch = this.handleSearch.bind(this);
+
     this.currentUser = this.props.currentUser;
+    this.searchTasks = this.searchTasks;
     this.logout = this.props.logout;
     this.login = this.props.login;
   }
@@ -19,6 +26,18 @@ class Navbar extends React.Component {
     e.preventDefault();
     const user = {user_name: "demo", password: "password"};
     this.login(user).then(() => hashHistory.push("dash"));
+  }
+
+  handleSearch(e) {
+    e.preventDefault();
+    const query = this.state.query;
+    this.props.searchTasks(query).then(() => hashHistory.push("dash/search"));
+  }
+
+  update(field) {
+    return e => this.setState({
+      [field]: e.currentTarget.value
+    });
   }
 
 
@@ -53,10 +72,23 @@ class Navbar extends React.Component {
     </div>
     );
   }
+
+  const searchBar = (
+    <form onSubmit={this.handleSearch} className="searchForm">
+      <input type="text"
+              className="searchBar"
+              value={this.state.query}
+              onChange={this.update("query")}
+              placeholder="Search..."/>
+            <input type="submit" value="search" className="searchButton"/>
+
+    </form>
+  );
     return(
       <div className="navbar">
         <nav className="login-signup">
             <img className="comb" src="http://res.cloudinary.com/data4015/image/upload/v1484267695/comb_nw70fl.png" alt="Honey Comb" />
+            { searchBar }
             { navbarContent }
         </nav>
       </div>

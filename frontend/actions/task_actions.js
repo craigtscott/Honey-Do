@@ -18,6 +18,13 @@ export const fetchTask = id => dispatch => (
   err => dispatch(receiveErrors(err.responseJSON)))
 );
 
+export const searchTasks = query => dispatch => {
+  return(
+    APIUtil.searchTasks(query).then(task => dispatch(receiveAllTasks(task)),
+    err => dispatch(receiveErrors(err.responseJSON)))
+  );
+};
+
 export const createTask = task => dispatch => {
   return (
     APIUtil.createTask(task).then(task => dispatch(receiveTask(task)),

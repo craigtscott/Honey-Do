@@ -36,3 +36,11 @@ export const deleteTask = (id) => {
     url: `api/tasks/${id}`
   });
 };
+
+export const searchTasks = (params) => {
+  return $.ajax({
+    type: "GET",
+    url: `api/search`,
+    data: {query: params }
+  });
+};

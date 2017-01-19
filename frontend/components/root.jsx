@@ -39,6 +39,7 @@ const root = ({ store }) => (
         <Route path="/login" component={sessionFormContainer}  onEnter={_redirectIfLoggedIn}/>
         <Route path="/signup" component={sessionFormContainer}  onEnter={_redirectIfLoggedIn}/>
         <Route path="/dash" component={dashContainer} onEnter={_ensureLoggedIn}>
+          <Route path="/dash/search" component={TaskContainer} />
           <Route path="/dash/:listId" component={TaskContainer} onEnter={_showTasks}/>
         </Route>
       </Route>

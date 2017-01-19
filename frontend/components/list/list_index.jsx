@@ -115,7 +115,6 @@ class List extends React.Component {
             min = id;
           }
         });
-        debugger;
         console.log(min);
         if (Number.isInteger(parseInt(min))){
           this.getTasks(min);

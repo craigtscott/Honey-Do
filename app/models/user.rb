@@ -15,7 +15,7 @@ class User < ActiveRecord::Base
   class_name: List
 
 
-  has_many :tasks, through: :lists
+  has_many :tasks, through: :lists, source: :tasks
 
   def self.find_by_credentials(user_name, password)
     user = User.find_by(user_name: user_name)

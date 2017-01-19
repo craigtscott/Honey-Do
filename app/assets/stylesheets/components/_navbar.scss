@@ -67,3 +67,26 @@
   padding-left: 30px;
   padding-top: 3px;
 }
+
+.searchForm {
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+ width: 45%;
+}
+
+.searchBar {
+  font-family: $basic;
+  height: 30px;
+  border: 2px solid black;
+  border-radius: 15px;
+  background-color: $cream-not;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+}
+
+.searchButton {
+  display: none;
+}
