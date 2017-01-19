@@ -51,6 +51,7 @@ class List extends React.Component {
     this.openModal = this.openModal.bind(this);
     this.closeModal = this.closeModal.bind(this);
     this.openModal = this.openModal.bind(this);
+    this.makeNewList = this.makeNewList.bind(this);
 
     this.deleteList = this.props.deleteList;
     this.fetchAllTasks = this.props.fetchAllTasks;
@@ -115,8 +116,20 @@ class List extends React.Component {
           }
         });
         console.log(min);
-        this.getTasks(min);
+        if (Number.isInteger(min)){
+          this.getTasks(min);
+        } else {
+          this.makeNewList();
+        }
       }
+    });
+  }
+
+
+  makeNewList() {
+    let list = {title: "New List", author_id: this.props.session.currentUser.id};
+    this.props.createList(list).then(res => {
+      this.getTasks(res.list.id);
     });
   }
 
