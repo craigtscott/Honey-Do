@@ -51,6 +51,7 @@ class List extends React.Component {
     this.openModal = this.openModal.bind(this);
     this.closeModal = this.closeModal.bind(this);
     this.openModal = this.openModal.bind(this);
+    this.findFirst = this.findFirst.bind(this);
 
     this.deleteList = this.props.deleteList;
     this.fetchAllTasks = this.props.fetchAllTasks;
@@ -61,10 +62,11 @@ class List extends React.Component {
   }
 
   handleDelete(id) {
+    debugger;
     return ((e) => {
     e.preventDefault();
     this.deleteList(id);
-
+    this.findFirst();
   });
   }
 
@@ -106,18 +108,21 @@ class List extends React.Component {
   }
 
   componentDidMount() {
-    this.props.fetchAllLists().then(() => {
-      if(this.props.lists) {
-        let min;
-        Object.keys(this.props.lists).forEach(id => {
-          if(!min || id > min) {
-            min = id;
-          }
-        });
-        console.log(min);
-        this.getTasks(min);
-      }
-    });
+    this.props.fetchAllLists().then(this.findFirst());
+  }
+
+  findFirst() {
+    debugger;
+    if(this.props.lists) {
+      let min;
+      Object.keys(this.props.lists).forEach(id => {
+        if(!min || id < min) {
+          min = id;
+        }
+      });
+      console.log(min);
+      this.getTasks(min);
+    }
   }
 
   openModal() {
