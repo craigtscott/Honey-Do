@@ -153,11 +153,17 @@ class Tasks extends React.Component {
       );
     });
 
+    const options = Object.keys(this.props.lists).map(listId => ({value: listId, label: this.props.lists[listId].title}));
+
     let value;
     if (this.props.lists[this.props.listId]) {
       value = this.props.lists[this.props.listId].title;
+    } else {
+      debugger;
+      if (this.state.id) {
+        value = this.props.lists[this.props.tasks[this.state.id].list_id].title;
+      }
     }
-    const options = Object.keys(this.props.lists).map(listId => ({value: listId, label: this.props.lists[listId].title}));
     const taskDetail = (
       <div>
         <form onSubmit={this.handleEdit} className="editForm">
@@ -168,7 +174,7 @@ class Tasks extends React.Component {
           />
         <input type="submit" value="Update task" className="editSave"/>
         </form>
-        <Dropdown options={options} onChange={this._onSelect} value={value} placeholder="Select an list" />
+        <Dropdown options={options} onChange={this._onSelect} value={value} placeholder="Select a list" />
       </div>
     );
 
