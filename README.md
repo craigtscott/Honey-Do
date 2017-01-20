@@ -1,8 +1,8 @@
 #Honey Do
 
-Honey Do a todo list for the busy bee can be found at [honeydo.craigtscott.com][Honey Do]. HD empowers user and allows them to take back their busy life with a dynamic list app and was the inspired by Remember the Milk .
+Honey Do a to-do list for the busy bee can be found at [honeydo.craigtscott.com][Honey Do]. HD empowers user and allows them to take back their hectic lives by using this dynamic list app. HD was the inspired by Remember the Milk .
 
-Hd is build on a Rails backend with a React front end.
+Hd is build on a Rails backend with a React frontend.
 
 Hd is a solo project by Craig Scott.
 
@@ -29,7 +29,7 @@ I wrote the [proposal][proposal] and [database schema][schema] so that I could s
 
 ## Technology
 
-HD is a single-page app using [Rails backend][backend] and [React front end][frontend]. I utilized [cloudinary][cloudinary] for the storage for images found in the website.
+HD is a single-page app using [Rails backend][backend] and [React frontend][frontend]. I utilized [cloudinary][cloudinary] for the storage for images found in the website.
 
 
 ## The Future
