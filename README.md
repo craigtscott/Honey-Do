@@ -40,7 +40,7 @@ HD was written with future development in mind this will allow me to expand the 
 
 [Honey Do]: http://honeydo.craigtscott.com
 [cloudinary]: http://cloudinary.com
-[splash page]: ./docs/images/splash-page.png "Honey Do"
+[splash page]: ./docs/images/splash.png "Honey Do"
 [auth]: ./docs/images/auth.png "Honey Do"
 [dash]: ./docs/images/dash.png "Honey Do"
 [proposal]: ./docs/proposal.md
