@@ -29,6 +29,6 @@ Task.create!([
   {title: "Contact client", list_id: 3, done: false},
   {title: "Tomatoes", list_id: 1, done: false},
   {title: "Paper goods", list_id: 1, done: false},
-  {title: "Mov lawns", list_id: 4, done: false},
+  {title: "Mow lawns", list_id: 4, done: false},
   {title: "Bring in paper", list_id: 4, done: false}
 ])
