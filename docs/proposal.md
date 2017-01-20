@@ -4,7 +4,7 @@
 
 [Trello link][trello]
 
-[heroku]: https://honeydo.craigtscott.com
+[heroku]: http://honeydo.craigtscott.com
 [trello]: https://trello.com/b/AMwXO6BO/honey-do
 
 ## Minimum Viable Product
