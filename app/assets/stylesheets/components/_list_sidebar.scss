@@ -46,6 +46,16 @@
   cursor: pointer;
 }
 
+.listItem.selected {
+  background-color: $dark-green;
+  border-radius: 10px;
+}
+
+
+.listItemTitle {
+  width: 80%;
+}
+
 .listButtons {
   display: flex;
   justify-content: space-between;

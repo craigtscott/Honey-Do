@@ -97,7 +97,9 @@ class List extends React.Component {
 
   getTasks(id) {
     this.fetchAllTasks(id);
-    this.props.router.push(`/dash/${id}`);
+    if (this.props.params.listId !== id){
+      this.props.router.push(`/dash/${id}`);
+    }
   }
 
   firstList(id) {
@@ -115,7 +117,6 @@ class List extends React.Component {
             min = id;
           }
         });
-        console.log(min);
         if (Number.isInteger(parseInt(min))){
           this.getTasks(min);
         } else {
@@ -182,9 +183,15 @@ class List extends React.Component {
         if (idx === 0){
           this.firstList(list.id);
         }
+
+
+        let listItem = "listItem";
+        if (this.props.params.listId == list.id) {
+          listItem = "listItem selected";
+        }
         return (
-          <li key={idx} className="listItem" onClick={this.handleGetTasks(list.id)}>
-            <div className="listItemTitle" >
+          <li key={idx} className={listItem} >
+            <div className="listItemTitle" onClick={this.handleGetTasks(list.id)}>
               {list.title}
             </div>
             <div className="listButtons">

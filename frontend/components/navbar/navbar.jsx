@@ -7,10 +7,12 @@ class Navbar extends React.Component {
   constructor(props){
     super(props);
     this.state = {
-      query: ""
+      author_id: 0,
+      query: "",
+      title: ""
     };
 
-    this.state = {author_id: 0, title: ""};
+
     this.handleSubmit = this.handleSubmit.bind(this);
     this.handleSearch = this.handleSearch.bind(this);
 
@@ -80,7 +82,7 @@ class Navbar extends React.Component {
           className="searchBar"
           value={this.state.query}
           onChange={this.update("query")}
-          placeholder="Search..."/>
+          placeholder="Search Tasks..."/>
         <input type="submit" value="search" className="searchButton"/>
 
       </form>

@@ -1,64 +1,38 @@
-# Honey Do
+#Honey Do
 
-[Heroku link][heroku] **Note:** This should be a link to your production site
+Honey Do a todo list for the busy bee can be found at [craigtscott.com][Honey Do]. HD empowers user and allows them to take back their busy life with a dynamic list app and was the inspired by Remember the Milk .
 
-[Trello link][trello]
+Hd is build on a Rails backend with a React front end.
 
-[heroku]: http://www.herokuapp.com
-[trello]: https://trello.com/b/AMwXO6BO/remember-the-milk-clone
+Hd is a solo project by Craig Scott.
 
-## Minimum Viable Product
+##Features
 
-- [ ] Auth
-- [ ] Tasks
-- [ ] Lists
-- [ ] List summary (time, num tasks, num completed)
-- [ ] Heroku hosting
-- [ ] Search
-- [ ] Production readme
-- [ ] Bonus: able to hide side bar
-- [ ] Bonus: Subtasks
+Hd allows users to create a secure account
 
 
-## Design Docs
-* [View Wireframes][wireframes]
-* [React Components][components]
-* [API endpoints][api-endpoints]
-* [DB schema][schema]
-* [Sample State][sample-state]
+## Project Design
 
-[wireframes]: /docs/wireframes
-[components]: /docs/component-hierarchy.md
-[sample-state]: /docs/sample-state.md
-[api-endpoints]: /docs/api-endpoints.md
-[schema]: /docs/schema.md
+HD was designed and built in two weeks.
+
+I wrote the [proposal][proposal] and [database schema][schema] so that I could streamline the building process allowing me to focus on the coding having the structure already though out.
 
 
-## Implementation Timeline
 
-### Phase 1: Backend setup and Front End User Authentication (2 days)
+## Technology
 
-**Objective:** Functioning rails project with front-end Authentication
-
-### Phase 2: Tasks Model, API, and components (2 days)
-
-**Objective:** Tasks belong to  Lists can be created, read, edited and destroyed through
-the API.
-
-### Phase 3: Lists (2 day)
-
-**Objective:** lists  can be created, read, edited and destroyed through the API.
-
-### Phase 4: List Summery (1 day)
-
-**Objective:**  List summary gives you information about the list.
-
-### Phase 5: Search (2 days)
-
-**Objective:** Search allows you to find tasks based on title.
+HD is a single-page app using [Rails backend][backend] and [React front end][frontend]. I utilized [cloudinary][cloudinary] for the storage for images found in the website.
 
 
-### Bonus Features (TBD)
+## The Future
 
-- [ ] Autocomplete SmartAdd of task properties
-- [ ] Subtasks
+HD was written with future development in mind this will allow me to expand the features and functionality as needed. 
+
+
+
+[Honey Do]: http://craigtscott.com
+[cloudinary]: http://cloudinary.com
+[proposal]: ./docs/proposal.md
+[schema]: ./docs/schema.md
+[backend]: ./docs/backend.md
+[frontend]: ./docs/frontend.md

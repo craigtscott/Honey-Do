@@ -159,7 +159,6 @@ class Tasks extends React.Component {
     if (this.props.lists[this.props.listId]) {
       value = this.props.lists[this.props.listId].title;
     } else {
-      debugger;
       if (this.state.id) {
         value = this.props.lists[this.props.tasks[this.state.id].list_id].title;
       }
