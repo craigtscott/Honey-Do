@@ -3,6 +3,7 @@ List.create!([
   {author_id: 1, title: "Farmers Market"},
   {author_id: 1, title: "Chores"},
   {author_id: 1, title: "Work"}
+  {author_id: 1, title: "Help Others"}
 ])
 User.create!([
   {first_name: "Guest", last_name: "demo", user_name: "demo", password_digest: "$2a$10$GxhDn1rE9/KP1Cyh.l4V1efWvAVXz8E138KUGHbZuYT17AY.Ct9xq", session_token: "Lb-yAGpNfwZSkZTUffkbbw"},
@@ -26,5 +27,8 @@ Task.create!([
   {title: "Plan retirement party", list_id: 3, done: false},
   {title: "Find new candidate ", list_id: 3, done: false},
   {title: "Contact client", list_id: 3, done: false},
-  {title: "Tomatoes", list_id: 1, done: false}
+  {title: "Tomatoes", list_id: 1, done: false},
+  {title: "Paper goods", list_id: 1, done: false},
+  {title: "Mov lawns", list_id: 4, done: false},
+  {title: "Bring in paper", list_id: 4, done: false}
 ])
