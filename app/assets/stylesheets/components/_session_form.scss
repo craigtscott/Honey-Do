@@ -109,6 +109,7 @@
 }
 
 .green-div:hover {
+  cursor: pointer;
   background-image: url("https://res.cloudinary.com/data4015/image/upload/v1484267695/combs_green_nxqrvi.png");
 }
 // .login-comb-green {
@@ -125,7 +126,7 @@
 .login-button {
   font-family: $basic;
   display: flex;
-  background-color: $dark-green;
+  background-color: $button;
   height: 40px;
   color: $yellow;
   border: 3px solid black;

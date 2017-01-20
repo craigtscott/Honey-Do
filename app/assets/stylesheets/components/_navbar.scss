@@ -48,16 +48,19 @@
 }
 
 .login:hover {
+  cursor: pointer;
   background-color: $light-green;
 
 
 }
 
 .signin:hover {
+  cursor: pointer;
   background-color: $light-green;
 }
 
 .demo:hover {
+  cursor: pointer;
   background-color: $light-green;
 }
 
@@ -77,14 +80,14 @@
 
 .searchBar {
   font-family: $basic;
+  font-size: 15px;
   height: 30px;
   border: 2px solid black;
-  border-radius: 15px;
-  background-color: $cream-not;
+  background-color: white;
   display: flex;
   align-items: center;
   text-align: center;
-  width: 100%;
+  width: 50%;
 }
 
 .searchButton {

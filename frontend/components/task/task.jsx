@@ -166,9 +166,9 @@ class Tasks extends React.Component {
             value={this.state.editTitle}
             onChange={this.update("editTitle")}
           />
-        <input type="submit" value="Edit task" className="editSave"/>
+        <input type="submit" value="Update task" className="editSave"/>
         </form>
-        <Dropdown options={options} onChange={this._onSelect} value={value} placeholder="Select an option" />
+        <Dropdown options={options} onChange={this._onSelect} value={value} placeholder="Select an list" />
       </div>
     );
 

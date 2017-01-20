@@ -26,7 +26,8 @@
 }
 
 .fa-plus-square-o:hover {
-  background-color: yellow;
+  cursor: pointer;
+  color: yellow;
 }
 
 .listItem {
@@ -41,6 +42,7 @@
 .listItem:hover {
   background-color: $dark-green;
   border-radius: 10px;
+  cursor: pointer;
 }
 
 .listButtons {
@@ -56,7 +58,9 @@
 }
 
 .fa-pencil-square-o:hover{
-  background-color: $light-green;
+  cursor: pointer;
+  color: $light-grey;
+  // background-color: $light-green;
 }
 
 
@@ -68,7 +72,8 @@
 }
 
 .fa-minus-square-o:hover{
-  background-color: red;
+  cursor: pointer;
+  color: red;
 }
 
 .modalTitle {
