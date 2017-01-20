@@ -1,11 +1,11 @@
 # Honey Do
 
-[Heroku link][heroku] **Note:** This should be a link to your production site
+[Heroku link][heroku]
 
 [Trello link][trello]
 
-[heroku]: http://www.herokuapp.com
-[trello]: https://trello.com/b/AMwXO6BO/remember-the-milk-clone
+[heroku]: honeydo.craigtscott.com
+[trello]: https://trello.com/b/AMwXO6BO/honey-do
 
 ## Minimum Viable Product
 

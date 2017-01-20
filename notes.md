@@ -65,3 +65,11 @@ $.ajax({
    const doneStatus = {[task.id]: task.done};
    const newState = merge(this.state.done, doneStatus);
    this.setState({done: newState});
+
+
+
+
+
+
+   left 433 838
+        212 742
