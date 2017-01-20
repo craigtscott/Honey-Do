@@ -2,7 +2,7 @@ List.create!([
 
   {author_id: 1, title: "Farmers Market"},
   {author_id: 1, title: "Chores"},
-  {author_id: 1, title: "Work"}
+  {author_id: 1, title: "Work"},
   {author_id: 1, title: "Help Others"}
 ])
 User.create!([
