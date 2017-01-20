@@ -140,7 +140,7 @@ class Tasks extends React.Component {
       if (task.done === true){ amtDone += 1;};
       return(
         <li key={idx} className="taskItem" >
-          <input type="checkbox" checked={task.done} onChange={this.toggleDone(task.id)}/>
+          <input type="checkbox" checked={task.done} onChange={this.toggleDone(task.id)} className="checkbox"/>
           <div className="taskLeft" >
             <div className="taskTitle" onClick={this.openDetail(task)} >
               {task.title}
