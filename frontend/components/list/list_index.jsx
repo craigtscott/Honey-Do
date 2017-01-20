@@ -174,7 +174,7 @@ class List extends React.Component {
     if(this.state.formType === "Add"){
       submitText = "Add";
     } else {
-      submitText = "Edit";
+      submitText = "Update";
     }
 
       const lists = Object.keys(this.props.lists).map(listId => this.props.lists[listId]);
