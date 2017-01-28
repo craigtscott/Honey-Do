@@ -1,6 +1,6 @@
 #Honey Do
 
-Honey Do a to-do list for the busy bee can be found at [honeydo.craigtscott.com][Honey Do]. HD empowers user and allows them to take back their hectic lives by using this dynamic list app. HD was the inspired by Remember the Milk .
+Honey Do a to-do list for the busy bee can be found at [www.hd-list.com][Honey Do]. HD empowers user and allows them to take back their hectic lives by using this dynamic list app. HD was the inspired by Remember the Milk .
 
 Hd is build on a Rails backend with a React frontend.
 
@@ -38,7 +38,7 @@ HD was written with future development in mind this will allow me to expand the 
 
 
 
-[Honey Do]: http://honeydo.craigtscott.com
+[Honey Do]: http://www.hd-list.com
 [cloudinary]: http://cloudinary.com
 [splash page]: ./docs/images/splash.png "Honey Do"
 [auth]: ./docs/images/auth.png "Honey Do"

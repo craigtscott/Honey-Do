@@ -94,6 +94,14 @@ class Navbar extends React.Component {
         <nav className="login-signup">
             <img className="comb" src="http://res.cloudinary.com/data4015/image/upload/v1484267695/comb_nw70fl.png" alt="Honey Comb" />
             { searchBar }
+            <div className="social">
+              <a href="https://github.com/craigtscott/honey-do">
+                <i className="fa fa-github-square" aria-hidden="true"></i>
+              </a>
+               <a href="https://www.linkedin.com/in/craigtscott">
+                <i className="fa fa-linkedin-square" aria-hidden="true"></i>
+              </a>
+            </div>
             { navbarContent }
         </nav>
       </div>
