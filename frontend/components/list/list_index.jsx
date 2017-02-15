@@ -184,7 +184,6 @@ class List extends React.Component {
           this.firstList(list.id);
         }
 
-
         let listItem = "listItem";
         if (this.props.params.listId == list.id) {
           listItem = "listItem selected";

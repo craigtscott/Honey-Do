@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get '/api/lists/:list_id/tasks', to: 'api/tasks#index'
+
   namespace :api, defaults: {format: :json} do
     resources :users, only: [:create]
     resource :session, only: [:create, :destroy]

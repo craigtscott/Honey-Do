@@ -57,6 +57,6 @@ class Api::TasksController < ApplicationController
   private
 
   def task_params
-    params.require(:task).permit(:title, :list_id, :id, :done)
+    params.require(:task).permit(:title, :list_id, :done)
   end
 end
