@@ -6,6 +6,7 @@
   padding-right: 20px;
   background-color: $dark-green;
   height: 60px;
+  color: $cream-not;
 
 }
 
@@ -50,18 +51,20 @@
 .login:hover {
   cursor: pointer;
   background-color: $light-green;
-
-
+  color: $button;
 }
 
 .signin:hover {
   cursor: pointer;
   background-color: $light-green;
+  color: $button;
 }
 
 .demo:hover {
   cursor: pointer;
   background-color: $light-green;
+  color: $button;
+
 }
 
 .comb {
@@ -108,8 +111,22 @@
   align-items: center;
 }
 
+.fa.fa-github-square:hover {
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+  color: $yellow;
+}
+
 .fa.fa-linkedin-square {
   font-size: 40px;
   display: flex;
   align-items: center;
+}
+
+.fa.fa-linkedin-square:hover {
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+  color: $yellow;
 }
