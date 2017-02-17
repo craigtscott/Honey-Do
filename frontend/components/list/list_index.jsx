@@ -207,8 +207,9 @@ class List extends React.Component {
       <ul>
         <div className="listHeader">
           <h3 className="listsTitle">Lists</h3>
-          <i className="fa fa-plus-square-o" onClick={this.openModal} aria-hidden="true"></i>
-
+          <div className="listAdd">
+            <i className="fa fa-plus-square-o" onClick={this.openModal} aria-hidden="true"></i>
+          </div>
         </div>
         <div className="listItemDiv">
           { indexItems }
