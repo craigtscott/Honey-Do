@@ -115,7 +115,7 @@ class Tasks extends React.Component {
 
 
 
-    const addTask =  (
+    const addTask = (
       <div>
         <form onSubmit={this.handleNewTask} className="taskForm">
           <input type="text"
@@ -126,7 +126,6 @@ class Tasks extends React.Component {
             onChange={this.update("title")}
             />
           <input type="submit" value="Add task" disabled={`${longEnough}`} className="taskSubmit"/>
-
         </form>
       </div>
     );
@@ -138,19 +137,19 @@ class Tasks extends React.Component {
     const taskItem = tasks.map( (task, idx) => {
       count += 1;
       if (task.done === true){ amtDone += 1;};
-      return(
-        <li key={idx} className="taskItem" >
-          <input type="checkbox" checked={task.done} onChange={this.toggleDone(task.id)} className="checkbox"/>
-          <div className="taskLeft" >
-            <div className="taskTitle" onClick={this.openDetail(task)} >
-              {task.title}
+        return(
+          <li key={idx} className="taskItem" >
+            <input type="checkbox" checked={task.done} onChange={this.toggleDone(task.id)} className="checkbox"/>
+            <div className="taskLeft" >
+              <div className="taskTitle" onClick={this.openDetail(task)} >
+                {task.title}
+              </div>
+              <div className="taskDelete">
+                <i className="fa fa-trash" onClick={this.handleDelete(task.id)} aria-hidden="true"></i>
+              </div>
             </div>
-            <div className="taskDelete">
-              <i className="fa fa-trash" onClick={this.handleDelete(task.id)} aria-hidden="true"></i>
-            </div>
-          </div>
-        </li>
-      );
+          </li>
+        );
     });
 
     const options = Object.keys(this.props.lists).map(listId => ({value: listId, label: this.props.lists[listId].title}));
