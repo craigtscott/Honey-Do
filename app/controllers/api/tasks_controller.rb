@@ -1,12 +1,19 @@
 class Api::TasksController < ApplicationController
 
   def index
-    if params[:list_id]
-      @tasks = Task.all.where(list_id: params[:list_id])
-      render :index
+    if params[:mobile]
+      if params[:tasks][:list_id]
+        @tasks = Task.all.where(list_id: params[:tasks][:list_id])
+        render :index
+      end
     else
-      @tasks = Task.all
-      render :index
+      if params[:list_id]
+        @tasks = Task.all.where(list_id: params[:list_id])
+        render :index
+      else
+        @tasks = Task.all
+        render :index
+      end
     end
   end
 

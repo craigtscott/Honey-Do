@@ -1,7 +1,13 @@
 class Api::ListsController < ApplicationController
+
   def index
-    @lists = List.all.where(author_id: current_user.id)
-    render :index
+    if !params[:mobile]
+      @lists = List.all.where(author_id: current_user.id)
+      render :index
+    elsif params[:mobile]
+      @lists = List.all.where(author_id: params[:session][:id])
+      render :index
+    end
   end
 
   def create
@@ -39,6 +45,6 @@ class Api::ListsController < ApplicationController
   private
 
   def list_params
-    params.require(:list).permit(:title, :author_id, :id)
+    params.require(:list).permit(:title, :author_id, :id, :mobile)
   end
 end
