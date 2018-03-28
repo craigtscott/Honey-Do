@@ -1,14 +1,14 @@
 
 @media all and (max-width: 1380px) {
   .splash {
-    height: 100%;
-    min-height: 100vh;
+    height: calc(100vh - 80px);;
+    width: 100vw;
     // background-image: url("http://res.cloudinary.com/data4015/image/upload/v1484267695/bee3_bozlgz.jpg");
     // background-image: url("https://res.cloudinary.com/data4015/image/upload/q_50/c_crop,h_860,w_1905,x_0,y_99/v1484334838/honey-do_fntp5x.jpg");
     background-image: url("https://res.cloudinary.com/data4015/image/upload/q_50/c_crop,h_860,w_1905,x_0,y_99/v1484334838/honey-do-1_ziyo1n.jpg");
-    background-size: 1370px 715px;
+    background-size: cover;
     background-repeat: no-repeat;
-    background-position: left top;
+    background-position: left, top;
 
   }
 }
