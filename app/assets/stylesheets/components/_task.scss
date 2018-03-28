@@ -66,9 +66,10 @@
   padding-right: 20px;
 }
 .taskItem {
-  padding-top: 20px;
-  padding-left: 20px;
-  font-size: 20px;
+  // padding-top: 20px;
+  // padding-left: 20px;
+  padding: 10px 0px 10px 20px;
+  font-size: 18px;
   font-family: $basic;
   border-bottom: 1px solid $light-green;
   display: flex;
@@ -83,7 +84,8 @@
 }
 .taskTitle {
   padding-left: 20px;
-  font-size: 24px;
+  // padding: 25px 50px 75px 100px;
+  font-size: 18px;
   width: 90%;
 
 }
@@ -98,7 +100,12 @@
 .listInfo {
   display: flex;
   flex-direction: column;
-  width: 400px;
+  padding-top: 20px;
+  margin-top: 10px;
+  border-radius: 10px;
+  width: 50%;
+  border-left: 1px solid $light-green;
+  background-color: $cream-not;
 }
 
 .none2 {
