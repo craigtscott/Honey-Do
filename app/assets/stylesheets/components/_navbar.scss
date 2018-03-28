@@ -76,6 +76,12 @@
 
 }
 
+.comb-div {
+  display: flex;
+  align-items: center;
+  width: 275px;
+}
+
 .comb {
   height: auto;
   width: 54px;
@@ -110,14 +116,16 @@
   display: flex;
   flex-direction: row;
   width: 80px;
-  justify-content: space-between;
+  // justify-content: space-between;
   align-items: center;
+  width: 275px;
 }
 
 .fa.fa-github-square {
   font-size: 40px;
   display: flex;
   align-items: center;
+  padding-right: 5px;
 }
 
 .fa.fa-github-square:hover {

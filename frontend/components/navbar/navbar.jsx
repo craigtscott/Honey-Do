@@ -92,7 +92,9 @@ class Navbar extends React.Component {
     return(
       <div className="navbar">
         <nav className="login-signup">
+          <div className="comb-div">
             <img className="comb" src="http://res.cloudinary.com/data4015/image/upload/v1484267695/comb_nw70fl.png" alt="Honey Comb" />
+            </div>
             { searchBar }
             <div className="social">
               <a href="https://github.com/craigtscott/honey-do">
